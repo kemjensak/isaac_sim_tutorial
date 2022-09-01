@@ -45,7 +45,7 @@ test motion은
 	- ROS1 Publish Joint State
 	- ROS1 Subscribe Joint State
 
-4. 아래 그림과 같이 노드의 point를 클릭 후 드래드하여 노드들을 연결한다.  
+4. 아래 그림과 같이 노드의 point를 클릭 후 드래그하여 노드들을 연결한다.  
 ![OG_nodes](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_ur5e.png?raw=true)
 
 5. Subscribe 노드와 Publish 노드를 각각 클릭하여 우측의 Property 탭에서 _RelationShips - TargetPrim_ 에 ur5e_robot을 추가한다. 
