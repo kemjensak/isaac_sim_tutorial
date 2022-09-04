@@ -3,11 +3,7 @@
 
 # Import URDF
 
-  
-
-## URDF 파일 준비
-
-  
+## URDF preparation
 
 - universal_robot repository의 ur_description 패키지가 없다면 아래 명령어를 통해 받는다.
 
@@ -15,19 +11,13 @@
 
 - 받은 패키지를 컴파일한다.
 
-  
-
 `catkin_make` or `catkin build`
-
-  
 
 - 다음의 명령어를 통해 `universal_robot/ur_description/urdf` 에 위치한 UR5e.xacro 파일을 `.xacro` 에서 `.urdf` 로 변환한다.
 
 `rosrun xacro xacro -o ur5e.urdf ur5e.xacro`
 
-## Isaac sim의 URDF Importer를 통한 importing
-
-  
+## Importing URDF through Isaac sim URDF Importer
 
 1. viewport 아래의 _Content_ 탭에서 _Isaac/Environments/Simple_Room/simple_room.usd_ 파일의 위치로 들어간다.
 
@@ -75,7 +65,7 @@
 
 4. 아래 그림과 같이 노드의 point를 클릭 후 드래그하여 노드들을 연결한다.
 
-![ROS1 Joint State Action Graph](https://docs.omniverse.nvidia.com/app_isaacsim/_images/isaac_tutorial_ros_manipulation_1.png)
+![ROS1 Joint State Action Graph](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_joint.png)
   
 
 5. controller 노드와 Publish 노드를 각각 클릭하여 우측의 Property 탭에서 _RelationShips - TargetPrim_ 에 ur5e_robot을 추가하고, controller 노드에서 usepath의 체크를 해제한다.
@@ -105,7 +95,7 @@
  3. Camera의 property중 Translate는 모두 0으로, orient의 x와 z 값은 180으로 조절한다.
  
  4. Action Graph를 아래 그림과 같이 설정한다.
-![ROS camera RGB](https://docs.omniverse.nvidia.com/app_isaacsim/_images/isaac_tutorial_ros_camera_rgb_graph.png)
+![ROS camera RGB](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_cam.png)
 
 |Node|Input Field|Value|
 |--|--|--|
@@ -117,3 +107,71 @@
 
 
 5. rqt, rviz를 통해 데이터가 수신됨을 확인한다.
+
+## Add LiDAR
+
+ 1. 상단바의 _Create -> Isaac -> Sensors -> Lidar -> Rotating_ 를 클릭하여 LiDAR를 추가한다.
+ 
+ 2. 카메라와 같은 방법으로 LiDAR를 Prim의 하위로 이동시켜 원하는 로봇의 링크에 부착하고 *property*의 *Transform*을 이용해 원하는 Pose로 설정한다.
+
+ 3. LiDAR의 *property*에서 _RawUSDProperties_ 를 확장시켜 drawLines와 drawPoints를 체크한다.
+
+ 4. Action Graph를 아래 그림과 같이 설정한다.
+![ROS LiDAR](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_LiDAR.png)
+
+5. *Isaac Read Lidar Point Clout Node*와 *Isaac Read Lidar Beams Node* 의 *Property* 에서 *LiDAR prim* 을 앞서 추가한 LiDAR로 지정한다.
+
+6. Play 버튼을 눌러 시뮬레이션을 실행한다.
+
+7. Rviz를 통해 LiDAR의 2D laserscan 데이터가 수신됨을 확인한다.
+
+8. Stop을 눌러 시뮬레이션을 정지시킨다. 
+
+9.  LiDAR의 *property*에서 _RawUSDProperties_ 를 확장시켜 *highLod*를 체크해 vertical channel을 추가한다.
+
+10. Rviz를 통해 LiDAR의 3D pointcloud 데이터가 수신됨을 확인한다. 
+
+## Add IMU
+
+1. 상단바의 _Create -> Isaac -> Sensors -> imu Sensor_ 를 클릭하여 IMU를 추가한다.
+ 
+ 2. 카메라와 같은 방법으로 IMU를 Prim의 하위로 이동시켜 원하는 로봇의 링크에 부착하고 *property*의 *Transform*을 이용해 원하는 Pose로 설정한다.
+
+ 3. Action Graph를 아래 그림과 같이 설정한다.
+![ROS IMU](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_imu.png)
+
+4. `rostopic echo /imu` 또는 rviz로 IMU데이터가 수신됨을 확인한다.
+
+## Add ultrasonic sensor
+
+- 상단바의 _Create -> Isaac -> Sensors -> ultrasonic_ 를 클릭하여 초음파 센서를 추가할 수 있으며, LiDAR와 같은 방법으로 사용할 수 있다.
+
+# Transform tree for tracking pose of the attached sensors
+
+## TF Tree Publisher
+
+1. Action Graph를 아래 그림과 같이 설정한다.
+![ROS TFtree](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_tf.png)
+
+2. *Publish Transform Tree* 노드에서 *Property*의 *TargetPrims*에 ROS tf로 publish하고자 하는 prim인 ur5e, cam, LiDAR, imu등을 선택, 추가한다.
+
+3. *parentPrims*에는 tf tree의 root 역할을 하는 reference frame을 지정한다. 지정하지 않을 경우 defalutPrim인 world 로 사용된다.
+
+4. Play 버튼을 눌러 시뮬레이션을 실행한다.
+
+5. rviz에서 visualize된 tf를 확인할 수 있으며, rqt를 실행하여 상단의 *plugins -> visualization -> TF tree* 를 load하여 Tf tree 구조 또한 확인해 볼 수 있다.
+
+# Teleport service
+
+1. 진행중인 stage를 저장하고, 상단바의  _Isaac Examples > ROS > Teleport_를 클릭하여 예제를 불러온다.
+    
+2.   _Edit Action Graph_ 아이콘을 클릭하고   _On Playback Tick_  과  _ROS1 Teleport Service_ 노드만이 있는것을 확인한다.
+  
+3.   `rosrun  isaac_tutorials  ros_service_client.py` 명령어를 터미널에 입력한다. 실행한 python script가 teleport service를 call하여 cube 와 cone 이 다른 위치로 teleport 하는 것을 확인할 수 있다.
+
+
+# ~~Joint Control: Extension Python Scripting~~
+# MoveIt Motion Planning Framework
+# Custom Message
+# ROS Bridge in Standalone Workflow
+# April Tags
