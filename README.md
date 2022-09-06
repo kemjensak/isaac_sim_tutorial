@@ -172,7 +172,21 @@
 
 # ~~Joint Control: Extension Python Scripting~~
 # MoveIt Motion Planning Framework
-- **기존 tutorial과 tutorial 내에서 사용하는 example code는 panda 기준으로 작성되어 있어 이를 ur5e에 맞게 변환하는 작업 ~~진행 중~~ 완료**
+
+*추후 별도의 repository에서 [수정된 package](https://github.com/IROL-SSU/isaac_sim_tutorial/tree/main/isaac_moveit_ur) 공개 및 다운로드 과정 추가 필요*
+
+1. 위에서 사용하였던 Action Graph에 아래 그림과 같이 Publish clock을 추가한다.
+![ROS clock](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_clock.png)
+
+2. Play 버튼을 눌러 시뮬레이션을 시작한다.
+
+3. 터미널에 `roslaunch isaac_moveit_ur5e ur_isaac_execution.launch`명령어를 입력하고 실행한다.
+
+4.  실행된 rviz에서 원하는 위치로 tool frame을 옮기고 plan을 눌러 경로계획 결과를 확인한다.
+
+5. 경로계획 결과가 정상적이면 Execute를 눌러 로봇에 동작 명령을 보낸다.
+
+6. isaac sim에서 로봇의 움직임을 확인한다. 
 
 # Custom Message
 # ROS Bridge in Standalone Workflow
