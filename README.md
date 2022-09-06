@@ -172,7 +172,7 @@
 
 # ~~Joint Control: Extension Python Scripting~~
 # MoveIt Motion Planning Framework
-- **기존 tutorial과 tutorial 내에서 사용하는 example code는 panda 기준으로 작성되어 있어 이를 ur5e에 맞게 변환하는 작업 진행 중.**
+- **기존 tutorial과 tutorial 내에서 사용하는 example code는 panda 기준으로 작성되어 있어 이를 ur5e에 맞게 변환하는 작업 ~~진행 중~~ 완료**
 
 # Custom Message
 # ROS Bridge in Standalone Workflow
