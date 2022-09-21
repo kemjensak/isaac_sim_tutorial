@@ -173,18 +173,14 @@
 
   
 
+
+
 |Node|Input Field|Value|
-
 |--|--|--|
-
 |Constant Int|Value|1|
-
 |Get Prim Path|inputs:Prim|/World/ur5e_robot/tool0/Camera|
-
 |ROS1 Camera Helper|type|rgb|
-
-||topicName|rbg
-
+||topicName|rbg|
 |Constant String|Value|cam|
 
   
