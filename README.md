@@ -481,6 +481,8 @@
 `rviz  -d  ros_workspace/src/isaac_tutorials/rviz/apriltag_config.rviz`
 
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
+
+# Controlling Holonomic Robot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NzQyOTE1XX0=
+eyJoaXN0b3J5IjpbLTE3NDY1NDA3NzUsNDY5NzQyOTE1XX0=
 -->
