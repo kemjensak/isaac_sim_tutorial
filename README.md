@@ -485,17 +485,20 @@
 
 # Controlling Holonomic Robot
 
+***---작성중 ---***
 1. viewport 아래의 _Content_ 탭에서 _Isaac/Environments/Simple_Warehouse/full_warehouse.usd_ 파일의 위치로 들어간다.
 
 2.  _full_warehouse.usd_ 파일을 Viewport 또는 stage 탭으로 드래드&드롭 한다.
 
 3.  Property 탭에서 원점을 맞추고, warehouse 내부의 시점으로 적절히 camera를 이동한다.
 
-4.  _Isaac/Environments/Simple_Warehouse/full_warehouse.usd_
+4.  _Isaac/Environments/robots/full_warehouse.usd_
 
-5. Action graph를 아래 그림과 같이 설정한다.
+5.  Action graph를 아래 그림과 같이 설정한다.
+***---그림 추가예정---***
+6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTE4MTE4OTcsMjA0OTEyNTg2MywxMz
-U2NzMxOTksLTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Njk3NDI5
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTg3NDEyMTQ2LDIwNDkxMjU4NjMsMTM1Nj
+czMTk5LC0zNjY5MzM4NTEsLTE3NDY1NDA3NzUsNDY5NzQyOTE1
+XX0=
 -->
