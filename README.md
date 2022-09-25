@@ -19,7 +19,7 @@
     + [Receiving ROS Messages](#receiving-ros-messages)
 - [ROS Bridge in Standalone Workflow](#ros-bridge-in-standalone-workflow)
 - [April Tags](#april-tags)
-- [Controlling Holonomic Robot](#controlling-holonomic-robots)
+- [Controlling Holonomic Robot](#controlling-holonomic-robot)
 
 # Import URDF
 
@@ -497,7 +497,7 @@
 ***---그림 추가예정---***
 6. Node 내 prim을 다음과 같이 설정한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM2NjMyNzQsMjA0OTEyNTg2MywxMz
-U2NzMxOTksLTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Njk3NDI5
-MTVdfQ==
+eyJoaXN0b3J5IjpbNzA5OTM4NjM1LDIwNDkxMjU4NjMsMTM1Nj
+czMTk5LC0zNjY5MzM4NTEsLTE3NDY1NDA3NzUsNDY5NzQyOTE1
+XX0=
 -->
