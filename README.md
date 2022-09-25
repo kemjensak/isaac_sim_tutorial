@@ -485,8 +485,13 @@
 
 # Controlling Holonomic Robot
 
-1. 
+1. viewport 아래의 _Content_ 탭에서 _Isaac/Environments/Simple_Room/simple_room.usd_ 파일의 위치로 들어간다.
+
+2.  
+
+3. 다음과 같이 붙는ㄴ다
+4.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTA5MDAzMiwtMzY2OTMzODUxLC0xNz
-Q2NTQwNzc1LDQ2OTc0MjkxNV19
+eyJoaXN0b3J5IjpbMTM1NjczMTk5LC0zNjY5MzM4NTEsLTE3ND
+Y1NDA3NzUsNDY5NzQyOTE1XX0=
 -->
