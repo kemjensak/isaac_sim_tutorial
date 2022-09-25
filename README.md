@@ -496,9 +496,9 @@
 
 5.  Action graph를 아래 그림과 같이 설정한다.
 ***---그림 추가예정---***
-6. 
+6. Node 내 prim을 다음과 같이 설정한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDEyMTQ2LDIwNDkxMjU4NjMsMTM1Nj
-czMTk5LC0zNjY5MzM4NTEsLTE3NDY1NDA3NzUsNDY5NzQyOTE1
-XX0=
+eyJoaXN0b3J5IjpbMjA0MjYwNTE1MCwyMDQ5MTI1ODYzLDEzNT
+Y3MzE5OSwtMzY2OTMzODUxLC0xNzQ2NTQwNzc1LDQ2OTc0Mjkx
+NV19
 -->
