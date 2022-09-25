@@ -484,7 +484,9 @@
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
 
 # Controlling Holonomic Robot
+
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Nj
-k3NDI5MTVdfQ==
+eyJoaXN0b3J5IjpbMjExOTA5MDAzMiwtMzY2OTMzODUxLC0xNz
+Q2NTQwNzc1LDQ2OTc0MjkxNV19
 -->
