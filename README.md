@@ -19,7 +19,7 @@
     + [Receiving ROS Messages](#receiving-ros-messages)
 - [ROS Bridge in Standalone Workflow](#ros-bridge-in-standalone-workflow)
 - [April Tags](#april-tags)
-- - [April Tags](#april-tags)
+- [Controlling Holonomic Robot](#april-tags)
 
 # Import URDF
 
@@ -482,5 +482,5 @@
 
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMTc5NTAwXX0=
+eyJoaXN0b3J5IjpbNDY5NzQyOTE1XX0=
 -->
