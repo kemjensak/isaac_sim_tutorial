@@ -485,13 +485,13 @@
 
 # Controlling Holonomic Robot
 
-1. viewport 아래의 _Content_ 탭에서 _Isaac/Environments/Simple_Room/simple_room.usd_ 파일의 위치로 들어간다.
+1. viewport 아래의 _Content_ 탭에서 _Isaac/Environments/Simple_Warehouse/full_warehouse.usd_ 파일의 위치로 들어간다.
 
-2.  
+2.  _full_warehouse.usd_ 파일을 Viewport 또는 stage 탭으로 드래드&드롭.
 
 3. 다음과 같이 붙는ㄴ다
 4.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjczMTk5LC0zNjY5MzM4NTEsLTE3ND
-Y1NDA3NzUsNDY5NzQyOTE1XX0=
+eyJoaXN0b3J5IjpbLTM3NDI0NjkyNywxMzU2NzMxOTksLTM2Nj
+kzMzg1MSwtMTc0NjU0MDc3NSw0Njk3NDI5MTVdfQ==
 -->
