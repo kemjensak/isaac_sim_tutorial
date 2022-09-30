@@ -19,6 +19,7 @@
     + [Receiving ROS Messages](#receiving-ros-messages)
 - [ROS Bridge in Standalone Workflow](#ros-bridge-in-standalone-workflow)
 - [April Tags](#april-tags)
+- [Controlling Holonomic Robot](#controlling-holonomic-robot)
 
 # Import URDF
 
@@ -324,6 +325,48 @@
 
 # Joint Control: Extension Python Scripting
 ***test motion의 내용과 일부 겹침, 재배치 필요.***
+1.  위에서 만들었던 joint state publisher와 subscriber가 포함된 action graph를 지운다.
+
+2.  상단 탭의 *Window -> Script Editor*를 실행하여 아래의 코드를 붙여 넣는다. (위에서 지운 action graph와 같은 역할을 함)
+
+	    import omni.graph.core as og
+	    from omni.isaac.core_nodes.scripts.utils import set_target_prims
+    
+    	og.Controller.edit(
+    	    {"graph_path": "/World/ActionGraph", "evaluator_name": "execution"},
+    	    {
+    	        og.Controller.Keys.CREATE_NODES: [
+    	            ("OnPlaybackTick", "omni.graph.action.OnPlaybackTick"),
+    	            ("PublishJointState", "omni.isaac.ros_bridge.ROS1PublishJointState"),
+    	            ("SubscribeJointState", "omni.isaac.ros_bridge.ROS1SubscribeJointState"),
+    	            ("ArticulationController", "omni.isaac.core_nodes.IsaacArticulationController"),
+    	            ("ReadSimTime", "omni.isaac.core_nodes.IsaacReadSimulationTime"),
+    	        ],
+    	        og.Controller.Keys.CONNECT: [
+    	            ("OnPlaybackTick.outputs:tick", "PublishJointState.inputs:execIn"),
+    	            ("OnPlaybackTick.outputs:tick", "SubscribeJointState.inputs:execIn"),
+    	            ("OnPlaybackTick.outputs:tick", "ArticulationController.inputs:execIn"),
+    
+    	            ("ReadSimTime.outputs:simulationTime", "PublishJointState.inputs:timeStamp"),
+    
+    	            ("SubscribeJointState.outputs:jointNames", "ArticulationController.inputs:jointNames"),
+    	            ("SubscribeJointState.outputs:positionCommand", "ArticulationController.inputs:positionCommand"),
+    	            ("SubscribeJointState.outputs:velocityCommand", "ArticulationController.inputs:velocityCommand"),
+    	            ("SubscribeJointState.outputs:effortCommand", "ArticulationController.inputs:effortCommand"),
+    	        ],
+    	        og.Controller.Keys.SET_VALUES: [
+    	            # Providing path to robot to Articulation Controller node
+    	            # Providing the robot path is equivalent to setting the targetPrim in Articulation Controller node
+    	            ("ArticulationController.inputs:usePath", True),
+    	            ("ArticulationController.inputs:robotPath", "/World/ur5e_robot"),
+    	        ],
+    	    },
+    	)
+    
+    	# Setting the /ur5e_robot target prim to Publish JointState node
+    	set_target_prims(primPath="/World/ActionGraph/PublishJointState", targetPrimPaths=["/World/ur5e_robot"])
+
+3. 위와 같은 방법으로 subscribe와 publish됨을 확인한다.
 
 # MoveIt Motion Planning Framework
 
@@ -453,19 +496,37 @@
 
 		./python.sh standalone_examples/api/omni.isaac.ros_bridge/clock.py
 		
-- 아래의 샘플 코드 파일은 주기적으로 매 n번째 렌더링된 프레임마다 image를 publish하는 방법을 보여준다.
+- 아래의 샘플 코드 파일은 주기적으로 매 n번째 렌더링된 프레임마다 image를 publish하는 방법을 보여준인다.
 
     	./python.sh standalone_examples/api/omni.isaac.ros_bridge/camera_periodic.py
 
-- 아래의 샘플 코드 파일은 비주기적으로 Branch node가 enabled되었을 때, image를 publish하는 방법을 보여준다.
+- 아래의 샘플 코드 파일은 비주기적으로 Branch node가 enabled되었을 때, image를 publish하는 방법을 보여준인다.
 
 		./python.sh standalone_examples/api/omni.isaac.ros_bridge/camera_manual.py
 
-- 위 image 관련 코드들의 실행 결과의 visualization은 rivz를 아래 명령어를 실행하여 이뤄진다.
+- 	위 image 관련 코드들의 실행 결과의 visualization은 rivz를 아래 명령어를 실행하여 이뤄진다.
 
 		rviz -d ros_workspace/src/isaac_tutorials/rviz/camera_manual.rviz
 
-***내용 추가예정***
+***내용 추가예정***		
+- ROS component node를 포함하는 action graph를 가져와 설정을 변경하는 방법을 보인다.
+
+      ./python.sh standalone_examples/api/omni.isaac.ros_bridge/carter_stereo.py
+      
+	위 코드의 실행 결과는 다음 명령어를 통해 visualization이 가능하다.
+	
+	   rviz  -d  ros_workspace/src/isaac_tutorials/rviz/carter_stereo.rviz
+	   
+- 여러 로봇을 동시에 ROS navigation으로 움직이는 모습을 보인다.
+
+      ./python.sh standalone_examples/api/omni.isaac.ros_bridge/carter_multiple_robot_navigation.py hospital
+
+- 여러 USD stage를 추가하고, ROS component node를 action graph에 추가해, 수동으로 tick하는 방법을 보인다.
+ 
+      ./python.sh standalone_examples/api/omni.isaac.ros_bridge/moveit.py
+
+`CTRL-C`를 눌러 각 실행파일을 끝낼 수 있다.
+
 
 # April Tags
 
@@ -480,3 +541,26 @@
 `rviz  -d  ros_workspace/src/isaac_tutorials/rviz/apriltag_config.rviz`
 
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
+
+# Controlling Holonomic Robot
+
+***---작성중 ---***
+1. viewport 아래의 _Content_ 탭에서 _Isaac/Environments/Simple_Warehouse/full_warehouse.usd_ 파일의 위치로 들어간다.
+
+2.  _full_warehouse.usd_ 파일을 Viewport 또는 stage 탭으로 드래드&드롭 한다.
+
+3.  Property 탭에서 원점을 맞추고, warehouse 내부의 시점으로 적절히 camera를 이동한다.
+
+4.  _Isaac/Environments/robots/full_warehouse.usd_robots/O3dyn/o3dyn.usd_ 를 Viewport 또는 stage 탭으로 드래드&드롭 한다.
+
+5. robot이 ground plane 약간 위로 위치하도록 property의 transform 중 z translate를 0.2 로 조절한다.
+
+6.  Action graph를 아래 그림과 같이 설정한다.
+***---그림 추가예정---***![ROS holonomic](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_holonomic.png)
+
+7. Node 내 prim을 다음과 같이 설정한다.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkzMjA2ODIyLDcwOTkzODYzNSwyMDQ5MT
+I1ODYzLDEzNTY3MzE5OSwtMzY2OTMzODUxLC0xNzQ2NTQwNzc1
+LDQ2OTc0MjkxNV19
+-->
