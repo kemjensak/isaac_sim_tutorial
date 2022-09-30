@@ -555,13 +555,12 @@
 
 5. robot이 ground plane 약간 위로 위치하도록 property의 transform 중 z translate를 0.2 로 조절한다.
 
-56.  Action graph를 아래 그림과 같이 설정한다.
-***---그림 추가예정---***
-6![ROS holonomic](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_holonomic.png)
+6.  Action graph를 아래 그림과 같이 설정한다.
+***---그림 추가예정---***![ROS holonomic](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_holonomic.png)
 
 7. Node 내 prim을 다음과 같이 설정한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzA5NzUzMyw3MDk5Mzg2MzUsMjA0OT
-EyNTg2MywxMzU2NzMxOTksLTM2NjkzMzg1MSwtMTc0NjU0MDc3
-NSw0Njk3NDI5MTVdfQ==
+eyJoaXN0b3J5IjpbLTkzMjA2ODIyLDcwOTkzODYzNSwyMDQ5MT
+I1ODYzLDEzNTY3MzE5OSwtMzY2OTMzODUxLC0xNzQ2NTQwNzc1
+LDQ2OTc0MjkxNV19
 -->
