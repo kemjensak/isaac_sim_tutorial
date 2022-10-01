@@ -562,9 +562,9 @@
 
 8. 우측 Stage 탭에 우클릭을 하고 *Create -> Physics -> Physics Scene*을 추가한다.
 
-9. 
+9. 추가한 *PhysicsScene*의 property에서 *Enable GPU Dynamics*의 체크를 해제한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjM0ODY3MSw1OTE5MzE1NjUsLTkzMj
-A2ODIyLDcwOTkzODYzNSwyMDQ5MTI1ODYzLDEzNTY3MzE5OSwt
-MzY2OTMzODUxLC0xNzQ2NTQwNzc1LDQ2OTc0MjkxNV19
+eyJoaXN0b3J5IjpbLTEzMjQ0MDc0NjAsNTkxOTMxNTY1LC05Mz
+IwNjgyMiw3MDk5Mzg2MzUsMjA0OTEyNTg2MywxMzU2NzMxOTks
+LTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Njk3NDI5MTVdfQ==
 -->
