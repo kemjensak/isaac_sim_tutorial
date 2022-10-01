@@ -559,8 +559,10 @@
 ![ROS holonomic](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_holonomic.png)
 
 7. Node 내 prim을 다음과 같이 설정한다.
+
+8. 우측 Stage 탭에 우클릭을 하고 Create -> physics -> P
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxOTMxNTY1LC05MzIwNjgyMiw3MDk5Mz
-g2MzUsMjA0OTEyNTg2MywxMzU2NzMxOTksLTM2NjkzMzg1MSwt
-MTc0NjU0MDc3NSw0Njk3NDI5MTVdfQ==
+eyJoaXN0b3J5IjpbMTAwNDAyNjUzLDU5MTkzMTU2NSwtOTMyMD
+Y4MjIsNzA5OTM4NjM1LDIwNDkxMjU4NjMsMTM1NjczMTk5LC0z
+NjY5MzM4NTEsLTE3NDY1NDA3NzUsNDY5NzQyOTE1XX0=
 -->
