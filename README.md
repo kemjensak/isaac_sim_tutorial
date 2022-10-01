@@ -570,10 +570,14 @@
 8. 우측 Stage 탭에 우클릭을 하고 *Create -> Physics -> Physics Scene*을 추가한다.
 
 9. 추가한 *PhysicsScene*의 property에서 *Enable GPU Dynamics*의 체크를 해제한다.
-10. roscore 를 실행하고 `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`를 입력하여 twist를 
+10. roscore를 실행한다.
+
+11. Isaac Sim의 Play 버튼을 눌러 시뮬레이션을 실행한다.
+
+12. `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`를 입력하여  twist를 키보드를 통해 publish할한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA0NDA4MDYsLTEzMjQ0MDc0NjAsNT
-kxOTMxNTY1LC05MzIwNjgyMiw3MDk5Mzg2MzUsMjA0OTEyNTg2
-MywxMzU2NzMxOTksLTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Nj
-k3NDI5MTVdfQ==
+eyJoaXN0b3J5IjpbMTcyOTIyOTY2NiwtMTMyNDQwNzQ2MCw1OT
+E5MzE1NjUsLTkzMjA2ODIyLDcwOTkzODYzNSwyMDQ5MTI1ODYz
+LDEzNTY3MzE5OSwtMzY2OTMzODUxLC0xNzQ2NTQwNzc1LDQ2OT
+c0MjkxNV19
 -->
