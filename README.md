@@ -560,9 +560,11 @@
 
 7. Node 내 prim을 다음과 같이 설정한다.
 
-8. 우측 Stage 탭에 우클릭을 하고 Create -> physics -> P
+8. 우측 Stage 탭에 우클릭을 하고 *Create -> Physics -> Physics Scene*을 추가한다.
+
+9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDAyNjUzLDU5MTkzMTU2NSwtOTMyMD
-Y4MjIsNzA5OTM4NjM1LDIwNDkxMjU4NjMsMTM1NjczMTk5LC0z
-NjY5MzM4NTEsLTE3NDY1NDA3NzUsNDY5NzQyOTE1XX0=
+eyJoaXN0b3J5IjpbLTY1MjM0ODY3MSw1OTE5MzE1NjUsLTkzMj
+A2ODIyLDcwOTkzODYzNSwyMDQ5MTI1ODYzLDEzNTY3MzE5OSwt
+MzY2OTMzODUxLC0xNzQ2NTQwNzc1LDQ2OTc0MjkxNV19
 -->
