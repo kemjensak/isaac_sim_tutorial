@@ -564,15 +564,14 @@
 |--|--|--|
 |UDS setup Holonomic Robot|comPrim|/World/o3dyn/base_link|
 ||robotPrim|/World/o3dyn|
-|Articulation Controller|robotPath|rgb|
-||topicName|rbg|
-|Constant String|Value|cam|
+|Articulation Controller|robotPath|/World/o3dyn|
+
 
 8. 우측 Stage 탭에 우클릭을 하고 *Create -> Physics -> Physics Scene*을 추가한다.
 
 9. 추가한 *PhysicsScene*의 property에서 *Enable GPU Dynamics*의 체크를 해제한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc1NDk2ODQsLTEzMjQ0MDc0NjAsNT
+eyJoaXN0b3J5IjpbLTEwMjk5MDcyODAsLTEzMjQ0MDc0NjAsNT
 kxOTMxNTY1LC05MzIwNjgyMiw3MDk5Mzg2MzUsMjA0OTEyNTg2
 MywxMzU2NzMxOTksLTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Nj
 k3NDI5MTVdfQ==
