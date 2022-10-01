@@ -574,9 +574,9 @@
 
 11. Isaac Sim의 Play 버튼을 눌러 시뮬레이션을 실행한다.
 
-12. `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`를 입력하여  twist를 키보드를 통해 publish할한다.
+12. `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`를 실행하여  twist를 키보드를 통해 publish한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTIyOTY2NiwtMTMyNDQwNzQ2MCw1OT
+eyJoaXN0b3J5IjpbMjAxNjU3MzM1NSwtMTMyNDQwNzQ2MCw1OT
 E5MzE1NjUsLTkzMjA2ODIyLDcwOTkzODYzNSwyMDQ5MTI1ODYz
 LDEzNTY3MzE5OSwtMzY2OTMzODUxLC0xNzQ2NTQwNzc1LDQ2OT
 c0MjkxNV19
