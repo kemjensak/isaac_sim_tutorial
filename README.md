@@ -553,7 +553,7 @@
 
 4.  _Isaac/Environments/robots/full_warehouse.usd_robots/O3dyn/o3dyn.usd_ 를 Viewport 또는 stage 탭으로 드래드&드롭 한다.
 
-5. robot이 ground plane 약간 위로 위치하도록 property의 transform 중 z translate를 0.2 로 조절한다.
+5. robot이 ground plane 약간 위로 위치하도록 property의 transform 중 z translate를 0.102 로 조절한다.
 
 6.  Action graph를 아래 그림과 같이 설정한다.
 ![ROS holonomic](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/pictures/OG_holonomic.png)
@@ -564,7 +564,8 @@
 
 9. 추가한 *PhysicsScene*의 property에서 *Enable GPU Dynamics*의 체크를 해제한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ0MDc0NjAsNTkxOTMxNTY1LC05Mz
-IwNjgyMiw3MDk5Mzg2MzUsMjA0OTEyNTg2MywxMzU2NzMxOTks
-LTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Njk3NDI5MTVdfQ==
+eyJoaXN0b3J5IjpbLTE2MDE5MTExMzksLTEzMjQ0MDc0NjAsNT
+kxOTMxNTY1LC05MzIwNjgyMiw3MDk5Mzg2MzUsMjA0OTEyNTg2
+MywxMzU2NzMxOTksLTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Nj
+k3NDI5MTVdfQ==
 -->
