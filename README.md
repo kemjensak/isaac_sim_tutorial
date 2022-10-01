@@ -560,12 +560,20 @@
 
 7. Node 내 prim을 다음과 같이 설정한다.
 
+|Node|Input Field|Value|
+|--|--|--|
+|UDS setup Holonomic Robot|comPrim|/World/o3dyn/base_link|
+|Holonomic Controller|inputs:Prim|/World/ur5e_robot/tool0/Camera|
+|ROS1 Camera Helper|type|rgb|
+||topicName|rbg|
+|Constant String|Value|cam|
+
 8. 우측 Stage 탭에 우클릭을 하고 *Create -> Physics -> Physics Scene*을 추가한다.
 
 9. 추가한 *PhysicsScene*의 property에서 *Enable GPU Dynamics*의 체크를 해제한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDE5MTExMzksLTEzMjQ0MDc0NjAsNT
-kxOTMxNTY1LC05MzIwNjgyMiw3MDk5Mzg2MzUsMjA0OTEyNTg2
-MywxMzU2NzMxOTksLTM2NjkzMzg1MSwtMTc0NjU0MDc3NSw0Nj
-k3NDI5MTVdfQ==
+eyJoaXN0b3J5IjpbLTMwNjYwODAwMSwtMTMyNDQwNzQ2MCw1OT
+E5MzE1NjUsLTkzMjA2ODIyLDcwOTkzODYzNSwyMDQ5MTI1ODYz
+LDEzNTY3MzE5OSwtMzY2OTMzODUxLC0xNzQ2NTQwNzc1LDQ2OT
+c0MjkxNV19
 -->
