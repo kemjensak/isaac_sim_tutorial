@@ -508,7 +508,6 @@
 
 		rviz -d ros_workspace/src/isaac_tutorials/rviz/camera_manual.rviz
 
-***내용 추가예정***		
 - ROS component node를 포함하는 action graph를 가져와 설정을 변경하는 방법을 보인다.
 
       ./python.sh standalone_examples/api/omni.isaac.ros_bridge/carter_stereo.py
@@ -544,7 +543,6 @@
 
 # Controlling Holonomic Robot
 
-***---작성중 ---***
 1. viewport 아래의 _Content_ 탭에서 _Isaac/Environments/Simple_Warehouse/full_warehouse.usd_ 파일의 위치로 들어간다.
 
 2.  _full_warehouse.usd_ 파일을 Viewport 또는 stage 탭으로 드래드&드롭 한다.
@@ -577,8 +575,8 @@
 
 12. `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`를 실행하여  twist message를 키보드를 통해 publish한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY0NzM1OTIsLTEwOTEzODMxMTQsLT
-EzMjQ0MDc0NjAsNTkxOTMxNTY1LC05MzIwNjgyMiw3MDk5Mzg2
-MzUsMjA0OTEyNTg2MywxMzU2NzMxOTksLTM2NjkzMzg1MSwtMT
-c0NjU0MDc3NSw0Njk3NDI5MTVdfQ==
+eyJoaXN0b3J5IjpbMjAzNDY0NzQ4MSwtMTgwNjQ3MzU5MiwtMT
+A5MTM4MzExNCwtMTMyNDQwNzQ2MCw1OTE5MzE1NjUsLTkzMjA2
+ODIyLDcwOTkzODYzNSwyMDQ5MTI1ODYzLDEzNTY3MzE5OSwtMz
+Y2OTMzODUxLC0xNzQ2NTQwNzc1LDQ2OTc0MjkxNV19
 -->
