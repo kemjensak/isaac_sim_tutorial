@@ -2,8 +2,10 @@
 
 ## Joining two URDF(xacro)
 ### create new package
-### create new xacro file and including two 
+### create new xacro file and including two other xacro
+### create movit_config package with moveit setup assistant
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwOD
-g3NDY2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA2NDcyODk1Miw5ODkzMTk4NiwtMjAyMz
+M1NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
