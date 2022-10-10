@@ -96,14 +96,15 @@
 - 아래 그림과 같이 설정되었음을 확인한다.![Screenshot from 2022-10-10 22-26-33](https://user-images.githubusercontent.com/60342784/194877090-ff3a7e73-2530-4324-803e-c8dc52c34d4d.png)
 
 - *Robot Poses*를 클릭하여 Robot의 predefined pose를 추가한다.
-- `manipulator` group에서 *Pose Name*을 `home`으로 입력한 후 모든 joint 값이 0임을 확인하고 *Save*를 누른다.
-- `manipulator` group에서 *Pose Name*을 `up`으로 입력한 후 모든 joint 값이 0임을 확인하고 *Save*를 누른다.
+- `manipulator` group에서 *Pose Name*을 `home`으로 입력한 후 모든 joint 값이 `0`임을 확인하고 *Save*를 누른다.
+- `manipulator` group에서 *Pose Name*을 `up`으로 입력하고, `shoulder_lift_joint` 값을 `-1.5708`로 변경한 후, 나머지 모든 joint 값이 0임을 확인하고 *Save*를 누른다.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDg1NDkwLDYzOTY0NTk1OSwyMTgzNj
-YyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEzMiwtMTMyNDc5NTQy
-MCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLTEwOTI4OTc4NDgsLT
-g3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4
-NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC
-0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTM3NjQ3NjM5Nyw2Mzk2NDU5NTksMjE4Mz
+Y2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0
+MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC
+04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3
+ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOS
+wtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMjA4
+ODc0NjYxMl19
 -->
