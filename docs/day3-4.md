@@ -60,7 +60,13 @@
       $ code ur5e_with_2f85.xacro
 - 열린 VScode에 아래의 코드를 붙여넣는다.
 
-      
+      <?xml version="1.0"?>
+		<launch>
+		  <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
+		  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+		  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
+		</launch>
+
 ### create new xacro file and including two other xacro
 
 ### create movit_config package with moveit setup assistant
@@ -68,8 +74,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1Nz
-M3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMx
-OSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMj
-A4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODk3MTA0NjQzLDE4NzYwMDgwNTEsMTIzNj
+Y5Mzg4NSwxNTczNzg1Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIz
+Niw5NzE2MTUzMTksLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMj
+MzNTQ4NzksLTIwODg3NDY2MTIsNzMwOTk4MTE2XX0=
 -->
