@@ -25,15 +25,15 @@
 
 		 $ code ur5e_with_2f85.xacro
 	- 새롭게 열린 VScode의 입력창에 아래의 코드를 붙여넣는다.
-		 
-		 $ 
+
+		  $ 
 ### create new xacro file and including two other xacro
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwMzU1ODc2LC02NTM1MzMyMzYsOTcxNj
-E1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5
-LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MT
+YxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3
+OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
