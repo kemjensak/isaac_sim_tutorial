@@ -83,15 +83,17 @@
 - *Load a URDF or COLLADA Robot Model*의 *Browse*를 클릭하여 앞서 제작한 `ur5e_with_2f85.xacro` 파일을 불러온 후  Load Files를 클릭한다.
 - 우측의 *Viewer* 에서 불러온 모델을 확인한 후 좌측의 *Self-Collisions*를 클릭한다.
 - 우측 상단의 *Generate Collision Matrix*를 클릭하고 *linear view*와  *matrix view*를 눌러 생성된 결과를 확인한다.
-- `Planning Groups`의 *Add Group*을 클릭하여 아래와 같이 추가한다.
+- `Planning Groups`의 *Add Group*을 클릭하여 아래와 같이 입력한다.
+
+![edit_planning_group](https://user-images.githubusercontent.com/60342784/194872835-6fb4dee5-c101-47d8-bb20-8deec8d13386.png)
+
 - 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzI3NDAxNSwtMTk5NjAxMzEzMiwtMT
-MyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLTEwOTI4
-OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2OTM4OD
-UsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcx
-NjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0OD
-c5LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTc2NzkwMjg3MCwxNDA3Mjc0MDE1LC0xOT
+k2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMTIxNTQ2
+NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYwMDgwNT
+EsMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LDEwNDU0NjMzNTIsLTY1
+MzUzMzIzNiw5NzE2MTUzMTksLTEyOTQ5MDA3MjEsOTg5MzE5OD
+YsLTIwMjMzNTQ4NzksLTIwODg3NDY2MTIsNzMwOTk4MTE2XX0=
+
 -->
