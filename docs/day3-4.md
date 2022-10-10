@@ -21,7 +21,7 @@
 	    $ mkdir ur5e_with_2f85_description/launch ur5e_with_2f85_description/urdf
 	    $ cd ur5e_with_2f85_description/urdf
 	    
- - 생성된 `urdf` 디렉토리 내에서 아래 명령어를 입력해 VScode로 `ur5e_with_2f85.xacro`파일을 만든다.
+ - 생성된 `urdf` 디렉토리 내에서 아래 명령어를 입력해 `ur5e_with_2f85.xacro`파일을 만든다.
 
 		 $ code ur5e_with_2f85.xacro
 - 새롭게 열린 VScode창에 아래의 코드를 붙여넣는다.
@@ -55,7 +55,7 @@
 		</robot>
 
  - `Ctrl-S`로 저장 후 닫는다.
-- 위에서 만든 `launch` 디렉토리에 
+- 위에서 만든 `launch` 디렉토리에 아래 명령어를 입력하여 새로운 
 ### create new xacro file and including two other xacro
 
 ### create movit_config package with moveit setup assistant
@@ -63,8 +63,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0Mjk1NDgyLDEyMzY2OTM4ODUsMTU3Mz
-c4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5
-LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMD
-g4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4OTI2MTEwNDgsMTIzNjY5Mzg4NSwxNT
+czNzg1Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUz
+MTksLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLT
+IwODg3NDY2MTIsNzMwOTk4MTE2XX0=
 -->
