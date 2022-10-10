@@ -78,11 +78,13 @@
 ### create movit_config package with moveit setup assistant
 - 아래 명령어를 입력하여 `moveit_setup_assistant`를 실행한다.
 
-	   roslaunch moveit_setup_assistant setup_assistant.launch
+	  $ roslaunch moveit_setup_assistant setup_assistant.launch
+- *Create New MoveIt Configuration Package* 를 클릭하여 새로운 moveit config 패키지를 제작한다.
+- Load a URDF or COLLADA Robot Model의 Browse를 ㅋ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTg1MTc3LC0xMjE1NDY0MDExLC0xMD
+eyJoaXN0b3J5IjpbNDg0ODIzNzIyLC0xMjE1NDY0MDExLC0xMD
 kyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2Njkz
 ODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LD
 k3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1
