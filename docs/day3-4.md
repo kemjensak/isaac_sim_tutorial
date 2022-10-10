@@ -16,14 +16,14 @@
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
 	    $ catkin_create_pkg ur5e_with_2f85_description
-  - 
+  - 생성된 디렉토리 내에 urdf
 ### create new xacro file and including two other xacro
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg0NDgxNjksOTcxNjE1MzE5LC0xMj
+eyJoaXN0b3J5IjpbLTEyOTA0NzU4MjEsOTcxNjE1MzE5LC0xMj
 k0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4NzQ2
 NjEyLDczMDk5ODExNl19
 -->
