@@ -70,9 +70,9 @@
  - `Ctrl-S`로 저장 후 닫는다.
  - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
 
-	  $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
+	   $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
 
- - List item
+ - 실행된 `Rviz`의 Global 
 
 ### create new xacro file and including two other xacro
 
@@ -81,9 +81,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU0NjQwMTEsLTEwOTI4OTc4NDgsLT
-g3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4
-NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC
-0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4
-NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4NzY5NTkwMzMsLTEyMTU0NjQwMTEsLT
+EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
+OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMz
+YsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIz
+MzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
 -->
