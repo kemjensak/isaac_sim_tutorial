@@ -100,8 +100,12 @@
 - *Add Pose*를 누른 후 *Pose Name*을 `up`으로, *Planning Group*을 `manipulator`로 설정한  후, `shoulder_lift_joint` 값을 `-1.5708`로 변경하고, 나머지 모든 joint의 값이 `0`임을 확인하고 *Save*를 누른다.
 - *Add Pose*를 누른 후 *Pose Name*을 `open`으로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0`임을 확인하고 *Save*를 누른다.
 - *Add Pose*를 누른 후 *Pose Name*을 `close`로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0.8`임을 확인하고 *Save*를 누른다.
+- 총 4개의 *Pose*가 아래와 같이 추가되었음을 확인한다.
+![Screenshot from 2022-10-10 22-38-10](https://user-images.githubusercontent.com/60342784/194879285-8395c47d-8f7c-4692-92a1-748e48b17d26.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg1NDQ4NTksNjM5NjQ1OTU5LDIxOD
+eyJoaXN0b3J5IjpbLTEyMTc1Mzk5NDEsNjM5NjQ1OTU5LDIxOD
 M2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMyLC0xMzI0Nzk1
 NDIwLDYyNzMwNDAyMCwtMTIxNTQ2NDAxMSwtMTA5Mjg5Nzg0OC
 wtODc2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTcz
