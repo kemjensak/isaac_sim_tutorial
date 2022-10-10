@@ -57,13 +57,14 @@
  - Ctrl-S로 저장 후 닫는다.
 
 ### create new xacro file and including two other xacro
+
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA1MTExNTMsMTU3Mzc4NTc5NiwxMD
-Q1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC0xMjk0OTAw
-NzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4NzQ2NjEyLD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LDEwND
+U0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLTEyOTQ5MDA3
+MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3NDY2MTIsNz
+MwOTk4MTE2XX0=
 -->
