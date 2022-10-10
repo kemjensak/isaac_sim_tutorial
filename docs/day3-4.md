@@ -72,7 +72,8 @@
 
 	   $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
 
- - 실행된 `Rviz`의 Global 
+ - 실행된 `Rviz`의 *Global Options*의 *Fixed Frame*을 `world`로 변경하고, *Add* 버튼을 눌러 *RobotModel*을 추가한다.
+ - UR5e manipulator와 말단부에 장착된 2f-85 gripper를 확인할 
 
 ### create new xacro file and including two other xacro
 
@@ -81,7 +82,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY5NTkwMzMsLTEyMTU0NjQwMTEsLT
+eyJoaXN0b3J5IjpbLTEwMjc4ODkyNjcsLTEyMTU0NjQwMTEsLT
 EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
 OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMz
 YsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIz
