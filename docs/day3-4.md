@@ -106,13 +106,14 @@
 - *End Effectors - Add End Effector*를 클릭하여 아래 그림과 같이 입력하고 *Save*를 눌러 저장한다.
 ![Screenshot from 2022-10-10 22-42-20](https://user-images.githubusercontent.com/60342784/194880048-48179c32-5361-41cd-aa00-9349f45e64e2.png)
 
-- 
+- *Passive Joints*를 클릭하여 아래 그림과 같이 gripper의 나머지 조인트를 모두 Passive joint로 설정한다.
+![Screenshot from 2022-10-10 23-06-06](https://user-images.githubusercontent.com/60342784/194884833-b9010fb7-02d2-455c-ad63-d82f113a6644.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
-Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
-MiwtMTMyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLT
-EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
-OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMz
-YsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIz
-MzU0ODc5XX0=
+eyJoaXN0b3J5IjpbMTk3NDExNDAxMiwtMTMzNTk1MTY5OSw4Mz
+M1NzM4NzksNjM5NjQ1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1
+LC0xOTk2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMT
+IxNTQ2NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYw
+MDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LDEwNDU0NjMzNT
+IsLTY1MzUzMzIzNiw5NzE2MTUzMTksLTEyOTQ5MDA3MjEsOTg5
+MzE5ODZdfQ==
 -->
