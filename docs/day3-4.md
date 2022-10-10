@@ -83,11 +83,12 @@
 - *Load a URDF or COLLADA Robot Model*의 *Browse*를 클릭하여 앞서 제작한 `ur5e_with_2f85.xacro` 파일을 불러온 후  Load Files를 클릭한다.
 - 우측의 *Viewer* 에서 불러온 모델을 확인한 후 좌측의 *Self-Collisions*를 클릭한다.
 - 우측 상단의 *Generate Collision Matrix*를 클릭하고 *linear view*와  *matrix view*를 눌러 생성된 결과를 확인한다.
-- `Virtual Joints`를 클릭하여 아래와 같이 추가한다.
+- `Planning Groups`의 *Add Group*을 클릭하여 아래와 같이 추가한다.
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTkzMjA4NSwtMTk5NjAxMzEzMiwtMT
+eyJoaXN0b3J5IjpbMTQwNzI3NDAxNSwtMTk5NjAxMzEzMiwtMT
 MyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLTEwOTI4
 OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2OTM4OD
 UsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcx
