@@ -65,7 +65,7 @@
 		  <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
 		  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
 		  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
-		  
+		  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
 		</launch>
 - `Ctrl-S`로 저장 후 닫는다.
 - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
@@ -79,7 +79,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU3MjI5MTEsLTg3NjExMjk5MywxOD
+eyJoaXN0b3J5IjpbLTEwOTI4OTc4NDgsLTg3NjExMjk5MywxOD
 c2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYz
 MzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLD
 k4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5
