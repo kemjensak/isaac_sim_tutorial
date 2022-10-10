@@ -87,9 +87,12 @@
 
 ![edit_planning_group](https://user-images.githubusercontent.com/60342784/194872835-6fb4dee5-c101-47d8-bb20-8deec8d13386.png)
 
-- *Add Kin. Chain*을 클릭하고 좌측 하단의 *Expand All*을 클릭하여 모든 link가 보이게 한 후, 아래와 같이 *Base Link*를 `base_link`로, Tip Link를 `tool0`로 설정한다.
+- *Add Kin. Chain*을 클릭하고 좌측 하단의 *Expand All*을 클릭하여 모든 link가 보이게 한 후, 아래 그림과 같이 *Base Link*를 `base_link`로, *Tip Link*를 `tool0`로 설정한다.
+ ![Screenshot from 2022-10-10 22-08-58](https://user-images.githubusercontent.com/60342784/194873782-23373d88-504b-4faf-808e-0de0da9666be.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzkwMDg1MCwxNDA3Mjc0MDE1LC0xOT
+eyJoaXN0b3J5IjpbMTU2NTc2OTE5MiwxNDA3Mjc0MDE1LC0xOT
 k2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMTIxNTQ2
 NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYwMDgwNT
 EsMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LDEwNDU0NjMzNTIsLTY1
