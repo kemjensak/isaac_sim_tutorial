@@ -112,13 +112,13 @@
 - 좌측의 *Controllers - Auto Add FollowJointsTraj*를 클릭하여 생성된 Controller의 이름과 Controller Type을 아래 그림과 같이 변경한다.![Screenshot from 2022-10-10 23-09-01](https://user-images.githubusercontent.com/60342784/194886160-1b159919-2f5c-4837-b4e9-bd4a01226b32.png)
 
 - 좌측의 *Author Information* 을 클릭하여 작성자의 정보를 입력한다.
-- 마지막으로, Configual
+- 마지막으로, 좌측의 *Configulation Files*로 이동하여 *Configuration Package Save Path*를 ros workspace로 지정하고, *Generate Package*를 클릭하여 moveit_co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgwMDEzNjIsMzQzMTI4MzcsLTEzMz
-U5NTE2OTksODMzNTczODc5LDYzOTY0NTk1OSwyMTgzNjYyOTAs
-MTQwNzI3NDAxNSwtMTk5NjAxMzEzMiwtMTMyNDc5NTQyMCw2Mj
-czMDQwMjAsLTEyMTU0NjQwMTEsLTEwOTI4OTc4NDgsLTg3NjEx
-Mjk5MywxODc2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4NTc5Ni
-wxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC0xMjk0
-OTAwNzIxXX0=
+eyJoaXN0b3J5IjpbLTc5MTg3NzY3MiwzNDMxMjgzNywtMTMzNT
+k1MTY5OSw4MzM1NzM4NzksNjM5NjQ1OTU5LDIxODM2NjI5MCwx
+NDA3Mjc0MDE1LC0xOTk2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNz
+MwNDAyMCwtMTIxNTQ2NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEy
+OTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LD
+EwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLTEyOTQ5
+MDA3MjFdfQ==
 -->
