@@ -54,8 +54,8 @@
 
 		</robot>
 
- - Ctrl-S로 저장 후 닫는다.
-
+ - `Ctrl-S`로 저장 후 닫는다.
+- 위에서 만든 `launch` 디렉토리에 
 ### create new xacro file and including two other xacro
 
 ### create movit_config package with moveit setup assistant
@@ -63,8 +63,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LDEwND
-U0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLTEyOTQ5MDA3
-MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3NDY2MTIsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTk0Mjk1NDgyLDEyMzY2OTM4ODUsMTU3Mz
+c4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5
+LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMD
+g4NzQ2NjEyLDczMDk5ODExNl19
 -->
