@@ -55,7 +55,9 @@
 		</robot>
 
  - `Ctrl-S`로 저장 후 닫는다.
-- 위에서 만든 `launch` 디렉토리에 아래 명령어를 입력하여 새로운 
+- 위에서 만든 `launch` 디렉토리에 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
+
+      $ code ur5e_with_2f85.xacro
 ### create new xacro file and including two other xacro
 
 ### create movit_config package with moveit setup assistant
@@ -63,7 +65,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI2MTEwNDgsMTIzNjY5Mzg4NSwxNT
+eyJoaXN0b3J5IjpbLTExNzg3NTg3MDIsMTIzNjY5Mzg4NSwxNT
 czNzg1Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUz
 MTksLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLT
 IwODg3NDY2MTIsNzMwOTk4MTE2XX0=
