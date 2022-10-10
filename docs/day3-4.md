@@ -87,9 +87,9 @@
 
 ![edit_planning_group](https://user-images.githubusercontent.com/60342784/194872835-6fb4dee5-c101-47d8-bb20-8deec8d13386.png)
 
-- 
+- *Add Kin. Chain*을 클릭하고 좌측 하단의 Expand All 을 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzkwMjg3MCwxNDA3Mjc0MDE1LC0xOT
+eyJoaXN0b3J5IjpbLTQ0MDkyOTY5NywxNDA3Mjc0MDE1LC0xOT
 k2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMTIxNTQ2
 NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYwMDgwNT
 EsMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LDEwNDU0NjMzNTIsLTY1
