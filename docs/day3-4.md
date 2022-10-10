@@ -23,7 +23,7 @@
 	    
  - 생성된 `urdf` 디렉토리 내에서 아래 명령어를 입력해 `ur5e_with_2f85.xacro`파일을 만든다.
 
-		 $ code ur5e_with_2f85.xacro
+	   $ code ur5e_with_2f85.xacro
 - 열린 VScode에 아래의 코드를 붙여넣는다.
 
 	  <?xml version="1.0"?>
@@ -79,9 +79,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzkzMzQxNywtMTA5Mjg5Nzg0OCwtOD
-c2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1
-Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLT
-EyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3
-NDY2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTYwOTY1NjMzLC0xMDkyODk3ODQ4LC04Nz
+YxMTI5OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3
+OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOSwtMT
+I5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMjA4ODc0
+NjYxMiw3MzA5OTgxMTZdfQ==
 -->
