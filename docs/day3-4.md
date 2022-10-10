@@ -82,13 +82,15 @@
 - *Create New MoveIt Configuration Package* 를 클릭하여 새로운 moveit config 패키지를 제작한다.
 - *Load a URDF or COLLADA Robot Model*의 *Browse*를 클릭하여 앞서 제작한 `ur5e_with_2f85.xacro` 파일을 불러온 후  Load Files를 클릭한다.
 - 우측의 *Viewer* 에서 불러온 모델을 확인한 후 좌측의 *Self-Collisions*를 클릭한다.
+- 우측 하단의 *linear view*를 *matrix view*로 변경한 후 *Generate Collision Matrix*를 클릭한다.
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMD
-kyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2Njkz
-ODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LD
-k3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1
-NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMj
+E1NDY0MDExLC0xMDkyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAw
+ODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1Mi
+wtNjUzNTMzMjM2LDk3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkz
+MTk4NiwtMjAyMzM1NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMT
+ZdfQ==
 -->
