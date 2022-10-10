@@ -93,10 +93,11 @@
 ![Screenshot from 2022-10-10 22-16-49](https://user-images.githubusercontent.com/60342784/194875273-da510f44-b175-4894-b60a-a9a907139166.png)
 
 - *Add Joints*를 눌러 `finger_joint`를 선택한 후 오른쪽 화살표를 눌러 *Selected Joint*로 이동시키고, *Save*를 눌러 저장한다.
-- 아래 그림과 같이 설정되었음을 확인한다.
-- 
+- 아래 그림과 같이 설정되었음을 확인한다.![Screenshot from 2022-10-10 22-26-33](https://user-images.githubusercontent.com/60342784/194877090-ff3a7e73-2530-4324-803e-c8dc52c34d4d.png)
+
+- *Robot Poses*를 클릭하여 Robot의 predefined pose를 추가한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDE5MDczNiw2Mzk2NDU5NTksMjE4Mz
+eyJoaXN0b3J5IjpbMTY0NjQ1NTEyNiw2Mzk2NDU5NTksMjE4Mz
 Y2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0
 MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC
 04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3
