@@ -24,7 +24,7 @@
  - 생성된 `urdf` 디렉토리 내에서 아래 명령어를 입력해 `ur5e_with_2f85.xacro`파일을 만든다.
 
 	   $ code ur5e_with_2f85.xacro
-- 열린 VScode에 아래의 코드를 붙여넣는다.
+ - 열린 VScode에 아래의 코드를 붙여넣는다.
 
 	  <?xml version="1.0"?>
 		<robot name="ur5e_with_2f85" 
@@ -55,10 +55,10 @@
 		</robot>
 
  - `Ctrl-S`로 저장 후 닫는다.
-- 위에서 만든 `launch` 디렉토리에 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
+ - 위에서 만든 `launch` 디렉토리 s에 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
 
       $ code load_ur5e_with_2f85.launch
-- 열린 VScode에 아래의 코드를 붙여넣는다.
+ - 열린 VScode에 아래의 코드를 붙여넣는다.
 
       <?xml version="1.0"?>
 		<launch>
@@ -67,10 +67,12 @@
 		  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
 		  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
 		</launch>
-- `Ctrl-S`로 저장 후 닫는다.
-- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
+ - `Ctrl-S`로 저장 후 닫는다.
+ - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
 
 	  $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
+
+ - List item
 
 ### create new xacro file and including two other xacro
 
@@ -79,9 +81,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwOTY1NjMzLC0xMDkyODk3ODQ4LC04Nz
-YxMTI5OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3
-OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOSwtMT
-I5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMjA4ODc0
-NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQ2NjQ2MTMxMCwtMTA5Mjg5Nzg0OCwtOD
+c2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1
+Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLT
+EyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3
+NDY2MTIsNzMwOTk4MTE2XX0=
 -->
