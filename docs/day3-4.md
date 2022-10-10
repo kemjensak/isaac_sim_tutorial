@@ -53,13 +53,14 @@
 			    </joint>
 
 			</robot>
+Ctrl-S로 저장 후 닫는ㄷ
 ### create new xacro file and including two other xacro
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzU3NDIyNDEsMTU3Mzc4NTc5NiwxMD
+eyJoaXN0b3J5IjpbLTIwNjgzMTE2ODMsMTU3Mzc4NTc5NiwxMD
 Q1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC0xMjk0OTAw
 NzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4NzQ2NjEyLD
 czMDk5ODExNl19
