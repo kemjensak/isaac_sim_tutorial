@@ -84,20 +84,21 @@
 - 우측의 *Viewer* 에서 불러온 모델을 확인한 후 좌측의 *Self-Collisions*를 클릭한다.
 - 우측 상단의 *Generate Collision Matrix*를 클릭하고 *linear view*와  *matrix view*를 눌러 생성된 결과를 확인한다.
 - `Planning Groups`의 *Add Group*을 클릭하여 아래와 같이 입력한다.
-
 ![edit_planning_group](https://user-images.githubusercontent.com/60342784/194872835-6fb4dee5-c101-47d8-bb20-8deec8d13386.png)
 
 - *Add Kin. Chain*을 클릭하고 좌측 하단의 *Expand All*을 클릭하여 모든 link가 보이게 한 후, 아래 그림과 같이 *Base Link*를 `base_link`로, *Tip Link*를 `tool0`로 설정한다.
-
 ![Screenshot from 2022-10-10 22-08-58](https://user-images.githubusercontent.com/60342784/194873782-23373d88-504b-4faf-808e-0de0da9666be.png)
 
+- *Save*를 눌러 저장한 후 다시 *Add Group*을 눌러 아래와 같이 입력한다.
+![Screenshot from 2022-10-10 22-16-49](https://user-images.githubusercontent.com/60342784/194875273-da510f44-b175-4894-b60a-a9a907139166.png)
 
+- Add Joints를 눌러 finger_joint를 클리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OT
-YwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0
-MDExLC0xMDkyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MS
-wxMjM2NjkzODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUz
-NTMzMjM2LDk3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4Ni
-wtMjAyMzM1NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
-
+eyJoaXN0b3J5IjpbLTEwNzY1MzYyMjMsMjE4MzY2MjkwLDE0MD
+cyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3MzA0
+MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC04NzYxMTI5OT
+MsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3OTYsMTA0
+NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOSwtMTI5NDkwMD
+cyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMjA4ODc0NjYxMiw3
+MzA5OTgxMTZdfQ==
 -->
