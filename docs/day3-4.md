@@ -76,13 +76,15 @@
  - UR5e manipulator와 말단부에 장착된 2f-85 gripper를 확인할 수 있으며, 함께 실행된 `joint_state_publisher_gui`의 슬라이더를 움직여 각 joint의 값을 변경해 볼 수 있다.
 
 ### create movit_config package with moveit setup assistant
-###
+- 아래 명령어를 입력하여 `moveit_setup_assistant`를 실행한다.
+
+	   roslaunch moveit_setup_assistant setup_assistant.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ0NzA5MzQsLTEyMTU0NjQwMTEsLT
-EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
-OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMz
-YsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIz
-MzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjczMTg1MTc3LC0xMjE1NDY0MDExLC0xMD
+kyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2Njkz
+ODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LD
+k3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1
+NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
