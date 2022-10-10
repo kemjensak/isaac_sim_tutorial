@@ -19,13 +19,14 @@
   - 아래 명령어를 통해 생성된 패키지 내에 `urdf`와 launch 디렉토리를 생성한다.
  
 	    $ mkdir ur5e_with_2f85_description/launch ur5e_with_2f85_description/urdf
+   - 생성된 `urdf` 디렉토리 내에서 새로운 *.xacro* 파일을 만들 것이다.
 ### create new xacro file and including two other xacro
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTQyODI5OCw5NzE2MTUzMTksLTEyOT
-Q5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3NDY2
-MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjU2MDUxNzgxLDk3MTYxNTMxOSwtMTI5ND
+kwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMjA4ODc0NjYx
+Miw3MzA5OTgxMTZdfQ==
 -->
