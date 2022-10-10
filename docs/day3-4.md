@@ -96,9 +96,10 @@
 - 아래 그림과 같이 설정되었음을 확인한다.![Screenshot from 2022-10-10 22-26-33](https://user-images.githubusercontent.com/60342784/194877090-ff3a7e73-2530-4324-803e-c8dc52c34d4d.png)
 
 - *Robot Poses*를 클릭하여 Robot의 predefined pose를 추가한다.
-- `manipulator` group에서 home Pose를 
+- `manipulator` group에서 *Pose Name*을 `home`으로 입력한 후 모든 joint 값이 0임을 확인하고 *Save*를 누른다.
+- `manipulator` group에서 *Pose Name*을 `up`으로 입력한 후 모든 joint 값이 0임을 확인하고 *Save*를 누른다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3MTQ3MjQ4LDYzOTY0NTk1OSwyMTgzNj
+eyJoaXN0b3J5IjpbMTM2MDg1NDkwLDYzOTY0NTk1OSwyMTgzNj
 YyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEzMiwtMTMyNDc5NTQy
 MCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLTEwOTI4OTc4NDgsLT
 g3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4
