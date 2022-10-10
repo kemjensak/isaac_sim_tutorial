@@ -57,7 +57,7 @@
  - `Ctrl-S`로 저장 후 닫는다.
 - 위에서 만든 `launch` 디렉토리에 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
 
-      $ code ur5e_with_2f85.xacro
+      $ code load_ur5e_with_2f85.launch
 - 열린 VScode에 아래의 코드를 붙여넣는다.
 
       <?xml version="1.0"?>
@@ -67,7 +67,9 @@
 		  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
 		</launch>
 - `Ctrl-S`로 저장 후 닫는다.
-- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위의 load_ur5e_with_2f85.launch 파일을 실행한다.
+- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
+
+	  roslaunch 
 
 ### create new xacro file and including two other xacro
 
@@ -76,8 +78,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI2MzkzODEsMTg3NjAwODA1MSwxMj
-M2NjkzODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMz
-MjM2LDk3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMj
-AyMzM1NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMz
+Y2OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMy
+MzYsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMD
+IzMzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
 -->
