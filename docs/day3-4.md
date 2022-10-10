@@ -26,14 +26,41 @@
 		 $ code ur5e_with_2f85.xacro
 	- 새롭게 열린 VScode창에 아래의 코드를 붙여넣는다.
 
-		  
+		  <?xml version="1.0"?>
+			<robot name="ur5e_with_2f85" 
+			  xmlns:xacro="http://wiki.ros.org/xacro">
+
+			    <!-- 2f-85 -->
+			    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
+			    <xacro:robotiq_arg2f_85 prefix=""/>
+			        
+			    <!-- ur5e -->
+			    <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
+			    <xacro:ur5e_robot prefix="" />
+			    
+			    <link name="world"/>
+			    
+			    <joint name="world2base" type="fixed">
+			        <parent link="world"/>
+			        <child link="base_link"/>
+			        <origin xyz="0 0 0" rpy="0 0 1.57" />
+			    </joint>
+
+			    <joint name="tool0To2f85" type="fixed">
+			        <parent link="tool0"/>
+			        <child link="robotiq_arg2f_base_link"/>
+			        <origin xyz="0 0 0" rpy="0 0 1.57" />
+			    </joint>
+
+			</robot>
 ### create new xacro file and including two other xacro
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NT
-M1MzMyMzYsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2
-LC0yMDIzMzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzNzU3NDIyNDEsMTU3Mzc4NTc5NiwxMD
+Q1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC0xMjk0OTAw
+NzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4NzQ2NjEyLD
+czMDk5ODExNl19
 -->
