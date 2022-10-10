@@ -109,13 +109,13 @@
 - *Passive Joints*를 클릭하여 아래 그림과 같이 gripper의 나머지 조인트를 모두 Passive joint로 설정한다.
 ![Screenshot from 2022-10-10 23-06-06](https://user-images.githubusercontent.com/60342784/194884833-b9010fb7-02d2-455c-ad63-d82f113a6644.png)
 
-- 
+- Controllers - Auto Add FollowJointsTrajectoryControllers For Each Planning Gr를 클릭하여 아래 그림과 같이 Controller의 이름과 Controller Type을 변경한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNT
-czODc5LDYzOTY0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwt
-MTk5NjAxMzEzMiwtMTMyNDc5NTQyMCw2MjczMDQwMjAsLTEyMT
-U0NjQwMTEsLTEwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4
-MDUxLDEyMzY2OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC
-02NTM1MzMyMzYsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMx
-OTg2XX0=
+eyJoaXN0b3J5IjpbNTk3NjkxNDI2LDM0MzEyODM3LC0xMzM1OT
+UxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTksMjE4MzY2MjkwLDE0
+MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3Mz
+A0MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC04NzYxMTI5
+OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3OTYsMT
+A0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOSwtMTI5NDkw
+MDcyMV19
 -->
