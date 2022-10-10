@@ -55,7 +55,7 @@
 		</robot>
 
  - `Ctrl-S`로 저장 후 닫는다.
- - 위에서 만든 `launch` 디렉토리 s에 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
+ - 위에서 만든 `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
 
       $ code load_ur5e_with_2f85.launch
  - 열린 VScode에 아래의 코드를 붙여넣는다.
@@ -81,9 +81,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjQ2MTMxMCwtMTA5Mjg5Nzg0OCwtOD
-c2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1
-Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLT
-EyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3
-NDY2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyMTU0NjQwMTEsLTEwOTI4OTc4NDgsLT
+g3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4
+NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC
+0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4
+NzQ2NjEyLDczMDk5ODExNl19
 -->
