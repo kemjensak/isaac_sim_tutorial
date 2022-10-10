@@ -112,13 +112,14 @@
 - 좌측의 *Controllers - Auto Add FollowJointsTraj*를 클릭하여 생성된 Controller의 이름과 Controller Type을 아래 그림과 같이 변경한다.![Screenshot from 2022-10-10 23-09-01](https://user-images.githubusercontent.com/60342784/194886160-1b159919-2f5c-4837-b4e9-bd4a01226b32.png)
 
 - 좌측의 *Author Information* 을 클릭하여 작성자의 정보를 입력한다.
-- 마지막으로, 좌측의 *Configulation Files*로 이동하여 *Configuration Package Save Path*를 ros workspace로 지정하고, 매 *Generate Package*를 클릭하여 moveit_co
+- 좌측의 *Configulation Files*로 이동하여 *Configuration Package Save Path*를 ros workspace로 지정하고, 경로의 맨 뒤에 `/ur5e_with_2f85_moveit_config`를 붙여준다.
+-  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUzMTc0OCwzNDMxMjgzNywtMTMzNT
-k1MTY5OSw4MzM1NzM4NzksNjM5NjQ1OTU5LDIxODM2NjI5MCwx
-NDA3Mjc0MDE1LC0xOTk2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNz
-MwNDAyMCwtMTIxNTQ2NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEy
-OTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LD
-EwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLTEyOTQ5
-MDA3MjFdfQ==
+eyJoaXN0b3J5IjpbNTgzMzI4OTg0LDM0MzEyODM3LC0xMzM1OT
+UxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTksMjE4MzY2MjkwLDE0
+MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3Mz
+A0MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC04NzYxMTI5
+OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3OTYsMT
+A0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOSwtMTI5NDkw
+MDcyMV19
 -->
