@@ -66,6 +66,8 @@
 		  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
 		  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
 		</launch>
+- `Ctrl-S`로 저장 후 닫는다.
+- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위의 load_ur5e_with_2f85.launch 파일을 실행한다.
 
 ### create new xacro file and including two other xacro
 
@@ -74,8 +76,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MTA0NjQzLDE4NzYwMDgwNTEsMTIzNj
-Y5Mzg4NSwxNTczNzg1Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIz
-Niw5NzE2MTUzMTksLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMj
-MzNTQ4NzksLTIwODg3NDY2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzMDI2MzkzODEsMTg3NjAwODA1MSwxMj
+M2NjkzODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMz
+MjM2LDk3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMj
+AyMzM1NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
