@@ -97,14 +97,15 @@
 
 - *Robot Poses*를 클릭하여 Robot의 predefined pose를 아래와 같이 추가한다.
 - *Add Pose*를 누른 후 *Pose Name*을 `home`으로, *Planning Group*을 `manipulator`로 설정한  후 모든 joint 값이 `0`임을 확인하고 *Save*를 누른다.
-- *Add Pose*를 누른 후*Pose Name*을 `up`으로, *Planning Group*을 `manipulator`로 설정한  후, `shoulder_lift_joint` 값을 `-1.5708`로 변경하고, 나머지 모든 joint의 값이 `0`임을 확인하고 *Save*를 누른다.
-- *Add Pose*를 누른 후*Pose Name*을 `open`으로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 0임을 확인하고, 나머지 모든 joint의 값이 `0`임을 확인하고 *Save*를 누른다.
+- *Add Pose*를 누른 후 *Pose Name*을 `up`으로, *Planning Group*을 `manipulator`로 설정한  후, `shoulder_lift_joint` 값을 `-1.5708`로 변경하고, 나머지 모든 joint의 값이 `0`임을 확인하고 *Save*를 누른다.
+- *Add Pose*를 누른 후 *Pose Name*을 `open`으로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0`임을 확인하고 *Save*를 누른다.
+- *Add Pose*를 누른 후 *Pose Name*을 `close`로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0.8`임을 확인하고 *Save*를 누른다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjUwMTAzNSw2Mzk2NDU5NTksMjE4Mz
-Y2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0
-MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC
-04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3
-ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOS
-wtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMjA4
-ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyMzg1NDQ4NTksNjM5NjQ1OTU5LDIxOD
+M2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMyLC0xMzI0Nzk1
+NDIwLDYyNzMwNDAyMCwtMTIxNTQ2NDAxMSwtMTA5Mjg5Nzg0OC
+wtODc2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTcz
+Nzg1Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMT
+ksLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIw
+ODg3NDY2MTJdfQ==
 -->
