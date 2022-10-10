@@ -92,13 +92,13 @@
 - *Save*를 눌러 저장한 후 다시 *Add Group*을 눌러 아래와 같이 입력한다.
 ![Screenshot from 2022-10-10 22-16-49](https://user-images.githubusercontent.com/60342784/194875273-da510f44-b175-4894-b60a-a9a907139166.png)
 
-- Add Joints를 눌러 finger_joint를 클리
+- *Add Joints*를 눌러 `finger_joint`를 선택한 후 오른쪽 화살표를 눌러 *Selected Joint*로 이동시키고, *Save*를 눌러 저장한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY1MzYyMjMsMjE4MzY2MjkwLDE0MD
-cyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3MzA0
-MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC04NzYxMTI5OT
-MsMTg3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3OTYsMTA0
-NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYxNTMxOSwtMTI5NDkwMD
-cyMSw5ODkzMTk4NiwtMjAyMzM1NDg3OSwtMjA4ODc0NjYxMiw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjM5NjQ1OTU5LDIxODM2NjI5MCwxNDA3Mj
+c0MDE1LC0xOTk2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNzMwNDAy
+MCwtMTIxNTQ2NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEyOTkzLD
+E4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1Nzk2LDEwNDU0
+NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLTEyOTQ5MDA3Mj
+EsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3NDY2MTIsNzMw
+OTk4MTE2XX0=
 -->
