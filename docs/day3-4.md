@@ -26,7 +26,7 @@
 	   $ code ur5e_with_2f85.xacro
  - 열린 VScode에 아래의 코드를 붙여넣는다.
 
-	  <?xml version="1.0"?>
+	   <?xml version="1.0"?>
 		<robot name="ur5e_with_2f85" 
 		  xmlns:xacro="http://wiki.ros.org/xacro">
 
@@ -74,18 +74,15 @@
 
  - 실행된 `Rviz`의 *Global Options*의 *Fixed Frame*을 `world`로 변경하고, *Add* 버튼을 눌러 *RobotModel*을 추가한다.
  - UR5e manipulator와 말단부에 장착된 2f-85 gripper를 확인할 수 있으며, 함께 실행된 `joint_state_publisher_gui`의 슬라이더를 움직여 각 joint의 값을 변경해 볼 수 있다.
- - 
-
-### create 
 
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MTkwNTA2LC0xMjE1NDY0MDExLC0xMD
-kyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2Njkz
-ODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LD
-k3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1
-NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMjQ0NzA5MzQsLTEyMTU0NjQwMTEsLT
+EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
+OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMz
+YsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIz
+MzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
 -->
