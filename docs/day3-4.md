@@ -12,7 +12,7 @@
 -   Moveit 패키지에서 Jacobian matrix -> 공정최적화 프로그래밍(Manipulability measure 가시화, Optimal arm positioning)
 
 ## Joining two URDF(xacro)
-### create new package
+### create new package and xacro file and including two other xacro
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
 	   $ catkin_create_pkg ur5e_with_2f85_description
@@ -74,17 +74,18 @@
 
  - 실행된 `Rviz`의 *Global Options*의 *Fixed Frame*을 `world`로 변경하고, *Add* 버튼을 눌러 *RobotModel*을 추가한다.
  - UR5e manipulator와 말단부에 장착된 2f-85 gripper를 확인할 수 있으며, 함께 실행된 `joint_state_publisher_gui`의 슬라이더를 움직여 각 joint의 값을 변경해 볼 수 있다.
+ - 
 
-### create new xacro file and including two other xacro
+### create 
 
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTIwODc2NCwtMTIxNTQ2NDAxMSwtMT
-A5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5
-Mzg4NSwxNTczNzg1Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNi
-w5NzE2MTUzMTksLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMz
-NTQ4NzksLTIwODg3NDY2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODg1MTkwNTA2LC0xMjE1NDY0MDExLC0xMD
+kyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2Njkz
+ODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LD
+k3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1
+NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
