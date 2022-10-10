@@ -13,10 +13,14 @@
 
 ## Joining two URDF(xacro)
 ### create new package
+ - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
+ - 
+
 ### create new xacro file and including two other xacro
 ### create movit_config package with moveit setup assistant
 ###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMj
-MzNTQ4NzksLTIwODg3NDY2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTM2OTIwMTYxOCwtMTI5NDkwMDcyMSw5OD
+kzMTk4NiwtMjAyMzM1NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgx
+MTZdfQ==
 -->
