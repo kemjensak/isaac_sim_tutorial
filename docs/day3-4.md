@@ -21,14 +21,16 @@
 	    $ mkdir ur5e_with_2f85_description/launch ur5e_with_2f85_description/urdf
 	    $ cd ur5e_with_2f85_description/urdf
 	    
-   - 생성된 `urdf` 디렉토리 내에서 새로운 *.xacro* 파일을 만들 것VScode를 열어 `ur5e_with_2f85.xacro` 파일을 만들고, 
+   - 생성된 `urdf` 디렉토리 내에서 아래 명령어를 입력해 VScode로 `ur5e_with_2f85.xacro`파일을 만든다.
+
+
 ### create new xacro file and including two other xacro
 ### create movit_config package with moveit setup assistant
 ###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzg0NzU2NywtNjUzNTMzMjM2LDk3MT
-YxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1NDg3
-OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTY2MjEyMTksLTY1MzUzMzIzNiw5Nz
+E2MTUzMTksLTEyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4
+NzksLTIwODg3NDY2MTIsNzMwOTk4MTE2XX0=
 -->
