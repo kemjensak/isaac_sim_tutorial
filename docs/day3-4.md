@@ -70,7 +70,7 @@
 - `Ctrl-S`로 저장 후 닫는다.
 - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
 
-	  roslaunch 
+	  $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
 
 ### create new xacro file and including two other xacro
 
@@ -79,9 +79,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI4OTc4NDgsLTg3NjExMjk5MywxOD
-c2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYz
-MzUyLC02NTM1MzMyMzYsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLD
-k4OTMxOTg2LC0yMDIzMzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbMTA5MzkzMzQxNywtMTA5Mjg5Nzg0OCwtOD
+c2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5Mzg4NSwxNTczNzg1
+Nzk2LDEwNDU0NjMzNTIsLTY1MzUzMzIzNiw5NzE2MTUzMTksLT
+EyOTQ5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3
+NDY2MTIsNzMwOTk4MTE2XX0=
 -->
