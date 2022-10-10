@@ -81,13 +81,14 @@
 	  $ roslaunch moveit_setup_assistant setup_assistant.launch
 - *Create New MoveIt Configuration Package* 를 클릭하여 새로운 moveit config 패키지를 제작한다.
 - *Load a URDF or COLLADA Robot Model*의 *Browse*를 클릭하여 앞서 제작한 `ur5e_with_2f85.xacro` 파일을 불러온 후  Load Files를 클릭한다.
-- 우측의 Viewer Section에서 불러온 모델을 확인한 후 
+- 우측의 *Viewer* 에서 불러온 모델을 확인한 후 좌측의 *Self-Collisions*를 클릭한다.
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjczMTMwNzgsLTEyMTU0NjQwMTEsLT
-EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
-OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMz
-YsOTcxNjE1MzE5LC0xMjk0OTAwNzIxLDk4OTMxOTg2LC0yMDIz
-MzU0ODc5LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMD
+kyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2Njkz
+ODg1LDE1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LD
+k3MTYxNTMxOSwtMTI5NDkwMDcyMSw5ODkzMTk4NiwtMjAyMzM1
+NDg3OSwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
