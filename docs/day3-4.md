@@ -15,11 +15,11 @@
 ### create new package
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
-	   catkin_create_pkg ur5e_with_2f85_description
+	   $ catkin_create_pkg ur5e_with_2f85_description
   - 아래 명령어를 통해 생성된 패키지 내에 `urdf`와 `launch` 디렉토리를 생성하고, `urdf` 디렉토리로 이동한다.
  
-	    mkdir ur5e_with_2f85_description/launch ur5e_with_2f85_description/urdf
-	    cd ur5e_with_2f85_description/urdf
+	    $ mkdir ur5e_with_2f85_description/launch ur5e_with_2f85_description/urdf
+	    $ cd ur5e_with_2f85_description/urdf
 	    
    - 생성된 `urdf` 디렉토리 내에서 새로운 *.xacro* 파일을 만들 것이다.
    - VScode를 열어 `ur5e_with_2f85.xacro` 파일을 만들고, 
@@ -29,7 +29,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mjg3NDk2MCw5NzE2MTUzMTksLTEyOT
+eyJoaXN0b3J5IjpbLTY1MzUzMzIzNiw5NzE2MTUzMTksLTEyOT
 Q5MDA3MjEsOTg5MzE5ODYsLTIwMjMzNTQ4NzksLTIwODg3NDY2
 MTIsNzMwOTk4MTE2XX0=
 -->
