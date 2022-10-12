@@ -125,32 +125,26 @@ sequenceDiagram
 	 participant B as moveit_servo::Servo servo_ 
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
 	 participant D as ur_robot_driver 
-	 loop about 100Hz
+	 loop
+	 
 	 A-->>B:create object
 	 B-->>C:create object
+	 user->>A: target_pose 
 	 D->>A: current_ee_tf
-	 D->>C: current_ee_tf
-	 user->>A: target_pose
+	 D->>C: current_state_
 	 A->>C: delta_twist_cmds
 	 C->>D: joint_group_velocity_controller/command
 	 
 	 end
 ```
 
-```mermaid
-sequenceDiagram
-	Alice->John: 안녕, 오늘 어때 ?
-	loop Every  minute
-		John-->Alice: 좋아!
-	end
-```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcyNzAwNDksNDYxMTQwMzM2LDcxMD
-EwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIzLC02NjUzMTMx
-NzgsLTE2MTkzMDg2MDgsODU3NzA0MTAxLDE5NTMzOTg5NTQsMT
-A1Mzc5MDk5NSwxOTc1Njc1ODcwLDM0MzEyODM3LC0xMzM1OTUx
-Njk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTksMjE4MzY2MjkwLDE0MD
-cyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3MzA0
-MDIwXX0=
+eyJoaXN0b3J5IjpbLTUyMjU1MjU1Miw0NjExNDAzMzYsNzEwMT
+A1ODY2LC0xODgyMzE1MTI1LC01NTE5NzI2MjMsLTY2NTMxMzE3
+OCwtMTYxOTMwODYwOCw4NTc3MDQxMDEsMTk1MzM5ODk1NCwxMD
+UzNzkwOTk1LDE5NzU2NzU4NzAsMzQzMTI4MzcsLTEzMzU5NTE2
+OTksODMzNTczODc5LDYzOTY0NTk1OSwyMTgzNjYyOTAsMTQwNz
+I3NDAxNSwtMTk5NjAxMzEzMiwtMTMyNDc5NTQyMCw2MjczMDQw
+MjBdfQ==
 -->
