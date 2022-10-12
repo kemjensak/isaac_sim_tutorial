@@ -124,9 +124,11 @@ sequenceDiagram
 	 participant B as moveit_servo::Servo servo_ 
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
 	 participant D as ur_robot_driver 
+	 loop about 100Hz
 	 A->>B: target_pose
 	 B->>C: delta_twist_cmds
-	 C->>D: delta_twist_cmds
+	 C->>D: joint_group_velocity_controller/command
+	 end
 ```
 
 ```mermaid
@@ -138,11 +140,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTMxMzE3OCwtMTYxOTMwODYwOCw4NT
-c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
-NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
-Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
-MiwtMTMyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLT
-EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
-OTM4ODVdfQ==
+eyJoaXN0b3J5IjpbMTcwMjczMzM3MiwtNjY1MzEzMTc4LC0xNj
+E5MzA4NjA4LDg1NzcwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5
+OTUsMTk3NTY3NTg3MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4Mz
+M1NzM4NzksNjM5NjQ1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1
+LC0xOTk2MDEzMTMyLC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMT
+IxNTQ2NDAxMSwtMTA5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYw
+MDgwNTFdfQ==
 -->
