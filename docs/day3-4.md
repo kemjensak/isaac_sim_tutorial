@@ -115,15 +115,15 @@
 - 좌측의 *Configulation Files*로 이동하여 *Configuration Package Save Path*를 ros workspace로 지정하고, 경로의 맨 뒤에 `/ur5e_with_2f85_moveit_config`를 붙여준다.
 ![Screenshot from 2022-10-10 23-18-20](https://user-images.githubusercontent.com/60342784/194887782-c3da84db-e5e2-4197-9bc1-d8afa7a5d10c.png)
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
-- `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행한다.
+- `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Mzc5MDk5NSwxOTc1Njc1ODcwLDM0Mz
-EyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTks
-MjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMj
-Q3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3
-ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LD
-E1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYx
-NTMxOV19
+eyJoaXN0b3J5IjpbMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5Nz
+U2NzU4NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5
+LDYzOTY0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5Nj
+AxMzEzMiwtMTMyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQw
+MTEsLTEwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLD
+EyMzY2OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1
+MzMyMzZdfQ==
 -->
