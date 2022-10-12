@@ -125,9 +125,10 @@ sequenceDiagram
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
 	 participant D as ur_robot_driver 
 	 loop about 100Hz
+	 A
 	 D->>A: current_ee_tf
 	 A->>B: target_pose
-	 ->>C: delta_twist_cmds
+	 A->>C: delta_twist_cmds
 	 C->>D: joint_group_velocity_controller/command
 	 
 	 end
@@ -142,11 +143,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODYxMDkwNSwtMTg4MjMxNTEyNSwtNT
-UxOTcyNjIzLC02NjUzMTMxNzgsLTE2MTkzMDg2MDgsODU3NzA0
-MTAxLDE5NTMzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1ODcwLD
-M0MzEyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5
-NTksMjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLT
-EzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDky
-ODk3ODQ4XX0=
+eyJoaXN0b3J5IjpbLTE2ODcyNDQ3MTUsLTE4ODIzMTUxMjUsLT
+U1MTk3MjYyMywtNjY1MzEzMTc4LC0xNjE5MzA4NjA4LDg1Nzcw
+NDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3MC
+wzNDMxMjgzNywtMTMzNTk1MTY5OSw4MzM1NzM4NzksNjM5NjQ1
+OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMyLC
+0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMTIxNTQ2NDAxMSwtMTA5
+Mjg5Nzg0OF19
 -->
