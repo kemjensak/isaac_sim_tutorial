@@ -120,11 +120,11 @@
 ## MoveIT Servoing
 ```mermaid 
 sequenceDiagram 
-	 participant user as User
+	 actor user as User
 	 participant A as moveit_servo::PoseTracking tracker
 	 participant B as moveit_servo::Servo servo_ 
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
-	 participant D as ur_robot_driver 
+	 actor D as ur_robot_driver 
 	 loop
 	 
 	 A-->>B:create object
@@ -140,7 +140,7 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjU1MjU1Miw0NjExNDAzMzYsNzEwMT
+eyJoaXN0b3J5IjpbLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEwMT
 A1ODY2LC0xODgyMzE1MTI1LC01NTE5NzI2MjMsLTY2NTMxMzE3
 OCwtMTYxOTMwODYwOCw4NTc3MDQxMDEsMTk1MzM5ODk1NCwxMD
 UzNzkwOTk1LDE5NzU2NzU4NzAsMzQzMTI4MzcsLTEzMzU5NTE2
