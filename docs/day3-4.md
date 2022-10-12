@@ -120,7 +120,7 @@
 ## MoveIT Servoing
 ```mermaid 
 sequenceDiagram 
-	 participant [moveit_servo::PoseTracking tracker  
+	 participant A as moveit_servo::PoseTracking tracker
 	 participant Bob  
 	 Alice->>Bob: Hi Bob  
 	 Bob->>Alice: Hi Alice
@@ -135,11 +135,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNTY3NDExLC0xNjE5MzA4NjA4LDg1Nz
-cwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3
-MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4MzM1NzM4NzksNjM5Nj
-Q1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMy
-LC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMTIxNTQ2NDAxMSwtMT
-A5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5
-Mzg4NV19
+eyJoaXN0b3J5IjpbLTkxNzQ3NzUyOSwtMTYxOTMwODYwOCw4NT
+c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
+NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
+Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
+MiwtMTMyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLT
+EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
+OTM4ODVdfQ==
 -->
