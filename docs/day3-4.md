@@ -115,13 +115,13 @@
 - 좌측의 *Configulation Files*로 이동하여 *Configuration Package Save Path*를 ros workspace로 지정하고, 경로의 맨 뒤에 `/ur5e_with_2f85_moveit_config`를 붙여준다.
 ![Screenshot from 2022-10-10 23-18-20](https://user-images.githubusercontent.com/60342784/194887782-c3da84db-e5e2-4197-9bc1-d8afa7a5d10c.png)
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
-- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
+- `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTQyNTY3MCwxOTc1Njc1ODcwLDM0Mz
-EyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTks
-MjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMj
-Q3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDkyODk3
-ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2NjkzODg1LD
-E1NzM3ODU3OTYsMTA0NTQ2MzM1MiwtNjUzNTMzMjM2LDk3MTYx
-NTMxOV19
+eyJoaXN0b3J5IjpbNTg1MjM1ODk1LDE5NzU2NzU4NzAsMzQzMT
+I4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOTY0NTk1OSwy
+MTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEzMiwtMTMyND
+c5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLTEwOTI4OTc4
+NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2OTM4ODUsMT
+U3Mzc4NTc5NiwxMDQ1NDYzMzUyLC02NTM1MzMyMzYsOTcxNjE1
+MzE5XX0=
 -->
