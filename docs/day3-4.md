@@ -126,8 +126,14 @@ sequenceDiagram
 	Bob->>Alice: Hi Alice
 ```
 
+```mermaid
+sequenceDiagram
+actor A as client
+participant B as app participant C as server
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTIzNTY1MSwtMTYxOTMwODYwOCw4NT
+eyJoaXN0b3J5IjpbMjExMDgwOTM4MiwtMTYxOTMwODYwOCw4NT
 c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
 NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
 Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
