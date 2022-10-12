@@ -127,7 +127,7 @@ sequenceDiagram
 	 loop about 100Hz
 	 D->>A: current_ee_tf
 	 A->>B: target_pose
-	 B->>C: delta_twist_cmds
+	 ->>C: delta_twist_cmds
 	 C->>D: joint_group_velocity_controller/command
 	 
 	 end
@@ -142,11 +142,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODIzMTUxMjUsLTU1MTk3MjYyMywtNj
-Y1MzEzMTc4LC0xNjE5MzA4NjA4LDg1NzcwNDEwMSwxOTUzMzk4
-OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3MCwzNDMxMjgzNywtMT
-MzNTk1MTY5OSw4MzM1NzM4NzksNjM5NjQ1OTU5LDIxODM2NjI5
-MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMyLC0xMzI0Nzk1NDIwLD
-YyNzMwNDAyMCwtMTIxNTQ2NDAxMSwtMTA5Mjg5Nzg0OCwtODc2
-MTEyOTkzXX0=
+eyJoaXN0b3J5IjpbLTY5ODYxMDkwNSwtMTg4MjMxNTEyNSwtNT
+UxOTcyNjIzLC02NjUzMTMxNzgsLTE2MTkzMDg2MDgsODU3NzA0
+MTAxLDE5NTMzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1ODcwLD
+M0MzEyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5
+NTksMjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLT
+EzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDky
+ODk3ODQ4XX0=
 -->
