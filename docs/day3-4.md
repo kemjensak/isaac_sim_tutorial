@@ -120,7 +120,7 @@
 ## MoveIT Servoing
 ```mermaid 
 sequenceDiagram 
-	 participant act as User
+	 participant user as User
 	 participant A as moveit_servo::PoseTracking tracker
 	 participant B as moveit_servo::Servo servo_ 
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
@@ -129,7 +129,7 @@ sequenceDiagram
 	 A-->>B:init
 	 B-->>C:init
 	 D->>A: current_ee_tf
-	 A->>B: target_pose
+	 user->>A: target_pose
 	 A->>C: delta_twist_cmds
 	 C->>D: joint_group_velocity_controller/command
 	 
@@ -145,11 +145,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzExNzgwMCwtMTg4MjMxNTEyNSwtNT
-UxOTcyNjIzLC02NjUzMTMxNzgsLTE2MTkzMDg2MDgsODU3NzA0
-MTAxLDE5NTMzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1ODcwLD
-M0MzEyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5
-NTksMjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLT
-EzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC0xMDky
-ODk3ODQ4XX0=
+eyJoaXN0b3J5IjpbNzEwMTA1ODY2LC0xODgyMzE1MTI1LC01NT
+E5NzI2MjMsLTY2NTMxMzE3OCwtMTYxOTMwODYwOCw4NTc3MDQx
+MDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4NzAsMz
+QzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOTY0NTk1
+OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEzMiwtMT
+MyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLTEwOTI4
+OTc4NDhdfQ==
 -->
