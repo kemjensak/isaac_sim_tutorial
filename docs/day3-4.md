@@ -117,7 +117,7 @@
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
 - `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
 
-##
+## MoveIT Servoing
 ```mermaid 
 graph LR 
 A(입력)-->B[연산] 
@@ -125,11 +125,11 @@ B-->C(출력)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjcwNTc3MzYsMTk1MzM5ODk1NCwxMD
-UzNzkwOTk1LDE5NzU2NzU4NzAsMzQzMTI4MzcsLTEzMzU5NTE2
-OTksODMzNTczODc5LDYzOTY0NTk1OSwyMTgzNjYyOTAsMTQwNz
-I3NDAxNSwtMTk5NjAxMzEzMiwtMTMyNDc5NTQyMCw2MjczMDQw
-MjAsLTEyMTU0NjQwMTEsLTEwOTI4OTc4NDgsLTg3NjExMjk5My
-wxODc2MDA4MDUxLDEyMzY2OTM4ODUsMTU3Mzc4NTc5NiwxMDQ1
-NDYzMzUyXX0=
+eyJoaXN0b3J5IjpbODU3NzA0MTAxLDE5NTMzOTg5NTQsMTA1Mz
+c5MDk5NSwxOTc1Njc1ODcwLDM0MzEyODM3LC0xMzM1OTUxNjk5
+LDgzMzU3Mzg3OSw2Mzk2NDU5NTksMjE4MzY2MjkwLDE0MDcyNz
+QwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3MzA0MDIw
+LC0xMjE1NDY0MDExLC0xMDkyODk3ODQ4LC04NzYxMTI5OTMsMT
+g3NjAwODA1MSwxMjM2NjkzODg1LDE1NzM3ODU3OTYsMTA0NTQ2
+MzM1Ml19
 -->
