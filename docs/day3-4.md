@@ -124,7 +124,7 @@ sequenceDiagram
 	 participant B as moveit_servo::Servo servo_ 
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
 	 A->>B: target_pose 
-	 B->>C: target_twist
+	 B->>C: delta_twist_cmds
 ```
 
 ```mermaid
@@ -136,11 +136,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NTc1MDYxLC0xNjE5MzA4NjA4LDg1Nz
-cwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3
-MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4MzM1NzM4NzksNjM5Nj
-Q1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMy
-LC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMTIxNTQ2NDAxMSwtMT
-A5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5
-Mzg4NV19
+eyJoaXN0b3J5IjpbLTE2NzA5MTMxOTYsLTE2MTkzMDg2MDgsOD
+U3NzA0MTAxLDE5NTMzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1
+ODcwLDM0MzEyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mz
+k2NDU5NTksMjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMx
+MzIsLTEzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC
+0xMDkyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2
+NjkzODg1XX0=
 -->
