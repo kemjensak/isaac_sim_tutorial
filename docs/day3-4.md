@@ -125,9 +125,11 @@ sequenceDiagram
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
 	 participant D as ur_robot_driver 
 	 loop about 100Hz
+	 D->>A: joint_group_velocity_controller/command
 	 A->>B: target_pose
 	 B->>C: delta_twist_cmds
 	 C->>D: joint_group_velocity_controller/command
+	 
 	 end
 ```
 
@@ -140,7 +142,7 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjczMzM3MiwtNjY1MzEzMTc4LC0xNj
+eyJoaXN0b3J5IjpbLTU1MTk3MjYyMywtNjY1MzEzMTc4LC0xNj
 E5MzA4NjA4LDg1NzcwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5
 OTUsMTk3NTY3NTg3MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4Mz
 M1NzM4NzksNjM5NjQ1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1
