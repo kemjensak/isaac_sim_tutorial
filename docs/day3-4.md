@@ -126,6 +126,7 @@ sequenceDiagram
 	 participant D as ur_robot_driver 
 	 A->>B: target_pose
 	 B->>C: delta_twist_cmds
+	 C->>D: delta_twist_cmds
 ```
 
 ```mermaid
@@ -137,7 +138,7 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDA2OTQ0NCwtMTYxOTMwODYwOCw4NT
+eyJoaXN0b3J5IjpbLTY2NTMxMzE3OCwtMTYxOTMwODYwOCw4NT
 c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
 NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
 Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
