@@ -117,7 +117,7 @@
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
 - `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
 
-## MoveIT Servoing
+## MoveIT! Servoing
 ```mermaid 
 sequenceDiagram 
 	 actor user as User
@@ -140,11 +140,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMT
-QwMzM2LDcxMDEwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIz
-LC02NjUzMTMxNzgsLTE2MTkzMDg2MDgsODU3NzA0MTAxLDE5NT
-MzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1ODcwLDM0MzEyODM3
-LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTksMjE4Mz
-Y2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0
-MjBdfQ==
+eyJoaXN0b3J5IjpbNzczMzQ3NjY5LDE3ODIzOTkxNiwtMTA1MT
+M5MjQwLDQ2MTE0MDMzNiw3MTAxMDU4NjYsLTE4ODIzMTUxMjUs
+LTU1MTk3MjYyMywtNjY1MzEzMTc4LC0xNjE5MzA4NjA4LDg1Nz
+cwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3
+MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4MzM1NzM4NzksNjM5Nj
+Q1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMy
+XX0=
 -->
