@@ -129,6 +129,7 @@ sequenceDiagram
 	 A-->>B:create object
 	 B-->>C:create object
 	 D->>A: current_ee_tf
+	 D->>C: current_ee_tf
 	 user->>A: target_pose
 	 A->>C: delta_twist_cmds
 	 C->>D: joint_group_velocity_controller/command
@@ -145,11 +146,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxMTQwMzM2LDcxMDEwNTg2NiwtMTg4Mj
-MxNTEyNSwtNTUxOTcyNjIzLC02NjUzMTMxNzgsLTE2MTkzMDg2
-MDgsODU3NzA0MTAxLDE5NTMzOTg5NTQsMTA1Mzc5MDk5NSwxOT
-c1Njc1ODcwLDM0MzEyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3
-OSw2Mzk2NDU5NTksMjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OT
-YwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0
-MDExXX0=
+eyJoaXN0b3J5IjpbLTE5NTcyNzAwNDksNDYxMTQwMzM2LDcxMD
+EwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIzLC02NjUzMTMx
+NzgsLTE2MTkzMDg2MDgsODU3NzA0MTAxLDE5NTMzOTg5NTQsMT
+A1Mzc5MDk5NSwxOTc1Njc1ODcwLDM0MzEyODM3LC0xMzM1OTUx
+Njk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTksMjE4MzY2MjkwLDE0MD
+cyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0MjAsNjI3MzA0
+MDIwXX0=
 -->
