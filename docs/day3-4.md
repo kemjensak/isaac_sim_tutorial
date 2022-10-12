@@ -124,16 +124,19 @@ sequenceDiagram
 	actor Bob
 	Alice->>Bob: Hi Bob
 	Bob->>Alice: Hi Alice
+	end
 ```
 
 ```mermaid
 sequenceDiagram
-actor A as client
-participant B as app participant C as server
+	Alice->John: 안녕, 오늘 어때 ?
+	loop Every  minute
+		John-->Alice: 좋아!
+	end
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDgwOTM4MiwtMTYxOTMwODYwOCw4NT
+eyJoaXN0b3J5IjpbMTA4NDI1NzY4MiwtMTYxOTMwODYwOCw4NT
 c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
 NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
 Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
