@@ -122,9 +122,9 @@
 sequenceDiagram 
 	 participant A as moveit_servo::PoseTracking tracker
 	 participant B as moveit_servo::Servo servo_ 
-	 participant B as moveit_servo::Servo servo_  
+	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
 	 A->>B: target_pose 
-	 B->>Alice: Hi Alice
+	 B->>C: target_twist
 ```
 
 ```mermaid
@@ -136,11 +136,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjE2NTcwMywtMTYxOTMwODYwOCw4NT
-c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
-NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
-Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
-MiwtMTMyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLT
-EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
-OTM4ODVdfQ==
+eyJoaXN0b3J5IjpbODU4NTc1MDYxLC0xNjE5MzA4NjA4LDg1Nz
+cwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3
+MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4MzM1NzM4NzksNjM5Nj
+Q1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMy
+LC0xMzI0Nzk1NDIwLDYyNzMwNDAyMCwtMTIxNTQ2NDAxMSwtMT
+A5Mjg5Nzg0OCwtODc2MTEyOTkzLDE4NzYwMDgwNTEsMTIzNjY5
+Mzg4NV19
 -->
