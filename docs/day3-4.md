@@ -120,11 +120,10 @@
 ## MoveIT Servoing
 ```mermaid 
 sequenceDiagram 
-	actor User
-	actor Bob
-	User->>Bob: Hi Bob
-	Bob->>User: Hi User
-	end
+	 participant  Alice  
+	 participant  Bob  
+	 Alice->>Bob: Hi Bob  
+	 Bob->>Alice: Hi Alice
 ```
 
 ```mermaid
@@ -136,7 +135,7 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NjI5OTAzLC0xNjE5MzA4NjA4LDg1Nz
+eyJoaXN0b3J5IjpbODU0MTkyODA4LC0xNjE5MzA4NjA4LDg1Nz
 cwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3
 MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4MzM1NzM4NzksNjM5Nj
 Q1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMy
