@@ -123,7 +123,7 @@ sequenceDiagram
 	 participant A as moveit_servo::PoseTracking tracker
 	 participant B as moveit_servo::Servo servo_ 
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
-	 participant D as ServoCalcs::ServoCalcs servo_calcs_  
+	 participant D as ur_robot_driver 
 	 A->>B: target_pose
 	 B->>C: delta_twist_cmds
 ```
@@ -137,7 +137,7 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzU0NzI1NiwtMTYxOTMwODYwOCw4NT
+eyJoaXN0b3J5IjpbMTgxMDA2OTQ0NCwtMTYxOTMwODYwOCw4NT
 c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
 NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
 Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
