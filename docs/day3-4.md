@@ -123,7 +123,8 @@ sequenceDiagram
 	 participant A as moveit_servo::PoseTracking tracker
 	 participant B as moveit_servo::Servo servo_ 
 	 participant C as ServoCalcs::ServoCalcs servo_calcs_  
-	 A->>B: target_pose 
+	 participant D as ServoCalcs::ServoCalcs servo_calcs_  
+	 A->>B: target_pose
 	 B->>C: delta_twist_cmds
 ```
 
@@ -136,11 +137,11 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA5MTMxOTYsLTE2MTkzMDg2MDgsOD
-U3NzA0MTAxLDE5NTMzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1
-ODcwLDM0MzEyODM3LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mz
-k2NDU5NTksMjE4MzY2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMx
-MzIsLTEzMjQ3OTU0MjAsNjI3MzA0MDIwLC0xMjE1NDY0MDExLC
-0xMDkyODk3ODQ4LC04NzYxMTI5OTMsMTg3NjAwODA1MSwxMjM2
-NjkzODg1XX0=
+eyJoaXN0b3J5IjpbMTAxNzU0NzI1NiwtMTYxOTMwODYwOCw4NT
+c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
+NzAsMzQzMTI4MzcsLTEzMzU5NTE2OTksODMzNTczODc5LDYzOT
+Y0NTk1OSwyMTgzNjYyOTAsMTQwNzI3NDAxNSwtMTk5NjAxMzEz
+MiwtMTMyNDc5NTQyMCw2MjczMDQwMjAsLTEyMTU0NjQwMTEsLT
+EwOTI4OTc4NDgsLTg3NjExMjk5MywxODc2MDA4MDUxLDEyMzY2
+OTM4ODVdfQ==
 -->
