@@ -121,8 +121,9 @@
 ```mermaid 
 sequenceDiagram 
 	 participant A as moveit_servo::PoseTracking tracker
+	 participant B as moveit_servo::Servo servo_ 
 	 participant B as moveit_servo::Servo servo_  
-	 A->>Bob: target_pose 
+	 A->>B: target_pose 
 	 Bob->>Alice: Hi Alice
 ```
 
@@ -135,7 +136,7 @@ sequenceDiagram
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMjgzODI1LC0xNjE5MzA4NjA4LDg1Nz
+eyJoaXN0b3J5IjpbMjY5NTQ2OTA2LC0xNjE5MzA4NjA4LDg1Nz
 cwNDEwMSwxOTUzMzk4OTU0LDEwNTM3OTA5OTUsMTk3NTY3NTg3
 MCwzNDMxMjgzNywtMTMzNTk1MTY5OSw4MzM1NzM4NzksNjM5Nj
 Q1OTU5LDIxODM2NjI5MCwxNDA3Mjc0MDE1LC0xOTk2MDEzMTMy
