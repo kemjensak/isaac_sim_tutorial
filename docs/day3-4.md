@@ -131,7 +131,7 @@ sequenceDiagram
 	 B-->>C:create object
 	 user->>A: target_pose 
 	 D->>A: current_ee_tf
-	 D->>C: current_state_
+	 D->>C: current_state_(from planning_scene_monitor)
 	 A->>C: delta_twist_cmds
 	 C->>D: joint_group_velocity_controller/command
 	 
@@ -140,11 +140,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEwMT
-A1ODY2LC0xODgyMzE1MTI1LC01NTE5NzI2MjMsLTY2NTMxMzE3
-OCwtMTYxOTMwODYwOCw4NTc3MDQxMDEsMTk1MzM5ODk1NCwxMD
-UzNzkwOTk1LDE5NzU2NzU4NzAsMzQzMTI4MzcsLTEzMzU5NTE2
-OTksODMzNTczODc5LDYzOTY0NTk1OSwyMTgzNjYyOTAsMTQwNz
-I3NDAxNSwtMTk5NjAxMzEzMiwtMTMyNDc5NTQyMCw2MjczMDQw
+eyJoaXN0b3J5IjpbMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMT
+QwMzM2LDcxMDEwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIz
+LC02NjUzMTMxNzgsLTE2MTkzMDg2MDgsODU3NzA0MTAxLDE5NT
+MzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1ODcwLDM0MzEyODM3
+LC0xMzM1OTUxNjk5LDgzMzU3Mzg3OSw2Mzk2NDU5NTksMjE4Mz
+Y2MjkwLDE0MDcyNzQwMTUsLTE5OTYwMTMxMzIsLTEzMjQ3OTU0
 MjBdfQ==
 -->
