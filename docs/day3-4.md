@@ -147,7 +147,6 @@ sequenceDiagram
   
        $ sudo apt install ros-noetic-moveit-servo
       
-
 - 다음 명령어를 workspace 디렉토리에서 실행한다.
 
       $ rosdep install --ignore-src --from-paths src -y
@@ -156,11 +155,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzU0NTI3MywxODAwNDE4ODA4LC0yMT
-Q0NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NTUsLTg1NjQ5OTg0
-OCwtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgyMzk5MTYsLTEwNT
-EzOTI0MCw0NjExNDAzMzYsNzEwMTA1ODY2LC0xODgyMzE1MTI1
-LC01NTE5NzI2MjMsLTY2NTMxMzE3OCwtMTYxOTMwODYwOCw4NT
-c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMj
+E0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEwODU1LC04NTY0OTk4
+NDgsLTkwNDcyODY1NSw3NzMzNDc2NjksMTc4MjM5OTE2LC0xMD
+UxMzkyNDAsNDYxMTQwMzM2LDcxMDEwNTg2NiwtMTg4MjMxNTEy
+NSwtNTUxOTcyNjIzLC02NjUzMTMxNzgsLTE2MTkzMDg2MDgsOD
+U3NzA0MTAxLDE5NTMzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1
+ODcwXX0=
 -->
