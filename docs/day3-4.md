@@ -142,7 +142,8 @@ sequenceDiagram
 - 필요한 패키지들을 아래 주소에서 받아 빌드한다.
  
     https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
-    --추가하기 
+    
+   https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-planning/moveit/tree/master/moveit_ros/moveit_servo
   
        $ sudo apt install ros-noetic-moveit-servo
       
@@ -169,11 +170,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDU5NjQ3MjEsLTE3Njk5NjQ4NjMsLT
-Q1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczODUwNywxODAw
-NDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NT
-UsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgy
-Mzk5MTYsLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEwMTA1ODY2LC
-0xODgyMzE1MTI1LC01NTE5NzI2MjMsLTY2NTMxMzE3OCwtMTYx
-OTMwODYwOF19
+eyJoaXN0b3J5IjpbNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NT
+I4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQx
+ODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEwODU1LC
+04NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMzNDc2NjksMTc4MjM5
+OTE2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LDcxMDEwNTg2NiwtMT
+g4MjMxNTEyNSwtNTUxOTcyNjIzLC02NjUzMTMxNzgsLTE2MTkz
+MDg2MDhdfQ==
 -->
