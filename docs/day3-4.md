@@ -143,9 +143,9 @@ sequenceDiagram
  
     https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
     
- ~~- 아래 명령어를 통해 `movit_servo`를 설치한다.
+ - 아래 명령어를 통해 `movit_servo`를 설치한다.
   
-       $ sudo apt install ros-noetic-moveit-servo~~
+       $ sudo apt install ros-noetic-moveit-servo
       
 - 다음 명령어를 workspace 디렉토리에서 실행한다.
 
@@ -155,7 +155,7 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAzNjkzNTUsLTE0Mzg3Mzg1MDcsMT
+eyJoaXN0b3J5IjpbLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMT
 gwMDQxODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEw
 ODU1LC04NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMzNDc2NjksMT
 c4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LDcxMDEwNTg2
