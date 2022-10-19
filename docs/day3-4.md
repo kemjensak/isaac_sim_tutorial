@@ -151,15 +151,26 @@ sequenceDiagram
 
       $ rosdep install --ignore-src --from-paths src -y
 
-- 
+- 다음 명령어를 실행하여 
+
+	```
+	roslaunch ur_gazebo ur5.launch
+
+	roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
+
+	roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+	```
+
+In RViz, "plan and execute" a motion to a non-singular position (not all zero joint angles) that is not close to a joint limit.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMT
-gwMDQxODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEw
-ODU1LC04NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMzNDc2NjksMT
-c4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LDcxMDEwNTg2
-NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIzLC02NjUzMTMxNzgsLT
-E2MTkzMDg2MDgsODU3NzA0MTAxLDE5NTMzOTg5NTQsMTA1Mzc5
-MDk5NV19
+eyJoaXN0b3J5IjpbMzE1NDI5OTY1LC0xNDM4NzM4NTA3LC0xND
+M4NzM4NTA3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2
+MTI4LDQ5NjIxMDg1NSwtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNz
+czMzQ3NjY5LDE3ODIzOTkxNiwtMTA1MTM5MjQwLDQ2MTE0MDMz
+Niw3MTAxMDU4NjYsLTE4ODIzMTUxMjUsLTU1MTk3MjYyMywtNj
+Y1MzEzMTc4LC0xNjE5MzA4NjA4LDg1NzcwNDEwMSwxOTUzMzk4
+OTU0XX0=
 -->
