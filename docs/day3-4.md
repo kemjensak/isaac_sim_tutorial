@@ -150,14 +150,24 @@ sequenceDiagram
 
       $ rosdep install --ignore-src --from-paths src -y
 
-- 받은 moveit_servo패키지의 `CmakeLists.txt` 파일을 열어 
+- 받은 moveit_servo패키지의 `CmakeLists.txt` 파일을 열어 line 92에 아래의 코드를 추가한다.
+	```
+	add_executable(ur_pose_tracker
+	  src/cpp_interface_example/ur_pose_tracker.cpp
+	)
+	add_dependencies(ur_pose_tracker ${catkin_EXPORTED_TARGETS})
+	target_link_libraries(ur_pose_tracker
+	  ${catkin_LIBRARIES}
+	  ${SERVO_LIB_NAME}
+	  pose_tracking
+	)
+	```
 
 - 받은 moveit_servo패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을 추가한다.
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Mzc1NDM3NSwtMTc2OTk2NDg2MywtND
+eyJoaXN0b3J5IjpbMjAxOTk4NDQ5OCwtMTc2OTk2NDg2MywtND
 UyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NTA3LDE4MDA0
 MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5NjIxMDg1NS
 wtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNzczMzQ3NjY5LDE3ODIz
