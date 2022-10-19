@@ -142,7 +142,7 @@ sequenceDiagram
 - 필요한 패키지들을 아래 주소에서 받아 빌드한다.
  
     https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
-    
+    --추가하기 
   
        $ sudo apt install ros-noetic-moveit-servo
       
@@ -150,22 +150,12 @@ sequenceDiagram
 
       $ rosdep install --ignore-src --from-paths src -y
 
-- 다음 명령어를 workspace 디렉토리에서 실행한다.
+- 받은 moveIT servo에서 
 
-	```
-	roslaunch ur_gazebo ur5.launch
-
-	roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
-
-	roslaunch ur5_moveit_config moveit_rviz.launch config:=true
-
-	```
-
-In RViz, "plan and execute" a motion to a non-singular position (not all zero joint angles) that is not close to a joint limit.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY1MTY5NTQsLTE3Njk5NjQ4NjMsLT
+eyJoaXN0b3J5IjpbLTExMzU4NjM5MTIsLTE3Njk5NjQ4NjMsLT
 Q1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczODUwNywxODAw
 NDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NT
 UsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgy
