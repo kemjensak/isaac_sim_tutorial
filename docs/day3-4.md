@@ -163,16 +163,17 @@ sequenceDiagram
 	```
 - 그리고 line 149의 `spacenav_to_twist` 아래 한 줄을 띄우고 `ur_pose_tracker`를 추가한다.
 
-- `moveit_servo`패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을 추가하고, include 디렉토리에 `ur_pose_tracker.hpp`
+- `moveit_servo`패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을, include 디렉토리에 `ur_pose_tracker.hpp`파일을 추가한다.
+- 
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTIxMDA4NCw1MDkwOTU1NjMsLTE3Nj
-k5NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODcz
-ODUwNywxODAwNDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOC
-w0OTYyMTA4NTUsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0
-NzY2OSwxNzgyMzk5MTYsLTEwNTEzOTI0MCw0NjExNDAzMzYsNz
-EwMTA1ODY2LC0xODgyMzE1MTI1LC01NTE5NzI2MjMsLTY2NTMx
-MzE3OF19
+eyJoaXN0b3J5IjpbLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC0xNz
+Y5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3
+Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMj
+gsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMz
+NDc2NjksMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LD
+cxMDEwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIzLC02NjUz
+MTMxNzhdfQ==
 -->
