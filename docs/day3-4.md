@@ -152,7 +152,7 @@ sequenceDiagram
 - 받은 `moveit_servo` 패키지의 `CmakeLists.txt` 파일을 열어 line 92에 한 줄을 띄우고 아래의 코드를 추가한다.
 	```
 	add_executable(ur_pose_tracker
-	  src/cpp_interface_example/ur_pose_tracker.cpp
+	  src/ur_pose_tracker.cpp
 	)
 	add_dependencies(ur_pose_tracker ${catkin_EXPORTED_TARGETS})
 	target_link_libraries(ur_pose_tracker
@@ -169,11 +169,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC0xNz
-Y5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3
-Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMj
-gsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMz
-NDc2NjksMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LD
-cxMDEwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIzLC02NjUz
-MTMxNzhdfQ==
+eyJoaXN0b3J5IjpbLTIwMDQ1NjUzMTQsLTE1NjAyNDc4ODEsNT
+A5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3
+Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MT
+cyNywxNDA1MjYxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkw
+NDcyODY1NSw3NzMzNDc2NjksMTc4MjM5OTE2LC0xMDUxMzkyND
+AsNDYxMTQwMzM2LDcxMDEwNTg2NiwtMTg4MjMxNTEyNSwtNTUx
+OTcyNjIzXX0=
 -->
