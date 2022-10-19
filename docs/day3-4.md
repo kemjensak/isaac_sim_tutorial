@@ -151,7 +151,7 @@ sequenceDiagram
 
       $ rosdep install --ignore-src --from-paths src -y
 
-- 다음
+- 다음 명령어를 workspace 디렉토리에서 실행한다.
 
 	```
 	roslaunch ur_gazebo ur5.launch
@@ -166,11 +166,11 @@ In RViz, "plan and execute" a motion to a non-singular position (not all zero jo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMT
-QzODczODUwNywxODAwNDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUy
-NjEyOCw0OTYyMTA4NTUsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LD
-c3MzM0NzY2OSwxNzgyMzk5MTYsLTEwNTEzOTI0MCw0NjExNDAz
-MzYsNzEwMTA1ODY2LC0xODgyMzE1MTI1LC01NTE5NzI2MjMsLT
-Y2NTMxMzE3OCwtMTYxOTMwODYwOCw4NTc3MDQxMDEsMTk1MzM5
-ODk1NF19
+eyJoaXN0b3J5IjpbLTE3Njk5NjQ4NjMsLTQ1Mjg3NTk3MCwtMT
+QzODczODUwNywtMTQzODczODUwNywxODAwNDE4ODA4LC0yMTQ0
+NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NTUsLTg1NjQ5OTg0OC
+wtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgyMzk5MTYsLTEwNTEz
+OTI0MCw0NjExNDAzMzYsNzEwMTA1ODY2LC0xODgyMzE1MTI1LC
+01NTE5NzI2MjMsLTY2NTMxMzE3OCwtMTYxOTMwODYwOCw4NTc3
+MDQxMDFdfQ==
 -->
