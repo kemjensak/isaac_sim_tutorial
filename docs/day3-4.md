@@ -139,7 +139,7 @@ sequenceDiagram
 ```
 
 ### 패키지 준비
-- 필요한 패키지들을 아래 명령어를 통해 받는다.
+- 필요한 패키지를 아래 명령어를 통해 받는다.
  
       https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
       
@@ -152,11 +152,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywxND
-A1MjYxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyODY1
-NSw3NzMzNDc2NjksMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMT
-QwMzM2LDcxMDEwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIz
-LC02NjUzMTMxNzgsLTE2MTkzMDg2MDgsODU3NzA0MTAxLDE5NT
-MzOTg5NTQsMTA1Mzc5MDk5NSwxOTc1Njc1ODcwLDM0MzEyODM3
-XX0=
+eyJoaXN0b3J5IjpbLTE3ODExOTkzNCwxODAwNDE4ODA4LC0yMT
+Q0NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NTUsLTg1NjQ5OTg0
+OCwtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgyMzk5MTYsLTEwNT
+EzOTI0MCw0NjExNDAzMzYsNzEwMTA1ODY2LC0xODgyMzE1MTI1
+LC01NTE5NzI2MjMsLTY2NTMxMzE3OCwtMTYxOTMwODYwOCw4NT
+c3MDQxMDEsMTk1MzM5ODk1NCwxMDUzNzkwOTk1LDE5NzU2NzU4
+NzBdfQ==
 -->
