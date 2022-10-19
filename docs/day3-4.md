@@ -139,11 +139,10 @@ sequenceDiagram
 ```
 
 ### 패키지 준비
-- 필요한 패키지를 아래 주소에서 받아 빌드한다.
+- 필요한 패키지들을 아래 주소에서 받아 빌드한다.
  
     https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
     
- - 아래 명령어를 통해 `movit_servo`를 설치한다.
   
        $ sudo apt install ros-noetic-moveit-servo
       
@@ -166,11 +165,11 @@ In RViz, "plan and execute" a motion to a non-singular position (not all zero jo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk5NjQ4NjMsLTQ1Mjg3NTk3MCwtMT
-QzODczODUwNywtMTQzODczODUwNywxODAwNDE4ODA4LC0yMTQ0
-NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NTUsLTg1NjQ5OTg0OC
-wtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgyMzk5MTYsLTEwNTEz
-OTI0MCw0NjExNDAzMzYsNzEwMTA1ODY2LC0xODgyMzE1MTI1LC
-01NTE5NzI2MjMsLTY2NTMxMzE3OCwtMTYxOTMwODYwOCw4NTc3
-MDQxMDFdfQ==
+eyJoaXN0b3J5IjpbLTE4MzY1MTY5NTQsLTE3Njk5NjQ4NjMsLT
+Q1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczODUwNywxODAw
+NDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NT
+UsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgy
+Mzk5MTYsLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEwMTA1ODY2LC
+0xODgyMzE1MTI1LC01NTE5NzI2MjMsLTY2NTMxMzE3OCwtMTYx
+OTMwODYwOF19
 -->
