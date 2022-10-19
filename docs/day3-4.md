@@ -142,6 +142,7 @@ sequenceDiagram
 - 필요한 패키지들을 아래 명령어를 통해 받는다.
  
       https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
+      
 
 - 다음 명령어를 workspace 디렉토리에서 실행한다.
 
@@ -151,7 +152,7 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTgzNTExMCwtMjE0NDQ5MTcyNywxND
+eyJoaXN0b3J5IjpbMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywxND
 A1MjYxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyODY1
 NSw3NzMzNDc2NjksMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMT
 QwMzM2LDcxMDEwNTg2NiwtMTg4MjMxNTEyNSwtNTUxOTcyNjIz
