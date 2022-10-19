@@ -150,7 +150,7 @@ sequenceDiagram
 
       $ rosdep install --ignore-src --from-paths src -y
 
-- 받은 moveit_servo패키지의 `CmakeLists.txt` 파일을 열어 line 92에 아래의 코드를 추가한다.
+- 받은 moveit_servo패키지의 `CmakeLists.txt` 파일을 열어 line 92에 한 줄을 띄우고 아래의 코드를 추가한다.
 	```
 	add_executable(ur_pose_tracker
 	  src/cpp_interface_example/ur_pose_tracker.cpp
@@ -162,16 +162,16 @@ sequenceDiagram
 	  pose_tracking
 	)
 	```
-
+- 그리고 line 149의 `spacenav_to_twist`
 - 받은 moveit_servo패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을 추가한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTk4NDQ5OCwtMTc2OTk2NDg2MywtND
-UyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NTA3LDE4MDA0
-MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5NjIxMDg1NS
-wtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNzczMzQ3NjY5LDE3ODIz
-OTkxNiwtMTA1MTM5MjQwLDQ2MTE0MDMzNiw3MTAxMDU4NjYsLT
-E4ODIzMTUxMjUsLTU1MTk3MjYyMywtNjY1MzEzMTc4LC0xNjE5
-MzA4NjA4XX0=
+eyJoaXN0b3J5IjpbLTQ3NTY3MDc2LC0xNzY5OTY0ODYzLC00NT
+I4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQx
+ODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEwODU1LC
+04NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMzNDc2NjksMTc4MjM5
+OTE2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LDcxMDEwNTg2NiwtMT
+g4MjMxNTEyNSwtNTUxOTcyNjIzLC02NjUzMTMxNzgsLTE2MTkz
+MDg2MDhdfQ==
 -->
