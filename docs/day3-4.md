@@ -25,35 +25,35 @@
 
 	   $ code ur5e_with_2f85.xacro
  - 열린 VScode에 아래의 코드를 붙여넣는다.
+```html
+<?xml version="1.0"?>
+<robot name="ur5e_with_2f85" 
+  xmlns:xacro="http://wiki.ros.org/xacro">
 
-	   <?xml version="1.0"?>
-		<robot name="ur5e_with_2f85" 
-		  xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 2f-85 -->
+    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
+    <xacro:robotiq_arg2f_85 prefix=""/>
+        
+    <!-- ur5e -->
+    <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
+    <xacro:ur5e_robot prefix="" />
+    
+    <link name="world"/>
+    
+    <joint name="world2base" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 1.57" />
+    </joint>
 
-		    <!-- 2f-85 -->
-		    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
-		    <xacro:robotiq_arg2f_85 prefix=""/>
-		        
-		    <!-- ur5e -->
-		    <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
-		    <xacro:ur5e_robot prefix="" />
-		    
-		    <link name="world"/>
-		    
-		    <joint name="world2base" type="fixed">
-		        <parent link="world"/>
-		        <child link="base_link"/>
-		        <origin xyz="0 0 0" rpy="0 0 1.57" />
-		    </joint>
+    <joint name="tool0To2f85" type="fixed">
+        <parent link="tool0"/>
+        <child link="robotiq_arg2f_base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 1.57" />
+    </joint>
 
-		    <joint name="tool0To2f85" type="fixed">
-		        <parent link="tool0"/>
-		        <child link="robotiq_arg2f_base_link"/>
-		        <origin xyz="0 0 0" rpy="0 0 1.57" />
-		    </joint>
-
-		</robot>
-
+</robot>
+```
  - `Ctrl-S`로 저장 후 닫는다.
  - 위에서 만든 `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
 
@@ -197,11 +197,11 @@ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3NjI3MTYzLDIwNzg3MzE3MDgsLTIwMD
-Q1NjUzMTQsLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0
-ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MD
-csMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2
-MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMzNDc2Nj
-ksMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LDcxMDEw
-NTg2Nl19
+eyJoaXN0b3J5IjpbLTE1ODI0ODU4NjQsMjA3ODczMTcwOCwtMj
+AwNDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5
+NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczOD
+UwNywxODAwNDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0
+OTYyMTA4NTUsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0Nz
+Y2OSwxNzgyMzk5MTYsLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEw
+MTA1ODY2XX0=
 -->
