@@ -182,8 +182,8 @@ target_link_libraries(ur_pose_tracker
 ## ToDo list
 
 - [ ] isaac sim의 ros extension중 joint state publisher를 통한 ur의 joint group pos(vel) controller 구동기능 구현
-	- [ ] joint state를 controller로
-	- [ ] command를 joint state msg를 변경하여 isaac sim으로
+	- [ ] joint state를 controller로 전송
+	- [ ] command의 joint state msg를 변경하여 isaac sim으로
 - [ ] `ur_pose_tracker` 코드 완성
 
 ### 시뮬레이션 실행
