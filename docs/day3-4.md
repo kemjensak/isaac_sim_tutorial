@@ -169,7 +169,7 @@ sequenceDiagram
     
 - `config` 디렉토리 내의 `ur_simulated_config.yaml`을 복사하고 이름을 `ur_isaac_config.yaml`로 변경한다.
 
-   	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/src/ur_pose_tracker.cpp)*
+   	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/config/ur_isaac_config.yaml)*
 
 
 - 
@@ -177,11 +177,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTM3OTM5MywyMDc4NzMxNzA4LC0yMD
-A0NTY1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2
-NDg2MywtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NT
-A3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5
-NjIxMDg1NSwtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNzczMzQ3Nj
-Y5LDE3ODIzOTkxNiwtMTA1MTM5MjQwLDQ2MTE0MDMzNiw3MTAx
-MDU4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0OTI5NTU5MDUsMjA3ODczMTcwOCwtMj
+AwNDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5
+NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczOD
+UwNywxODAwNDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0
+OTYyMTA4NTUsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0Nz
+Y2OSwxNzgyMzk5MTYsLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEw
+MTA1ODY2XX0=
 -->
