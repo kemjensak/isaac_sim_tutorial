@@ -192,7 +192,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 ## ToDo list
 
-- [ ] isaac sim의 ros extension의 joint state publisher를 통한 ur의 joint group vel/pos controller 구동기능 구현
+- [ ] isaac sim의 ros extension의 joint state publisher를 통한 ur의 joint group pos(vel) controller 구동기능 구현
 - [ ] `ur_pose_tracker` 코드 완성
 
 
@@ -201,11 +201,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTA1MjEzMSwxNTI4NjI2MjY1LDIwNz
-g3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4ODEsNTA5MDk1
-NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mzg1MD
-csLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywx
-NDA1MjYxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyOD
-Y1NSw3NzMzNDc2NjksMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYx
-MTQwMzM2XX0=
+eyJoaXN0b3J5IjpbLTE3MDQ5OTQyMTcsMTAzOTA1MjEzMSwxNT
+I4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAy
+NDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5Nz
+AsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwt
+MjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEwODU1LC04NTY0OT
+k4NDgsLTkwNDcyODY1NSw3NzMzNDc2NjksMTc4MjM5OTE2LC0x
+MDUxMzkyNDBdfQ==
 -->
