@@ -179,9 +179,10 @@ target_link_libraries(ur_pose_tracker
 ### 시뮬레이션 실행
 ```bash
 
-$ roslaunch ur_gazebo ur5.launch
-
+$ roslaunch ur_gazebo ur5.launch 
+-> isaac sim으로
 $ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
+-> ut
 
 $ roslaunch ur5_moveit_config moveit_rviz.launch config:=true
 
@@ -193,6 +194,8 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 ## ToDo list
 
 - [ ] isaac sim의 ros extension의 joint state publisher를 통한 ur의 joint group pos(vel) controller 구동기능 구현
+	- [ ] joint state를 controller로
+	- [ ] command를 joint state msg를 변경하여 isaac sim으로
 - [ ] `ur_pose_tracker` 코드 완성
 
 
@@ -201,7 +204,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ5OTQyMTcsMTAzOTA1MjEzMSwxNT
+eyJoaXN0b3J5IjpbLTE4NTUxNTgyNDcsMTAzOTA1MjEzMSwxNT
 I4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAy
 NDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5Nz
 AsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwt
