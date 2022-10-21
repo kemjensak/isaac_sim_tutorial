@@ -59,18 +59,19 @@
 
       $ code load_ur5e_with_2f85.launch
  - 열린 VScode에 아래의 코드를 붙여넣는다.
+```html
+<?xml version="1.0"?>
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
+  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
+</launch>
+```
+- `Ctrl-S`로 저장 후 닫는다.
+- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
 
-      <?xml version="1.0"?>
-		<launch>
-		  <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
-		  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
-		  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
-		  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
-		</launch>
- - `Ctrl-S`로 저장 후 닫는다.
- - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
-
-	   $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
+  $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
 
  - 실행된 `Rviz`의 *Global Options*의 *Fixed Frame*을 `world`로 변경하고, *Add* 버튼을 눌러 *RobotModel*을 추가한다.
  - UR5e manipulator와 말단부에 장착된 2f-85 gripper를 확인할 수 있으며, 함께 실행된 `joint_state_publisher_gui`의 슬라이더를 움직여 각 joint의 값을 변경해 볼 수 있다.
@@ -199,7 +200,7 @@ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU2MzE2MTYsMjA3ODczMTcwOCwtMj
+eyJoaXN0b3J5IjpbLTEzOTg0MzUxNDksMjA3ODczMTcwOCwtMj
 AwNDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5
 NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczOD
 UwNywxODAwNDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0
