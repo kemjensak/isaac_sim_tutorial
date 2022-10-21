@@ -178,13 +178,14 @@ target_link_libraries(ur_pose_tracker
 
 ### 시뮬레이션 실행
 ```bash
-roslaunch ur_gazebo ur5.launch
 
-roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
+$ roslaunch ur_gazebo ur5.launch
 
-roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+$ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
 
-roslaunch moveit_servo spacenav_cpp.launch
+$ roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+$ roslaunch moveit_servo spacenav_cpp.launch
 
 ```
 
@@ -200,11 +201,11 @@ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMD
-A0NTY1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2
-NDg2MywtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NT
-A3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5
-NjIxMDg1NSwtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNzczMzQ3Nj
-Y5LDE3ODIzOTkxNiwtMTA1MTM5MjQwLDQ2MTE0MDMzNiw3MTAx
-MDU4NjZdfQ==
+eyJoaXN0b3J5IjpbMTAzOTA1MjEzMSwxNTI4NjI2MjY1LDIwNz
+g3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4ODEsNTA5MDk1
+NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mzg1MD
+csLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywx
+NDA1MjYxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyOD
+Y1NSw3NzMzNDc2NjksMTc4MjM5OTE2LC0xMDUxMzkyNDAsNDYx
+MTQwMzM2XX0=
 -->
