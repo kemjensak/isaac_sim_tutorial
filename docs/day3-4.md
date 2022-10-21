@@ -177,7 +177,7 @@ sequenceDiagram
 ## ToDo list
 
 - [ ] isaac sim의 ros extension의 joint state publisher를 통한 ur의 joint group vel/pos controller 구동기능 구현
-- 
+- [ ] `ur_pose_tracker` 코드 완성
 
 
 - 
@@ -185,7 +185,7 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjcyOTEzOSwyMDc4NzMxNzA4LC0yMD
+eyJoaXN0b3J5IjpbMTQyMjc4NTMzMCwyMDc4NzMxNzA4LC0yMD
 A0NTY1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2
 NDg2MywtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NT
 A3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5
