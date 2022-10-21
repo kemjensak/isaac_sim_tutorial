@@ -180,13 +180,16 @@ target_link_libraries(ur_pose_tracker
 ```bash
 
 $ roslaunch ur_gazebo ur5.launch 
--> isaac sim으로
+-> isaac sim으로 변경
+
 $ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
--> ut
+-> ur5e_with_2f85 로 변경
 
 $ roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+-> ur5e_with_2f85 로 변경
 
 $ roslaunch moveit_servo spacenav_cpp.launch
+-> isaac sim의 sensor data를 받아 계산한 target pose의 
 
 ```
 
@@ -204,7 +207,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTUxNTgyNDcsMTAzOTA1MjEzMSwxNT
+eyJoaXN0b3J5IjpbLTE4OTg5MDk3NzAsMTAzOTA1MjEzMSwxNT
 I4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAy
 NDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5Nz
 AsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwt
