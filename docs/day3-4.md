@@ -173,7 +173,10 @@ sequenceDiagram
 
    	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/config/ur_isaac_config.yaml)*
 
-[]isaac sim의 ros extension의 joint state publisher를 통한 ur의 joint group vel/pos controller 구동기능 구현
+
+## ToDo list
+
+- [ ] isaac sim의 ros extension의 joint state publisher를 통한 ur의 joint group vel/pos controller 구동기능 구현
 - 
 
 
@@ -182,7 +185,7 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk0OTEwMCwyMDc4NzMxNzA4LC0yMD
+eyJoaXN0b3J5IjpbLTI5MjcyOTEzOSwyMDc4NzMxNzA4LC0yMD
 A0NTY1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2
 NDg2MywtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NT
 A3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5
