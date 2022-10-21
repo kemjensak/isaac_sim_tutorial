@@ -164,17 +164,19 @@ sequenceDiagram
 - 그리고 line 149의 `spacenav_to_twist` 아래 한 줄을 띄우고 `ur_pose_tracker`를 추가한다.
 
 - `moveit_servo`패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을, include 디렉토리에 `ur_pose_tracker.hpp`파일을 추가한다.
-- 코드내용 추가예정
+
+    - 코드내용 추가예정
+- config 디렉토리 내의 ur_simulated_config.yaml을 복사하고 이름을 ur_isaac_config.yaml로 변경한다.
 - 
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzMzMzUzMywtMjAwNDU2NTMxNCwtMT
-U2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5NjQ4NjMsLTQ1Mjg3
-NTk3MCwtMTQzODczODUwNywtMTQzODczODUwNywxODAwNDE4OD
-A4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0OTYyMTA4NTUsLTg1
-NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0NzY2OSwxNzgyMzk5MT
-YsLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEwMTA1ODY2LC0xODgy
-MzE1MTI1XX0=
+eyJoaXN0b3J5IjpbLTE5MDQwMDYxOTAsLTIwMDQ1NjUzMTQsLT
+E1NjAyNDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4
+NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxOD
+gwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEwODU1LC04
+NTY0OTk4NDgsLTkwNDcyODY1NSw3NzMzNDc2NjksMTc4MjM5OT
+E2LC0xMDUxMzkyNDAsNDYxMTQwMzM2LDcxMDEwNTg2NiwtMTg4
+MjMxNTEyNV19
 -->
