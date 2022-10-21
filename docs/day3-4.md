@@ -174,11 +174,16 @@ sequenceDiagram
    	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/config/ur_isaac_config.yaml)*
 
 ### 시뮬레이션 실행
-- roslaunch ur_gazebo ur5.launch
+```bash
+roslaunch ur_gazebo ur5.launch
 
-- roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
 
-- roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+roslaunch moveit_servo spacenav_cpp.launch
+
+```
 
 
 ## ToDo list
@@ -192,11 +197,11 @@ sequenceDiagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTkwMDQ5MCwyMDc4NzMxNzA4LC0yMD
-A0NTY1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2
-NDg2MywtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NT
-A3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5
-NjIxMDg1NSwtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNzczMzQ3Nj
-Y5LDE3ODIzOTkxNiwtMTA1MTM5MjQwLDQ2MTE0MDMzNiw3MTAx
-MDU4NjZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTY3ODE3MjIsMjA3ODczMTcwOCwtMj
+AwNDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5
+NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczOD
+UwNywxODAwNDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0
+OTYyMTA4NTUsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0Nz
+Y2OSwxNzgyMzk5MTYsLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEw
+MTA1ODY2XX0=
 -->
