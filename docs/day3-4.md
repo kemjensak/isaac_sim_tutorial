@@ -150,17 +150,18 @@ sequenceDiagram
       $ rosdep install --ignore-src --from-paths src -y
 
 - 받은 `moveit_servo` 패키지의 `CmakeLists.txt` 파일을 열어 line 92에 한 줄을 띄우고 아래의 코드를 추가한다.
-	```html
-	add_executable(ur_pose_tracker
-	  src/ur_pose_tracker.cpp
-	)
-	add_dependencies(ur_pose_tracker ${catkin_EXPORTED_TARGETS})
-	target_link_libraries(ur_pose_tracker
-	  ${catkin_LIBRARIES}
-	  ${SERVO_LIB_NAME}
-	  pose_tracking
-	)
-	```
+
+```html
+add_executable(ur_pose_tracker
+  src/ur_pose_tracker.cpp
+)
+add_dependencies(ur_pose_tracker ${catkin_EXPORTED_TARGETS})
+target_link_libraries(ur_pose_tracker
+  ${catkin_LIBRARIES}
+  ${SERVO_LIB_NAME}
+  pose_tracking
+)
+```		
 - 그리고 line 149의 `spacenav_to_twist` 아래 한 줄을 띄우고 `ur_pose_tracker`를 추가한다.
 
 - `moveit_servo`패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을, include 디렉토리에 `ur_pose_tracker.hpp`파일을 추가한다.
@@ -197,11 +198,11 @@ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI0ODU4NjQsMjA3ODczMTcwOCwtMj
-AwNDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5
-NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczOD
-UwNywxODAwNDE4ODA4LC0yMTQ0NDkxNzI3LDE0MDUyNjEyOCw0
-OTYyMTA4NTUsLTg1NjQ5OTg0OCwtOTA0NzI4NjU1LDc3MzM0Nz
-Y2OSwxNzgyMzk5MTYsLTEwNTEzOTI0MCw0NjExNDAzMzYsNzEw
-MTA1ODY2XX0=
+eyJoaXN0b3J5IjpbLTc4NTAxOTY5NCwyMDc4NzMxNzA4LC0yMD
+A0NTY1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2
+NDg2MywtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NT
+A3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5
+NjIxMDg1NSwtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNzczMzQ3Nj
+Y5LDE3ODIzOTkxNiwtMTA1MTM5MjQwLDQ2MTE0MDMzNiw3MTAx
+MDU4NjZdfQ==
 -->
