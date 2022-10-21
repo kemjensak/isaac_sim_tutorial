@@ -176,6 +176,16 @@ target_link_libraries(ur_pose_tracker
 
    	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/config/ur_isaac_config.yaml)*
 
+
+
+
+## ToDo list
+
+- [ ] isaac sim의 ros extension중 joint state publisher를 통한 ur의 joint group pos(vel) controller 구동기능 구현
+	- [ ] joint state를 controller로
+	- [ ] command를 joint state msg를 변경하여 isaac sim으로
+- [ ] `ur_pose_tracker` 코드 완성
+
 ### 시뮬레이션 실행
 ```bash
 
@@ -194,24 +204,17 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 ```
 
 
-## ToDo list
-
-- [ ] isaac sim의 ros extension중 joint state publisher를 통한 ur의 joint group pos(vel) controller 구동기능 구현
-	- [ ] joint state를 controller로
-	- [ ] command를 joint state msg를 변경하여 isaac sim으로
-- [ ] `ur_pose_tracker` 코드 완성
-
 
 - 
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEwMz
-kwNTIxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NTY1
-MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2My
-wtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NTA3LDE4
-MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4LDQ5NjIxMD
-g1NSwtODU2NDk5ODQ4LC05MDQ3Mjg2NTUsNzczMzQ3NjY5LDE3
-ODIzOTkxNl19
+eyJoaXN0b3J5IjpbLTI3NTMwODI5NiwtODU1ODMwOTgsLTE4NT
+E2NDg2OTEsMTAzOTA1MjEzMSwxNTI4NjI2MjY1LDIwNzg3MzE3
+MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC
+0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0
+Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywxNDA1Mj
+YxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyODY1NSw3
+NzMzNDc2NjldfQ==
 -->
