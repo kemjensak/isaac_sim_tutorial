@@ -220,13 +220,14 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://classic.gazebosim.org/tutorials?tut=ros_control&cat=connect_ros
 - http://wiki.ros.org/ros_control/Tutorials/Create%20your%20own%20hardware%20interface
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
+- https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3MjgxMDksLTU1MTcwNzg3Niw3Nz
-Y4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMw
-ODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1MjEzMS
-wxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1
-NjAyNDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4Nz
-U5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgw
-OCwtMjE0NDQ5MTcyN119
+eyJoaXN0b3J5IjpbLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3Nj
+gwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4
+Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5MDUyMTMxLD
+E1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAwNDU2NTMxNCwtMTU2
+MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5NjQ4NjMsLTQ1Mjg3NT
+k3MCwtMTQzODczODUwNywtMTQzODczODUwNywxODAwNDE4ODA4
+LC0yMTQ0NDkxNzI3XX0=
 -->
