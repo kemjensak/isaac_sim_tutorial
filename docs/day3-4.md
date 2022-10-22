@@ -219,10 +219,10 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://roscon.ros.org/2014/wp-content/uploads/2014/07/ros_control_an_overview.pdf
 - https://classic.gazebosim.org/tutorials?tut=ros_control&cat=connect_ros
 - http://wiki.ros.org/ros_control/Tutorials/Create%20your%20own%20hardware%20interface
-- https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/9bd11c497cc32a65e922c6dca3eb52dfa3ae6e4e/ur_robot_driver/src/hardware_interface_node.cpp
+- https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQzOTE4NTMsLTU1MTcwNzg3Niw3Nz
+eyJoaXN0b3J5IjpbLTE4MTM3MjgxMDksLTU1MTcwNzg3Niw3Nz
 Y4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMw
 ODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1MjEzMS
 wxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1
