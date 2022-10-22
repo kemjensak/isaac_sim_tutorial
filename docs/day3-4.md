@@ -192,7 +192,7 @@ target_link_libraries(ur_pose_tracker
 - Gazebo와 Real robot(ur_robot_driver)에는 `hardware_interface`가 작성되어 있으나, isaac sim에는 없음.
  ### 해결책
 1. isaac_sim에 대응하는 `hardware_interface` 작성(제어기능x, 단순 command, feedback(state) forward만)
-2. hardware_interface가 이미 작성된 gazebo/Real robot과 함께 사용하여 isaac sim은 해당 로봇의 state로만 움직이게 구현
+2. `hardware_interface`가 이미 작성된 gazebo/Real robot과 함께 사용하여 isaac sim은 해당 로봇의 state로만 움직이게 구현
 ### 시뮬레이션 실행
 ```bash
 
@@ -217,11 +217,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLT
-I3NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1
-MjEzMSwxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMT
-QsLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00
-NTI4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMD
-QxODgwOCwtMjE0NDQ5MTcyNywxNDA1MjYxMjgsNDk2MjEwODU1
-LC04NTY0OTk4NDhdfQ==
+eyJoaXN0b3J5IjpbNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMj
+Q0MjMwODU5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4
+NjkxLDEwMzkwNTIxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC
+0yMDA0NTY1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2
+OTk2NDg2MywtNDUyODc1OTcwLC0xNDM4NzM4NTA3LC0xNDM4Nz
+M4NTA3LDE4MDA0MTg4MDgsLTIxNDQ0OTE3MjcsMTQwNTI2MTI4
+LDQ5NjIxMDg1NV19
 -->
