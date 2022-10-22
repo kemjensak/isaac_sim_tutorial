@@ -219,13 +219,14 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://roscon.ros.org/2014/wp-content/uploads/2014/07/ros_control_an_overview.pdf
 - https://classic.gazebosim.org/tutorials?tut=ros_control&cat=connect_ros
 - http://wiki.ros.org/ros_control/Tutorials/Create%20your%20own%20hardware%20interface
+- https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/9bd11c497cc32a65e922c6dca3eb52dfa3ae6e4e/ur_robot_driver/src/hardware_interface_node.cpp
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4NDcwNTE2LC01NTE3MDc4NzYsNzc2OD
-A1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0yNzUzMDgy
-OTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEwMzkwNTIxMzEsMT
-UyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NTY1MzE0LC0xNTYw
-MjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2MywtNDUyODc1OT
-cwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NTA3LDE4MDA0MTg4MDgs
-LTIxNDQ0OTE3MjddfQ==
+eyJoaXN0b3J5IjpbLTE3ODQzOTE4NTMsLTU1MTcwNzg3Niw3Nz
+Y4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMw
+ODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1MjEzMS
+wxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1
+NjAyNDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4Nz
+U5NzAsLTE0Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgw
+OCwtMjE0NDQ5MTcyN119
 -->
