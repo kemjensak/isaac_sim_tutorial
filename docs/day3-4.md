@@ -186,6 +186,10 @@ target_link_libraries(ur_pose_tracker
 	- [ ] command의 joint state msg를 변경하여 isaac sim으로
 - [ ] `ur_pose_tracker` 코드 완성
 
+## 문제점
+![enter image description here](https://github.com/osrf/gazebo_tutorials/raw/master/ros_control/Gazebo_ros_transmission.png)
+
+- Gazebo에는 hardware_interface::
 ### 시뮬레이션 실행
 ```bash
 
@@ -210,11 +214,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTMwODI5NiwtODU1ODMwOTgsLTE4NT
-E2NDg2OTEsMTAzOTA1MjEzMSwxNTI4NjI2MjY1LDIwNzg3MzE3
-MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC
-0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mzg1MDcsLTE0
-Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MTcyNywxNDA1Mj
-YxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgsLTkwNDcyODY1NSw3
-NzMzNDc2NjldfQ==
+eyJoaXN0b3J5IjpbLTEwMzQyODgyMTcsLTI3NTMwODI5NiwtOD
+U1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1MjEzMSwxNTI4NjI2
+MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4OD
+EsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0
+Mzg3Mzg1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMjE0ND
+Q5MTcyNywxNDA1MjYxMjgsNDk2MjEwODU1LC04NTY0OTk4NDgs
+LTkwNDcyODY1NV19
 -->
