@@ -215,18 +215,17 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 ```
 
-
-
-- 
-- 
-
+## Reference
+- https://roscon.ros.org/2014/wp-content/uploads/2014/07/ros_control_an_overview.pdf
+- https://classic.gazebosim.org/tutorials?tut=ros_control&cat=connect_ros
+- http://wiki.ros.org/ros_control/Tutorials/Create%20your%20own%20hardware%20interface
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTcwNzg3Niw3NzY4MDU1ODksLTIwNj
-Q2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5NiwtODU1ODMw
-OTgsLTE4NTE2NDg2OTEsMTAzOTA1MjEzMSwxNTI4NjI2MjY1LD
-IwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4ODEsNTA5
-MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0Mzg3Mz
-g1MDcsLTE0Mzg3Mzg1MDcsMTgwMDQxODgwOCwtMjE0NDQ5MTcy
-NywxNDA1MjYxMjhdfQ==
+eyJoaXN0b3J5IjpbNTM4NDcwNTE2LC01NTE3MDc4NzYsNzc2OD
+A1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0yNzUzMDgy
+OTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEwMzkwNTIxMzEsMT
+UyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NTY1MzE0LC0xNTYw
+MjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2MywtNDUyODc1OT
+cwLC0xNDM4NzM4NTA3LC0xNDM4NzM4NTA3LDE4MDA0MTg4MDgs
+LTIxNDQ0OTE3MjddfQ==
 -->
