@@ -190,6 +190,7 @@ target_link_libraries(ur_pose_tracker
 ![enter image description here](https://github.com/osrf/gazebo_tutorials/raw/master/ros_control/Gazebo_ros_transmission.png)
 
 - Gazebo와 Real robot(ur_robot_driver)에는 `hardware_interface`가 작성되어 있으나, isaac sim에는 없음.
+
  ### 해결책
 1. isaac_sim에 대응하는 `hardware_interface` 작성(제어기능x, 단순 command, feedback(state) forward만)
 
@@ -223,11 +224,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3Nj
-gwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4
-Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5MDUyMTMxLD
-E1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAwNDU2NTMxNCwtMTU2
-MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5NjQ4NjMsLTQ1Mjg3NT
-k3MCwtMTQzODczODUwNywtMTQzODczODUwNywxODAwNDE4ODA4
-LC0yMTQ0NDkxNzI3XX0=
+eyJoaXN0b3J5IjpbLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNT
+UxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIz
+MDg1OSwtMjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MS
+wxMDM5MDUyMTMxLDE1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAw
+NDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5Nj
+Q4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczODUw
+NywxODAwNDE4ODA4XX0=
 -->
