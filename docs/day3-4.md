@@ -189,7 +189,7 @@ target_link_libraries(ur_pose_tracker
 ## 문제점
 ![enter image description here](https://github.com/osrf/gazebo_tutorials/raw/master/ros_control/Gazebo_ros_transmission.png)
 
-- Gazebo에는 hardware_interface::
+- Gazebo와 Real robot에는 hardware_interface가 작성되어 있으나, 
 ### 시뮬레이션 실행
 ```bash
 
@@ -214,7 +214,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQyODgyMTcsLTI3NTMwODI5NiwtOD
+eyJoaXN0b3J5IjpbLTEzNzMwOTc0MjEsLTI3NTMwODI5NiwtOD
 U1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1MjEzMSwxNTI4NjI2
 MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4OD
 EsNTA5MDk1NTYzLC0xNzY5OTY0ODYzLC00NTI4NzU5NzAsLTE0
