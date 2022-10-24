@@ -70,6 +70,22 @@
 </launch>
 ```
 - `Ctrl-S`로 저장 후 닫는다.
+
+- `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
+
+       $ code load_ur5e_with_2f85_demo.launch
+      
+ - 열린 VScode에 아래의 코드를 붙여넣는다.
+```html
+<?xml version="1.0"?>
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
+  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
+</launch>
+```
+- `Ctrl-S`로 저장 후 닫는다.
 - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
 
   $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
@@ -226,11 +242,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyNTA5MjUzLC0yMDQ0NTg3ODMsLTEyOT
-kzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3
-ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OS
-wtMjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5
-MDUyMTMxLDE1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAwNDU2NT
-MxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5NjQ4NjMs
-LTQ1Mjg3NTk3MF19
+eyJoaXN0b3J5IjpbLTIwNDQxNzYzOTAsLTIwNDQ1ODc4MywtMT
+I5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3
+MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwOD
+U5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEw
+MzkwNTIxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NT
+Y1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2
+MywtNDUyODc1OTcwXX0=
 -->
