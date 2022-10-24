@@ -31,6 +31,7 @@
 
 	   $ code ur5e_with_2f85.xacro
  - 열린 VScode에 아래의 코드를 붙여넣는다.
+ - **->gazebo plugin 및 self collision 추가 부분 작성 필요**
 ```html
 <?xml version="1.0"?>
 <robot name="ur5e_with_2f85" 
@@ -248,11 +249,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM5MDU3NzYsMjExNzY1MTk5NSwtNz
-c4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkz
-MTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3OD
-c2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwt
-Mjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5MD
-UyMTMxLDE1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAwNDU2NTMx
-NCwtMTU2MDI0Nzg4MV19
+eyJoaXN0b3J5IjpbLTYzMDIzNzA4LDIxMTc2NTE5OTUsLTc3OD
+M2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzEx
+NDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Ni
+w3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3
+NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1Mj
+EzMSwxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQs
+LTE1NjAyNDc4ODFdfQ==
 -->
