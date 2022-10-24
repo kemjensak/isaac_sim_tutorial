@@ -83,7 +83,7 @@
 </launch>
 ```
 - `Ctrl-S`로 저장 후 닫는다.
-- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85.launch` 파일을 실행한다.
+- `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85_demo.launch` 파일을 실행한다.
 
   $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
 
@@ -239,11 +239,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTk1NDU4MywtMjA0NDU4NzgzLC0xMj
-k5MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcw
-Nzg3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NT
-ksLTI3NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAz
-OTA1MjEzMSwxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1Nj
-UzMTQsLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYz
-LC00NTI4NzU5NzBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTY1NzAwOTksLTIwNDQ1ODc4MywtMT
+I5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3
+MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwOD
+U5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEw
+MzkwNTIxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NT
+Y1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2
+MywtNDUyODc1OTcwXX0=
 -->
