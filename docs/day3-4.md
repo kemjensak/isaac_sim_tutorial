@@ -203,7 +203,7 @@ target_link_libraries(ur_pose_tracker
 ```bash
 
 $ roslaunch ur_gazebo ur5.launch 
--> isaac sim으로 변경
+-> Real Robot의 역할로써 동작, 
 
 $ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
 -> ur5e_with_2f85 로 변경
@@ -224,11 +224,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNT
-UxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIz
-MDg1OSwtMjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MS
-wxMDM5MDUyMTMxLDE1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAw
-NDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5Nj
-Q4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUwNywtMTQzODczODUw
-NywxODAwNDE4ODA4XX0=
+eyJoaXN0b3J5IjpbLTEyNjg5ODg0ODksLTE5NzkwNzM2MTcsLT
+Y3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3
+MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2LC04NTU4MzA5OC
+wtMTg1MTY0ODY5MSwxMDM5MDUyMTMxLDE1Mjg2MjYyNjUsMjA3
+ODczMTcwOCwtMjAwNDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOT
+U1NjMsLTE3Njk5NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUw
+NywtMTQzODczODUwN119
 -->
