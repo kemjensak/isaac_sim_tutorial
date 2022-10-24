@@ -177,6 +177,7 @@ target_link_libraries(ur_pose_tracker
    	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/config/ur_isaac_config.yaml)*
 
 
+## Gazebo 환경 구축
 
 
 ## ToDo list
@@ -224,7 +225,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg5ODg0ODksLTE5NzkwNzM2MTcsLT
+eyJoaXN0b3J5IjpbLTEyOTkzMTE0MTUsLTE5NzkwNzM2MTcsLT
 Y3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3
 MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2LC04NTU4MzA5OC
 wtMTg1MTY0ODY5MSwxMDM5MDUyMTMxLDE1Mjg2MjYyNjUsMjA3
