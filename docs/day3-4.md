@@ -222,7 +222,7 @@ target_link_libraries(ur_pose_tracker
 2. `hardware_interface`가 이미 작성된 gazebo/Real robot과 함께 사용하여 isaac sim은 해당 로봇의 state로만 움직이게 구현
 
 3. isaac_sim 내 extension으로 해당 기능 구현하는 package 구현
-
+->gazebo plugin 및 self collision 추가 필요
 
 ### 시뮬레이션 실행
 ```bash
@@ -249,11 +249,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDIzNzA4LDIxMTc2NTE5OTUsLTc3OD
-M2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzEx
-NDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Ni
-w3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3
-NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1Mj
-EzMSwxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQs
-LTE1NjAyNDc4ODFdfQ==
+eyJoaXN0b3J5IjpbMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03Nz
+gzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMx
+MTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4Nz
+YsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0y
+NzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEwMzkwNT
+IxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NTY1MzE0
+LC0xNTYwMjQ3ODgxXX0=
 -->
