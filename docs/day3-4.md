@@ -13,6 +13,12 @@
 
 ## Joining two URDF(xacro)
 ### create new package and xacro file and including two other xacro
+
+- 필요한 패키지를 아래 주소에서 받아 빌드한다.
+ 
+    https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
+     **->모든 inertial 주석 제거 내용 추가 필요**
+     
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
 	   $ catkin_create_pkg ur5e_with_2f85_description
@@ -242,11 +248,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzczNjg1NSwyMTE3NjUxOTk1LC03Nz
-gzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMx
-MTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4Nz
-YsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0y
-NzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEwMzkwNT
-IxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NTY1MzE0
-LC0xNTYwMjQ3ODgxXX0=
+eyJoaXN0b3J5IjpbLTE4OTM5MDU3NzYsMjExNzY1MTk5NSwtNz
+c4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkz
+MTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3OD
+c2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwt
+Mjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5MD
+UyMTMxLDE1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAwNDU2NTMx
+NCwtMTU2MDI0Nzg4MV19
 -->
