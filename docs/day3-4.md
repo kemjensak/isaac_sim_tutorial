@@ -85,7 +85,7 @@
 - `Ctrl-S`로 저장 후 닫는다.
 - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85_demo.launch` 파일을 실행한다.
 
-  $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch 
+   $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85_demo.launch 
 
  - 실행된 `Rviz`의 *Global Options*의 *Fixed Frame*을 `world`로 변경하고, *Add* 버튼을 눌러 *RobotModel*을 추가한다.
  - UR5e manipulator와 말단부에 장착된 2f-85 gripper를 확인할 수 있으며, 함께 실행된 `joint_state_publisher_gui`의 슬라이더를 움직여 각 joint의 값을 변경해 볼 수 있다.
@@ -239,11 +239,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY1NzAwOTksLTIwNDQ1ODc4MywtMT
-I5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3
-MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwOD
-U5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEw
-MzkwNTIxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NT
-Y1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2
-MywtNDUyODc1OTcwXX0=
+eyJoaXN0b3J5IjpbODc1Nzk0MDEzLC0yMDQ0NTg3ODMsLTEyOT
+kzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3
+ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OS
+wtMjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5
+MDUyMTMxLDE1Mjg2MjYyNjUsMjA3ODczMTcwOCwtMjAwNDU2NT
+MxNCwtMTU2MDI0Nzg4MSw1MDkwOTU1NjMsLTE3Njk5NjQ4NjMs
+LTQ1Mjg3NTk3MF19
 -->
