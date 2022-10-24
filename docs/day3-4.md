@@ -191,6 +191,8 @@ target_link_libraries(ur_pose_tracker
 
    	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/config/ur_isaac_config.yaml)*
 
+**- config 폴더 내 ur5e_controllers.yaml 추가 및 수정내용 추가 필요**
+
 
 ## Gazebo 환경 구축
 
@@ -240,11 +242,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMjQzNTg1LDIxMTc2NTE5OTUsLTc3OD
-M2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzEx
-NDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Ni
-w3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3
-NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1Mj
-EzMSwxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQs
-LTE1NjAyNDc4ODFdfQ==
+eyJoaXN0b3J5IjpbLTIyMzczNjg1NSwyMTE3NjUxOTk1LC03Nz
+gzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMx
+MTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4Nz
+YsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0y
+NzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEwMzkwNT
+IxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NTY1MzE0
+LC0xNTYwMjQ3ODgxXX0=
 -->
