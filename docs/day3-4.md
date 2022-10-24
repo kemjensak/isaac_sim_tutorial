@@ -157,6 +157,7 @@ sequenceDiagram
 - 필요한 패키지들을 아래 주소에서 받아 빌드한다.
  
     https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization
+     ->모든 inertial 주석 제거 필요
     
    https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-planning/moveit/tree/master/moveit_ros/moveit_servo
       
@@ -239,11 +240,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC0xOD
-Y4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5Nzkw
-NzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNTU4OS
-wtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2LC04
-NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5MDUyMTMxLDE1Mjg2Mj
-YyNjUsMjA3ODczMTcwOCwtMjAwNDU2NTMxNCwtMTU2MDI0Nzg4
-MSw1MDkwOTU1NjNdfQ==
+eyJoaXN0b3J5IjpbNzMxMjQzNTg1LDIxMTc2NTE5OTUsLTc3OD
+M2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzEx
+NDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Ni
+w3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3
+NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1Mj
+EzMSwxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQs
+LTE1NjAyNDc4ODFdfQ==
 -->
