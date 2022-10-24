@@ -63,7 +63,7 @@
 ```html
 <?xml version="1.0"?>
 <launch>
-  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_2f-85.xacro'"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_with_2f85.xacro'"/>
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
   <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
   <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
@@ -239,11 +239,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE2MTQ3MzcsLTc3ODM2NTI4NSwtMT
-g2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5
-MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MDU1OD
-ksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5Niwt
-ODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAzOTA1MjEzMSwxNTI4Nj
-I2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4
-ODEsNTA5MDk1NTYzXX0=
+eyJoaXN0b3J5IjpbMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC0xOD
+Y4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5Nzkw
+NzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNTU4OS
+wtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2LC04
+NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5MDUyMTMxLDE1Mjg2Mj
+YyNjUsMjA3ODczMTcwOCwtMjAwNDU2NTMxNCwtMTU2MDI0Nzg4
+MSw1MDkwOTU1NjNdfQ==
 -->
