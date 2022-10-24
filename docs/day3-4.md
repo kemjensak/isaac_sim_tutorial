@@ -73,16 +73,13 @@
 
 - `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
 
-       $ code load_ur5e_with_2f85_demo.launch
+       $ code load_ur5e_with_2f85.launch
       
  - 열린 VScode에 아래의 코드를 붙여넣는다.
 ```html
 <?xml version="1.0"?>
 <launch>
   <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
-  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
-  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
-  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
 </launch>
 ```
 - `Ctrl-S`로 저장 후 닫는다.
@@ -242,11 +239,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQxNzYzOTAsLTIwNDQ1ODc4MywtMT
-I5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3
-MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwOD
-U5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEw
-MzkwNTIxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NT
-Y1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2
-MywtNDUyODc1OTcwXX0=
+eyJoaXN0b3J5IjpbMTY2MTk1NDU4MywtMjA0NDU4NzgzLC0xMj
+k5MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcw
+Nzg3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NT
+ksLTI3NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEsMTAz
+OTA1MjEzMSwxNTI4NjI2MjY1LDIwNzg3MzE3MDgsLTIwMDQ1Nj
+UzMTQsLTE1NjAyNDc4ODEsNTA5MDk1NTYzLC0xNzY5OTY0ODYz
+LC00NTI4NzU5NzBdfQ==
 -->
