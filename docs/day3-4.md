@@ -55,7 +55,7 @@
 </robot>
 ```
  - `Ctrl-S`로 저장 후 닫는다.
- - 위에서 만든 `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
+ - 위에서 만든 `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85_demo.launch` 파일을 만든다.
 
       $ code load_ur5e_with_2f85.launch
  - 열린 VScode에 아래의 코드를 붙여넣는다.
@@ -225,11 +225,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkzMTE0MTUsLTE5NzkwNzM2MTcsLT
-Y3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3
-MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2LC04NTU4MzA5OC
-wtMTg1MTY0ODY5MSwxMDM5MDUyMTMxLDE1Mjg2MjYyNjUsMjA3
-ODczMTcwOCwtMjAwNDU2NTMxNCwtMTU2MDI0Nzg4MSw1MDkwOT
-U1NjMsLTE3Njk5NjQ4NjMsLTQ1Mjg3NTk3MCwtMTQzODczODUw
-NywtMTQzODczODUwN119
+eyJoaXN0b3J5IjpbLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMT
+k3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4NzYsNzc2ODA1
+NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0yNzUzMDgyOT
+YsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEwMzkwNTIxMzEsMTUy
+ODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NTY1MzE0LC0xNTYwMj
+Q3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2MywtNDUyODc1OTcw
+LC0xNDM4NzM4NTA3XX0=
 -->
