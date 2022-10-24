@@ -63,7 +63,7 @@
 ```html
 <?xml version="1.0"?>
 <launch>
-  <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_2f-85.xacro'"/>
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
   <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
   <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
@@ -79,7 +79,7 @@
 ```html
 <?xml version="1.0"?>
 <launch>
-  <param name="robot_description" command="$(find xacro)/xacro '$(find new_robot_description)/urdf/ur5e_2f-85.xacro'"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_2f-85.xacro'"/>
 </launch>
 ```
 - `Ctrl-S`로 저장 후 닫는다.
@@ -239,11 +239,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMT
-I5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3
-MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwOD
-U5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4NjkxLDEw
-MzkwNTIxMzEsMTUyODYyNjI2NSwyMDc4NzMxNzA4LC0yMDA0NT
-Y1MzE0LC0xNTYwMjQ3ODgxLDUwOTA5NTU2MywtMTc2OTk2NDg2
-MywtNDUyODc1OTcwXX0=
+eyJoaXN0b3J5IjpbLTc3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMj
+A0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5
+MjQ4OTksLTU1MTcwNzg3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNz
+ksLTEyNDQyMzA4NTksLTI3NTMwODI5NiwtODU1ODMwOTgsLTE4
+NTE2NDg2OTEsMTAzOTA1MjEzMSwxNTI4NjI2MjY1LDIwNzg3Mz
+E3MDgsLTIwMDQ1NjUzMTQsLTE1NjAyNDc4ODEsNTA5MDk1NTYz
+LC0xNzY5OTY0ODYzXX0=
 -->
