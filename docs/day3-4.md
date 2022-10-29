@@ -35,7 +35,7 @@
 	   $ code ur5e_with_2f85.xacro
  - 열린 VScode에 아래의 코드를 붙여넣는다.
  - **->gazebo plugin 및 self collision 추가 부분 작성 필요**
-	```html
+	```xml
 		<?xml version="1.0"?>
 	  <robot name="ur5e_with_2f85" 
 	    xmlns:xacro="http://wiki.ros.org/xacro">
@@ -381,11 +381,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyNDA5MjA3LC0xNzE2ODI0OTIsMjAyMj
-Y3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1
-NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLT
-c3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5
-MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNz
-g3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTks
-LTI3NTMwODI5Nl19
+eyJoaXN0b3J5IjpbLTM5NTM5Mzg5NSwtMTcxNjgyNDkyLDIwMj
+I2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUy
+NTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC
+03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5
+OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MD
+c4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5
+LC0yNzUzMDgyOTZdfQ==
 -->
