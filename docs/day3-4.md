@@ -231,39 +231,39 @@
 - 내용은 아래와 같이 입력한다.
 	```xml
 	<?xml version="1.0"?>
-<launch>
+	<launch>
 
-  <!-- Controller configuration -->
-  <arg name="controller_config_file" default="$(find ur5e_with_2f85_gazebo)/config/ur5e_controllers.yaml" doc="Config file used for defining the ROS-Control controllers."/>
-  <arg name="controllers" default="joint_state_controller pos_joint_traj_controller gripper_controller" doc="Controllers that are activated by default."/>
-  <arg name="stopped_controllers" default="joint_group_pos_controller" doc="Controllers that are initally loaded, but not started."/>
+	  <!-- Controller configuration -->
+	  <arg name="controller_config_file" default="$(find ur5e_with_2f85_gazebo)/config/ur5e_controllers.yaml" doc="Config file used for defining the ROS-Control controllers."/>
+	  <arg name="controllers" default="joint_state_controller pos_joint_traj_controller gripper_controller" doc="Controllers that are activated by default."/>
+	  <arg name="stopped_controllers" default="joint_group_pos_controller" doc="Controllers that are initally loaded, but not started."/>
 
-  <!-- robot_state_publisher configuration -->
-  <arg name="tf_prefix" default="" doc="tf_prefix used for the robot."/>
-  <arg name="tf_pub_rate" default="500" doc="Rate at which robot_state_publisher should publish transforms."/>
+	  <!-- robot_state_publisher configuration -->
+	  <arg name="tf_prefix" default="" doc="tf_prefix used for the robot."/>
+	  <arg name="tf_pub_rate" default="500" doc="Rate at which robot_state_publisher should publish transforms."/>
 
-  <!-- Gazebo parameters -->
-  <arg name="paused" default="false" doc="Starts Gazebo in paused mode" />
-  <arg name="gui" default="true" doc="Starts Gazebo gui" />
+	  <!-- Gazebo parameters -->
+	  <arg name="paused" default="false" doc="Starts Gazebo in paused mode" />
+	  <arg name="gui" default="true" doc="Starts Gazebo gui" />
 
-  <!-- Load urdf on the parameter server -->
-  <include file="$(find ur5e_with_2f85_description)/launch/load_ur5e_with_2f85.launch"/>
+	  <!-- Load urdf on the parameter server -->
+	  <include file="$(find ur5e_with_2f85_description)/launch/load_ur5e_with_2f85.launch"/>
 
-  <!-- Robot state publisher -->
-  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
-    <param name="publish_frequency" type="double" value="$(arg tf_pub_rate)" />
-    <param name="tf_prefix" value="$(arg tf_prefix)" />
-  </node>
+	  <!-- Robot state publisher -->
+	  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+	    <param name="publish_frequency" type="double" value="$(arg tf_pub_rate)" />
+	    <param name="tf_prefix" value="$(arg tf_prefix)" />
+	  </node>
 
-  <!-- Start the 'driver' (ie: Gazebo in this case) -->
-  <include file="$(find ur5e_with_2f85_gazebo)/launch/ur5e_with_2f85_control.launch">
-    <arg name="controller_config_file" value="$(arg controller_config_file)"/>
-    <arg name="controllers" value="$(arg controllers)"/>
-    <arg name="gui" value="$(arg gui)"/>
-    <arg name="paused" value="$(arg paused)"/>
-    <arg name="stopped_controllers" value="$(arg stopped_controllers)"/>
-  </include>
-</launch>
+	  <!-- Start the 'driver' (ie: Gazebo in this case) -->
+	  <include file="$(find ur5e_with_2f85_gazebo)/launch/ur5e_with_2f85_control.launch">
+	    <arg name="controller_config_file" value="$(arg controller_config_file)"/>
+	    <arg name="controllers" value="$(arg controllers)"/>
+	    <arg name="gui" value="$(arg gui)"/>
+	    <arg name="paused" value="$(arg paused)"/>
+	    <arg name="stopped_controllers" value="$(arg stopped_controllers)"/>
+	  </include>
+	</launch>
 	```
 
 ur5e_with_2f85_control.launch 파일을 만든다.
@@ -381,11 +381,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4NjMzNjIwLC0xNzE2ODI0OTIsMjAyMj
-Y3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1
-NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLT
-c3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5
-MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNz
-g3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTks
-LTI3NTMwODI5Nl19
+eyJoaXN0b3J5IjpbNTI2Mzg1MiwtMTcxNjgyNDkyLDIwMjI2Nz
+M2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2
+LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03Nz
+gzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMx
+MTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4Nz
+YsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0y
+NzUzMDgyOTZdfQ==
 -->
