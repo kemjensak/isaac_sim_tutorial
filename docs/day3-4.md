@@ -11,6 +11,8 @@
 
 -   Moveit 패키지에서 Jacobian matrix -> 공정최적화 프로그래밍(Manipulability measure 가시화, Optimal arm positioning)
 
+- 필요한 패키지 준비
+
 ## Joining two URDF(xacro)
 ### create new package and xacro file and including two other xacro
 
@@ -253,11 +255,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xND
-QwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUx
-OTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4My
-wtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01
-NTE3MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0Mj
-MwODU5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4Njkx
-LDEwMzkwNTIxMzFdfQ==
+eyJoaXN0b3J5IjpbMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
+AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
+Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
+wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
+Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MDU1ODksLTIwNjQ2Nz
+EyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5NiwtODU1ODMwOTgs
+LTE4NTE2NDg2OTFdfQ==
 -->
