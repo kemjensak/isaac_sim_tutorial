@@ -422,8 +422,6 @@ sequenceDiagram
 
    	 *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/config/ur_isaac_config.yaml)*
 
-**- config 폴더 내 ur5e_controllers.yaml 추가 및 수정내용 추가 필요**
-
 
 ## Gazebo 환경 구축
 
@@ -480,7 +478,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDA3MDM3MywtNzkxNDA1MTI5LDY4OT
+eyJoaXN0b3J5IjpbMTM4Mjc4NTg4OSwtNzkxNDA1MTI5LDY4OT
 M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
 MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
 EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
