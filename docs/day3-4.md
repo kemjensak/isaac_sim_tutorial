@@ -366,7 +366,24 @@
 	```
 - 저장 후 닫는다.
 
-- 아래의 명령어를 순서대로 입력하여 Gazebo와 MoveI
+- `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
+
+- 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
+```bash
+
+$ roslaunch ur5ㄷ_gazebo ur5.launch 
+-> Real Robot의 역할로써 동작, 
+
+$ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
+-> ur5e_with_2f85 로 변경
+
+$ roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+-> ur5e_with_2f85 로 변경
+
+$ roslaunch moveit_servo spacenav_cpp.launch
+-> isaac sim의 sensor data를 받아 계산한 target pose의 publisher로 변경
+
+```
 ## MoveIT! Servoing
 ```mermaid 
 sequenceDiagram 
@@ -473,11 +490,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTQzMDA1OCwtNzkxNDA1MTI5LDY4OT
-M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
-MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
-EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
-ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3Mz
-YxNywtNjc4OTI0ODk5LC01NTE3MDc4NzYsNzc2ODA1NTg5LC0y
-MDY0NjcxMjc5XX0=
+eyJoaXN0b3J5IjpbNTA1NjA0MDI2LC03OTE0MDUxMjksNjg5Mz
+g3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQx
+LDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMT
+A2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4
+MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNj
+E3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MDU1ODksLTIw
+NjQ2NzEyNzldfQ==
 -->
