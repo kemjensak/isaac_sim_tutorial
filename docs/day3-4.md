@@ -84,8 +84,6 @@
 	      <gazebo reference="wrist_2_link">
 	        <selfCollide>true</selfCollide>
 	      </gazebo>
-
-
 	  </robot>
 	```
  - `Ctrl-S`로 저장 후 닫는다.
@@ -490,7 +488,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODg4NTk4NiwyMzE4MzIyNTgsMTQ2MD
+eyJoaXN0b3J5IjpbMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MD
 c2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDky
 LDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xND
 QwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUx
