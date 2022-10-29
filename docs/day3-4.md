@@ -110,12 +110,12 @@
        $ code load_ur5e_with_2f85.launch
       
  - 열린 VScode에 아래의 코드를 붙여넣는다.
-```html
-<?xml version="1.0"?>
-<launch>
-  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_with_2f85.xacro'"/>
-</launch>
-```
+	```html
+	<?xml version="1.0"?>
+	<launch>
+	  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_with_2f85.xacro'"/>
+	</launch>
+	```
 - `Ctrl-S`로 저장 후 닫는다.
 - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85_demo.launch` 파일을 실행한다.
 
@@ -279,7 +279,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTk0ODA3NiwyMDIyNjczNjM0LC04Nz
+eyJoaXN0b3J5IjpbMTU2MzA5MjA2MCwyMDIyNjczNjM0LC04Nz
 cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
 MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
 0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
