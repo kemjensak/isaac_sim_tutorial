@@ -177,8 +177,10 @@
 - 좌측의 *Configulation Files*로 이동하여 *Configuration Package Save Path*를 ros workspace로 지정하고, 경로의 맨 뒤에 `/ur5e_with_2f85_moveit_config`를 붙여준다.
 ![Screenshot from 2022-10-10 23-18-20](https://user-images.githubusercontent.com/60342784/194887782-c3da84db-e5e2-4197-9bc1-d8afa7a5d10c.png)
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
-- `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
-
+- `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 아래의 명령어로 실행하여 `rviz`의 `MoveIT` plugin을 통해 manipulator를 제어해 본다.
+	```
+	$ roslaunch ur5e_with_2f85_moveit_config demo.launch
+	```
 - `ros_control`을 통한 제어를 위해, `ur5e_with_2f85_moveit_config/config/ros_controllers.yaml`에 아래의 내용을 붙여넣는다.
 
 	```yaml
@@ -503,11 +505,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjAyNTM5NywxMDcxMTI0NjAyLDIzMT
-gzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcy
-LC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
-AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
-Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
-wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
-Nzg5MjQ4OTldfQ==
+eyJoaXN0b3J5IjpbLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4Mz
+IyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3Miwt
+MTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMj
+ExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3
+OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLT
+IwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4
+OTI0ODk5XX0=
 -->
