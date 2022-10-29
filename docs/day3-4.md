@@ -181,6 +181,50 @@
       $ code config/ur5e_with_2f85_controllers.yaml
     
 - 내용은 아래와 같이 입력한다.
+```
+ joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: &loop_hz 500
+
+pos_joint_traj_controller:
+  type: position_controllers/JointTrajectoryController
+  joints: &robot_joints
+    - shoulder_pan_joint
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+  constraints:
+    goal_time: 0.6
+    stopped_velocity_tolerance: 0.05
+    shoulder_pan_joint: {trajectory: 0.1, goal: 0.1}
+    shoulder_lift_joint: {trajectory: 0.1, goal: 0.1}
+    elbow_joint: {trajectory: 0.1, goal: 0.1}
+    wrist_1_joint: {trajectory: 0.1, goal: 0.1}
+    wrist_2_joint: {trajectory: 0.1, goal: 0.1}
+    wrist_3_joint: {trajectory: 0.1, goal: 0.1}
+  stop_trajectory_duration: 0.5
+  state_publish_rate: *loop_hz
+  action_monitor_rate: 10
+
+gripper_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - robotiq_85_left_knuckle_joint
+  constraints:
+    goal_time: 0.6
+    stopped_velocity_tolerance: 0.05
+    robotiq_85_left_knuckle_joint: {trajectory: 0.1, goal: 0.1}
+  stop_trajectory_duration: 0.5
+  state_publish_rate: *loop_hz
+  action_monitor_rate: 10
+
+joint_group_pos_controller:
+  type: position_controllers/JointGroupPositionController
+  joints: *robot_joints
+
+
 과 launch 디렉토리 내에 ur5e_with_2f85_bringup.launch, ur5e_with_2f85_control.launch 파일을 만든다.
 ## MoveIT! Servoing
 ```mermaid 
@@ -294,12 +338,13 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 ![](https://us.v-cdn.net/6027406/uploads/editor/ug/u1677dlpb7la.png)
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNDExNTUyLDIwMjI2NzM2MzQsLTg3Nz
-IzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUw
-OTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLT
-E4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3
-OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4NzYsNzc2ODA1NT
-g5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0yNzUzMDgyOTYs
-LTg1NTgzMDk4XX0=
+eyJoaXN0b3J5IjpbLTE3MTY4MjQ5MiwyMDIyNjczNjM0LC04Nz
+cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
+MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
+0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
+NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNT
+U4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2
+LC04NTU4MzA5OF19
 -->
