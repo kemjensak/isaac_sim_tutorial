@@ -151,9 +151,15 @@
 ![Screenshot from 2022-10-29 21-57-29](https://user-images.githubusercontent.com/60342784/198832810-b4b5dbcc-7ae6-4f04-b8bc-6faf0136df8e.png)
 
 - *Add Pose*를 누른 후 *Pose Name*을 `up`으로, *Planning Group*을 `manipulator`로 설정한  후, `shoulder_lift_joint` 값을 `-1.5708`로 변경하고, 나머지 모든 joint의 값이 `0`임을 확인하고 *Save*를 누른다.
-- 
+![Screenshot from 2022-10-29 21-57-54](https://user-images.githubusercontent.com/60342784/198832869-ef0f60f6-f9e9-49c3-9f98-c8cd8db6170f.png)
+
 - *Add Pose*를 누른 후 *Pose Name*을 `open`으로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0`임을 확인하고 *Save*를 누른다.
+![Screenshot from 2022-10-29 21-58-30](https://user-images.githubusercontent.com/60342784/198832912-e6119f65-3f2c-46c6-a7af-65ee5a6c6da7.png)
+
 - *Add Pose*를 누른 후 *Pose Name*을 `close`로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0.8`임을 확인하고 *Save*를 누른다.
+![Screenshot from 2022-10-29 21-58-49](https://user-images.githubusercontent.com/60342784/198832919-fe638550-f979-432b-9f3e-a8fb3e24164c.png)
+
+
 - 총 4개의 *Pose*가 아래와 같이 추가되었음을 확인한다.
 ![Screenshot from 2022-10-10 22-38-10](https://user-images.githubusercontent.com/60342784/194879285-8395c47d-8f7c-4692-92a1-748e48b17d26.png)
 
@@ -495,11 +501,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzA5ODkyMSwxMDcxMTI0NjAyLDIzMT
-gzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcy
-LC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
-AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
-Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
-wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
-Nzg5MjQ4OTldfQ==
+eyJoaXN0b3J5IjpbLTE1ODg3NjM2NDAsMTA3MTEyNDYwMiwyMz
+E4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3
+MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMD
+QwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUy
+NjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNz
+EsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywt
+Njc4OTI0ODk5XX0=
 -->
