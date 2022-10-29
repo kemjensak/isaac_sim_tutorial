@@ -400,7 +400,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 ```
 ## MoveIT! Servoing
-```mermaid 
+```
 sequenceDiagram 
 	 actor user as User
 	 participant A as moveit_servo::PoseTracking tracker
@@ -505,11 +505,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4Mz
-IyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3Miwt
-MTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMj
-ExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3
-OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLT
-IwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4
-OTI0ODk5XX0=
+eyJoaXN0b3J5IjpbMTMzNzk3MzU4NSwtNDcwNDcxMCwxMDcxMT
+I0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjks
+Njg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3Mj
+M2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5
+NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMT
+g2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5
+MDczNjE3XX0=
 -->
