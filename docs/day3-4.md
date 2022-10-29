@@ -22,6 +22,7 @@
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
 	   $ catkin_create_pkg ur5e_with_2f85_description
+	   
  - 아래 명령어를 통해 생성된 패키지 내에 `urdf`와 `launch` 디렉토리를 생성하고, `urdf` 디렉토리로 이동한다.
  
 	    $ mkdir ur5e_with_2f85_description/launch ur5e_with_2f85_description/urdf
@@ -252,11 +253,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDMwNzk4MSwyMDQwMjExMzU2LC0xND
-QwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUx
-OTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4My
-wtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01
-NTE3MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0Mj
-MwODU5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4Njkx
-LDEwMzkwNTIxMzFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzI5NzkzNTMsMjA0MDIxMTM1NiwtMT
+Q0MDY1MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1
+MTk5NSwtNzc4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3OD
+MsLTEyOTkzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwt
+NTUxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0ND
+IzMDg1OSwtMjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5
+MSwxMDM5MDUyMTMxXX0=
 -->
