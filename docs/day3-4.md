@@ -170,7 +170,10 @@
 - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
 	   $ catkin_create_pkg ur5e_with_2f85_gazebo
-- 
+	   
+- config와 launch 디렉토리를 만들고, 
+
+ 	   $ mkdir ur5e_with_2f85_gazebo/config ur5e_with_2f85_gazebo/confi
 
 ## MoveIT! Servoing
 ```mermaid 
@@ -285,11 +288,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNTc4Mjk0LDIwMjI2NzM2MzQsLTg3Nz
-IzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUw
-OTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLT
-E4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3
-OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4NzYsNzc2ODA1NT
-g5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0yNzUzMDgyOTYs
-LTg1NTgzMDk4XX0=
+eyJoaXN0b3J5IjpbLTE2MzMyNjAzMTIsMjAyMjY3MzYzNCwtOD
+c3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAz
+NTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NS
+wtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0x
+OTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MD
+U1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5
+NiwtODU1ODMwOThdfQ==
 -->
