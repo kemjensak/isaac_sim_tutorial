@@ -412,7 +412,7 @@ sequenceDiagram
 
 - 그리고 line 149의 `spacenav_to_twist` 아래 한 줄을 띄우고 `ur_pose_tracker`를 추가한다.
 
-- `moveit_servo`패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을, include 디렉토리에 `ur_pose_tracker.hpp`파일을 추가한다.
+- `moveit_servo`패키지의 src 디렉토리에 `ur_pose_tracker.cpp` 파일을, include 디렉토리에 `ur_pose_tracker.hpp`파일을 만든다.
 - 각각의 파일에 아래의 코드를 붙여넣는다.
 
     *[해당 코드 완성후 추가 필요](https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/blob/master/moveit_servo/src/ur_pose_tracker.cpp)*
@@ -480,7 +480,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTM2MDY2MywtNzkxNDA1MTI5LDY4OT
+eyJoaXN0b3J5IjpbMTY5NDA3MDM3MywtNzkxNDA1MTI5LDY4OT
 M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
 MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
 EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
