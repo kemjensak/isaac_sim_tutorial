@@ -381,7 +381,7 @@ $ roslaunch ur5e_with_2f85_moveit_config moveit_rviz.launch rviz_config:=true
 -> Rviz를 통한 조작
 
 $ roslaunch moveit_servo spacenav_cpp.launch
--> isaac sim의 sensor data를 받아 계산한 target pose의 publisher로 변경
+-> 아직 수정중
 
 ```
 ## MoveIT! Servoing
@@ -490,11 +490,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OT
-M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
-MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
-EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
-ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3Mz
-YxNywtNjc4OTI0ODk5LC01NTE3MDc4NzYsNzc2ODA1NTg5LC0y
-MDY0NjcxMjc5XX0=
+eyJoaXN0b3J5IjpbMzc1MzA5NDgwLDE0NjA3Njk0NjMsLTc5MT
+QwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5MiwyMDIyNjczNjM0
+LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMz
+YxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1
+Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MT
+UsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3
+NjgwNTU4OV19
 -->
