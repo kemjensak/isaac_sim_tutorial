@@ -266,6 +266,11 @@
 	</launch>
 	```
 
+- 저장 후, 동일한 launch 디렉토리 내에 ur5e_with_2f85_control.launch 파일을 만들고, 
+
+      $ code launch/ur5e_with_2f85_bringup.launch
+    
+- 내용은 아래와 같이 입력한다.
 ur5e_with_2f85_control.launch 파일을 만든다.
 ## MoveIT! Servoing
 ```mermaid 
@@ -287,6 +292,7 @@ sequenceDiagram
 	 
 	 end
 ```
+
 
 ### 패키지 준비
 - 필요한 패키지들을 아래 주소에서 받아 빌드한다.
@@ -381,11 +387,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg3NjUwMzksLTE3MTY4MjQ5MiwyMD
-IyNjczNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1
-MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NS
-wtNzc4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEy
-OTkzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNz
-A3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1
-OSwtMjc1MzA4Mjk2XX0=
+eyJoaXN0b3J5IjpbOTM5NzIzNTYwLC0xNzE2ODI0OTIsMjAyMj
+Y3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1
+NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLT
+c3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5
+MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNz
+g3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTks
+LTI3NTMwODI5Nl19
 -->
