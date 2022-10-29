@@ -33,35 +33,35 @@
 	   $ code ur5e_with_2f85.xacro
  - 열린 VScode에 아래의 코드를 붙여넣는다.
  - **->gazebo plugin 및 self collision 추가 부분 작성 필요**
-```html
-<?xml version="1.0"?>
-<robot name="ur5e_with_2f85" 
-  xmlns:xacro="http://wiki.ros.org/xacro">
+	```html
+	<?xml version="1.0"?>
+	<robot name="ur5e_with_2f85" 
+	  xmlns:xacro="http://wiki.ros.org/xacro">
 
-    <!-- 2f-85 -->
-    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
-    <xacro:robotiq_arg2f_85 prefix=""/>
-        
-    <!-- ur5e -->
-    <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
-    <xacro:ur5e_robot prefix="" />
-    
-    <link name="world"/>
-    
-    <joint name="world2base" type="fixed">
-        <parent link="world"/>
-        <child link="base_link"/>
-        <origin xyz="0 0 0" rpy="0 0 1.57" />
-    </joint>
+	    <!-- 2f-85 -->
+	    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
+	    <xacro:robotiq_arg2f_85 prefix=""/>
+	        
+	    <!-- ur5e -->
+	    <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
+	    <xacro:ur5e_robot prefix="" />
+	    
+	    <link name="world"/>
+	    
+	    <joint name="world2base" type="fixed">
+	        <parent link="world"/>
+	        <child link="base_link"/>
+	        <origin xyz="0 0 0" rpy="0 0 1.57" />
+	    </joint>
 
-    <joint name="tool0To2f85" type="fixed">
-        <parent link="tool0"/>
-        <child link="robotiq_arg2f_base_link"/>
-        <origin xyz="0 0 0" rpy="0 0 1.57" />
-    </joint>
+	    <joint name="tool0To2f85" type="fixed">
+	        <parent link="tool0"/>
+	        <child link="robotiq_arg2f_base_link"/>
+	        <origin xyz="0 0 0" rpy="0 0 1.57" />
+	    </joint>
 
-</robot>
-```
+	</robot>
+	```
  - `Ctrl-S`로 저장 후 닫는다.
  - 위에서 만든 `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85_demo.launch` 파일을 만든다.
 
@@ -253,11 +253,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI5NzkzNTMsMjA0MDIxMTM1NiwtMT
-Q0MDY1MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1
-MTk5NSwtNzc4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3OD
-MsLTEyOTkzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwt
-NTUxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0ND
-IzMDg1OSwtMjc1MzA4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5
-MSwxMDM5MDUyMTMxXX0=
+eyJoaXN0b3J5IjpbLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xND
+QwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUx
+OTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4My
+wtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01
+NTE3MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0Mj
+MwODU5LC0yNzUzMDgyOTYsLTg1NTgzMDk4LC0xODUxNjQ4Njkx
+LDEwMzkwNTIxMzFdfQ==
 -->
