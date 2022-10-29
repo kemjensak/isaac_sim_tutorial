@@ -19,7 +19,7 @@
 - 필요한 패키지를 아래 주소에서 받아 빌드한다.
  
     
-     **->모든 inertial 주석 제거 내용 추가 필요, 새로운 description repository로 교체 필요**
+     **새로운 description repository링크 추가 필요**
      
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
@@ -505,11 +505,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzk3MzU4NSwtNDcwNDcxMCwxMDcxMT
-I0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjks
-Njg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3Mj
-M2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5
-NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMT
-g2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5
-MDczNjE3XX0=
+eyJoaXN0b3J5IjpbLTg0NjQ2MDM3NywxMzM3OTczNTg1LC00Nz
+A0NzEwLDEwNzExMjQ2MDIsMjMxODMyMjU4LDE0NjA3Njk0NjMs
+LTc5MTQwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5MiwyMDIyNj
+czNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1
+NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNz
+c4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkz
+MTE0MTVdfQ==
 -->
