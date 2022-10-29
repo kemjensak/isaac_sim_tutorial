@@ -181,51 +181,55 @@
       $ code config/ur5e_with_2f85_controllers.yaml
     
 - 내용은 아래와 같이 입력한다.
-```yaml
- joint_state_controller:
-  type: joint_state_controller/JointStateController
-  publish_rate: &loop_hz 500
+	```yaml
+	 joint_state_controller:
+	  type: joint_state_controller/JointStateController
+	  publish_rate: &loop_hz 500
 
-pos_joint_traj_controller:
-  type: position_controllers/JointTrajectoryController
-  joints: &robot_joints
-    - shoulder_pan_joint
-    - shoulder_lift_joint
-    - elbow_joint
-    - wrist_1_joint
-    - wrist_2_joint
-    - wrist_3_joint
-  constraints:
-    goal_time: 0.6
-    stopped_velocity_tolerance: 0.05
-    shoulder_pan_joint: {trajectory: 0.1, goal: 0.1}
-    shoulder_lift_joint: {trajectory: 0.1, goal: 0.1}
-    elbow_joint: {trajectory: 0.1, goal: 0.1}
-    wrist_1_joint: {trajectory: 0.1, goal: 0.1}
-    wrist_2_joint: {trajectory: 0.1, goal: 0.1}
-    wrist_3_joint: {trajectory: 0.1, goal: 0.1}
-  stop_trajectory_duration: 0.5
-  state_publish_rate: *loop_hz
-  action_monitor_rate: 10
+	pos_joint_traj_controller:
+	  type: position_controllers/JointTrajectoryController
+	  joints: &robot_joints
+	    - shoulder_pan_joint
+	    - shoulder_lift_joint
+	    - elbow_joint
+	    - wrist_1_joint
+	    - wrist_2_joint
+	    - wrist_3_joint
+	  constraints:
+	    goal_time: 0.6
+	    stopped_velocity_tolerance: 0.05
+	    shoulder_pan_joint: {trajectory: 0.1, goal: 0.1}
+	    shoulder_lift_joint: {trajectory: 0.1, goal: 0.1}
+	    elbow_joint: {trajectory: 0.1, goal: 0.1}
+	    wrist_1_joint: {trajectory: 0.1, goal: 0.1}
+	    wrist_2_joint: {trajectory: 0.1, goal: 0.1}
+	    wrist_3_joint: {trajectory: 0.1, goal: 0.1}
+	  stop_trajectory_duration: 0.5
+	  state_publish_rate: *loop_hz
+	  action_monitor_rate: 10
 
-gripper_controller:
-  type: position_controllers/JointTrajectoryController
-  joints:
-    - robotiq_85_left_knuckle_joint
-  constraints:
-    goal_time: 0.6
-    stopped_velocity_tolerance: 0.05
-    robotiq_85_left_knuckle_joint: {trajectory: 0.1, goal: 0.1}
-  stop_trajectory_duration: 0.5
-  state_publish_rate: *loop_hz
-  action_monitor_rate: 10
+	gripper_controller:
+	  type: position_controllers/JointTrajectoryController
+	  joints:
+	    - robotiq_85_left_knuckle_joint
+	  constraints:
+	    goal_time: 0.6
+	    stopped_velocity_tolerance: 0.05
+	    robotiq_85_left_knuckle_joint: {trajectory: 0.1, goal: 0.1}
+	  stop_trajectory_duration: 0.5
+	  state_publish_rate: *loop_hz
+	  action_monitor_rate: 10
 
-joint_group_pos_controller:
-  type: position_controllers/JointGroupPositionController
-  joints: *robot_joints
+	joint_group_pos_controller:
+	  type: position_controllers/JointGroupPositionController
+	  joints: *robot_joints
+	```
+- 저장 후, launch 디렉토리 내에 ur5e_with_2f85_bringup.launch 파일을 만들고, 
 
+      $ code launch/ur5e_with_2f85_bringup.launch
+    
 
-과 launch 디렉토리 내에 ur5e_with_2f85_bringup.launch, ur5e_with_2f85_control.launch 파일을 만든다.
+ur5e_with_2f85_control.launch 파일을 만든다.
 ## MoveIT! Servoing
 ```mermaid 
 sequenceDiagram 
@@ -340,7 +344,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDU2NjE4NywtMTcxNjgyNDkyLDIwMj
+eyJoaXN0b3J5IjpbLTczMzQ5NTY3NywtMTcxNjgyNDkyLDIwMj
 I2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUy
 NTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC
 03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5
