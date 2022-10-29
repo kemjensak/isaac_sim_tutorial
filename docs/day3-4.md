@@ -18,7 +18,7 @@
 
 - 필요한 패키지를 아래 주소에서 받아 빌드한다.
  
-    https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/tree/master/robotiq_85_description
+    
      **->모든 inertial 주석 제거 내용 추가 필요, 새로운 description repository로 교체 필요**
      
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
@@ -36,33 +36,61 @@
  - 열린 VScode에 아래의 코드를 붙여넣는다.
  - **->gazebo plugin 및 self collision 추가 부분 작성 필요**
 	```html
-	<?xml version="1.0"?>
-	<robot name="ur5e_with_2f85" 
-	  xmlns:xacro="http://wiki.ros.org/xacro">
+		<?xml version="1.0"?>
+	  <robot name="ur5e_with_2f85" 
+	    xmlns:xacro="http://wiki.ros.org/xacro">
 
-	    <!-- 2f-85 -->
-	    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
-	    <xacro:robotiq_arg2f_85 prefix=""/>
-	        
-	    <!-- ur5e -->
-	    <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
-	    <xacro:ur5e_robot prefix="" />
-	    
-	    <link name="world"/>
-	    
-	    <joint name="world2base" type="fixed">
-	        <parent link="world"/>
-	        <child link="base_link"/>
-	        <origin xyz="0 0 0" rpy="0 0 1.57" />
-	    </joint>
+	      <!-- 2f-85 -->
+	      <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
+	      <xacro:robotiq_85_gripper prefix="" parent="tool0">
+	        <origin xyz="0.0 0.0 0.0" rpy="${pi/2} -${pi/2} 0" />
+	      </xacro:robotiq_85_gripper>  
 
-	    <joint name="tool0To2f85" type="fixed">
-	        <parent link="tool0"/>
-	        <child link="robotiq_arg2f_base_link"/>
-	        <origin xyz="0 0 0" rpy="0 0 1.57" />
-	    </joint>
+	       <!-- 2f-85 from ros-industrial (Which is NOT working properly in xacro)-->
+	      <!-- <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
+	      <xacro:robotiq_arg2f_85 prefix=""/> -->
+	          
+	      <!-- ur5e -->
+	      <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
+	      <xacro:ur5e_robot prefix="" />
+	      
+	      <link name="world"/>
+	      
+	      <joint name="world2base" type="fixed">
+	          <parent link="world"/>
+	          <child link="base_link"/>
+	          <origin xyz="0 0 0" rpy="0 0 1.57" />
+	      </joint>
+	      
+	      <gazebo>
+	        <plugin name="ros_control" filename="libgazebo_ros_control.so">
+	          <!--robotNamespace>/</robotNamespace-->
+	          <!--robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType-->
+	        </plugin>
+	      </gazebo>
 
-	</robot>
+	      <!-- Configure self collision properties per link -->
+	      <gazebo reference="shoulder_link">
+	        <selfCollide>true</selfCollide>
+	      </gazebo>
+	      <gazebo reference="upper_arm_link">
+	        <selfCollide>true</selfCollide>
+	      </gazebo>
+	      <gazebo reference="forearm_link">
+	        <selfCollide>true</selfCollide>
+	      </gazebo>
+	      <gazebo reference="wrist_1_link">
+	        <selfCollide>true</selfCollide>
+	      </gazebo>
+	      <gazebo reference="wrist_3_link">
+	        <selfCollide>true</selfCollide>
+	      </gazebo>
+	      <gazebo reference="wrist_2_link">
+	        <selfCollide>true</selfCollide>
+	      </gazebo>
+
+
+	  </robot>
 	```
  - `Ctrl-S`로 저장 후 닫는다.
  - 위에서 만든 `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85_demo.launch` 파일을 만든다.
@@ -255,11 +283,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
-AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
-Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
-wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
-Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MDU1ODksLTIwNjQ2Nz
-EyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5NiwtODU1ODMwOTgs
-LTE4NTE2NDg2OTFdfQ==
+eyJoaXN0b3J5IjpbLTE4NjkxMzIyMzUsMjAyMjY3MzYzNCwtOD
+c3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAz
+NTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NS
+wtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0x
+OTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MD
+U1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5
+NiwtODU1ODMwOThdfQ==
 -->
