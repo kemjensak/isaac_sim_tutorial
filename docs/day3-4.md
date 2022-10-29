@@ -141,6 +141,8 @@
 ![Screenshot from 2022-10-10 22-16-49](https://user-images.githubusercontent.com/60342784/194875273-da510f44-b175-4894-b60a-a9a907139166.png)
 
 - *Add Joints*를 눌러 `finger_joint`를 선택한 후 오른쪽 화살표를 눌러 *Selected Joint*로 이동시키고, *Save*를 눌러 저장한다.
+![Screenshot from 2022-10-29 21-55-21](https://user-images.githubusercontent.com/60342784/198832712-d24065cf-07c4-4e42-aabc-daf97f6d261e.png)
+
 - 아래 그림과 같이 설정되었음을 확인한다.![Screenshot from 2022-10-10 22-26-33](https://user-images.githubusercontent.com/60342784/194877090-ff3a7e73-2530-4324-803e-c8dc52c34d4d.png)
 
 - 좌측의 *Robot Poses*를 클릭하여 Robot의 predefined pose를 아래와 같이 추가한다.
@@ -489,11 +491,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODY3NDMwNiwxMDcxMTI0NjAyLDIzMT
-gzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcy
-LC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
-AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
-Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
-wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
-Nzg5MjQ4OTldfQ==
+eyJoaXN0b3J5IjpbLTE2MDYzMjg2MTUsMTA3MTEyNDYwMiwyMz
+E4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3
+MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMD
+QwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUy
+NjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNz
+EsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywt
+Njc4OTI0ODk5XX0=
 -->
