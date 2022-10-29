@@ -143,11 +143,15 @@
 - *Add Joints*를 눌러 `finger_joint`를 선택한 후 오른쪽 화살표를 눌러 *Selected Joint*로 이동시키고, *Save*를 눌러 저장한다.
 ![Screenshot from 2022-10-29 21-55-21](https://user-images.githubusercontent.com/60342784/198832712-d24065cf-07c4-4e42-aabc-daf97f6d261e.png)
 
-- 아래 그림과 같이 설정되었음을 확인한다.![Screenshot from 2022-10-10 22-26-33](https://user-images.githubusercontent.com/60342784/194877090-ff3a7e73-2530-4324-803e-c8dc52c34d4d.png)
+- 아래 그림과 같이 설정되었음을 확인한다.![Screenshot from 2022-10-29 21-55-57](https://user-images.githubusercontent.com/60342784/198832730-397d044a-ee88-4d2d-9799-7cdba13605f4.png)
+
 
 - 좌측의 *Robot Poses*를 클릭하여 Robot의 predefined pose를 아래와 같이 추가한다.
 - *Add Pose*를 누른 후 *Pose Name*을 `home`으로, *Planning Group*을 `manipulator`로 설정한  후 모든 joint 값이 `0`임을 확인하고 *Save*를 누른다.
+![Screenshot from 2022-10-29 21-57-29](https://user-images.githubusercontent.com/60342784/198832810-b4b5dbcc-7ae6-4f04-b8bc-6faf0136df8e.png)
+
 - *Add Pose*를 누른 후 *Pose Name*을 `up`으로, *Planning Group*을 `manipulator`로 설정한  후, `shoulder_lift_joint` 값을 `-1.5708`로 변경하고, 나머지 모든 joint의 값이 `0`임을 확인하고 *Save*를 누른다.
+- 
 - *Add Pose*를 누른 후 *Pose Name*을 `open`으로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0`임을 확인하고 *Save*를 누른다.
 - *Add Pose*를 누른 후 *Pose Name*을 `close`로, *Planning Group*을 `gripper`로 설정한  후, `finger_joint` 값이 `0.8`임을 확인하고 *Save*를 누른다.
 - 총 4개의 *Pose*가 아래와 같이 추가되었음을 확인한다.
@@ -491,11 +495,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYzMjg2MTUsMTA3MTEyNDYwMiwyMz
-E4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3
-MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMD
-QwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUy
-NjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNz
-EsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywt
-Njc4OTI0ODk5XX0=
+eyJoaXN0b3J5IjpbLTc3NzA5ODkyMSwxMDcxMTI0NjAyLDIzMT
+gzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcy
+LC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
+AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
+Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
+wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
+Nzg5MjQ4OTldfQ==
 -->
