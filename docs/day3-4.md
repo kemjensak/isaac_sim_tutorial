@@ -167,6 +167,75 @@
 - `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
 
 - `ros_control`을 통한 제어를 위해, `ur5e_with_2f85_moveit_config/config/ros_controllers.yaml`에 아래의 내용을 붙여넣는다.
+- 
+	```yaml
+	# Simulation settings for using moveit_sim_controllers
+	moveit_sim_hw_interface:
+	  joint_model_group: manipulator
+	  joint_model_group_pose: home
+	# Settings for ros_control_boilerplate control loop
+	generic_hw_control_loop:
+	  loop_hz: 300
+	  cycle_time_error_threshold: 0.01
+	    - wrist_3_joint
+	    - robotiq_85_left_knuckle_joint
+	  sim_control_mode: 1  # 0: position, 1: velocity
+	# Publish all joint states
+	# Creates the /joint_states topic necessary in ROS
+	joint_state_controller:
+	  type: joint_state_controller/JointStateController
+	  publish_rate: 50
+	controller_list:
+	- name: "pos_joint_traj_controller"
+	  action_ns: follow_joint_trajectory
+	  type: FollowJointTrajectory
+	  joints:
+	    - shoulder_pan_joint
+	    - shoulder_lift_joint
+	    - elbow_joint
+	    - wrist_1_joint
+	    - wrist_2_joint
+	    - wrist_3_joint
+	    - robotiq_85_left_knuckle_joint
+	- name: "gripper_controller"
+	  action_ns: follow_joint_trajectory
+	  type: FollowJointTrajectory
+	  joints:
+	    - robotiq_85_left_knuckle_joint
+	```# Settings for ros_control hardware interface
+	hardware_interface:
+	  joints:
+	    - shoulder_pan_joint
+	    - shoulder_lift_joint
+	    - elbow_joint
+	    - wrist_1_joint
+	    - wrist_2_joint
+	    - wrist_3_joint
+	    - robotiq_85_left_knuckle_joint
+	  sim_control_mode: 1  # 0: position, 1: velocity
+	# Publish all joint states
+	# Creates the /joint_states topic necessary in ROS
+	joint_state_controller:
+	  type: joint_state_controller/JointStateController
+	  publish_rate: 50
+	controller_list:
+	- name: "pos_joint_traj_controller"
+	  action_ns: follow_joint_trajectory
+	  type: FollowJointTrajectory
+	  joints:
+	    - shoulder_pan_joint
+	    - shoulder_lift_joint
+	    - elbow_joint
+	    - wrist_1_joint
+	    - wrist_2_joint
+	    - wrist_3_joint
+	    - robotiq_85_left_knuckle_joint
+	- name: "gripper_controller"
+	  action_ns: follow_joint_trajectory
+	  type: FollowJointTrajectory
+	  joints:
+	    - robotiq_85_left_knuckle_joint
+	```
 
 
 ## Preparing Gazebo
@@ -436,11 +505,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTAzNTg1LDY4OTM4Nzg3MiwtMTcxNj
-gyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2
-LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMT
-E3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1
-ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0OD
-k5LC01NTE3MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0x
-MjQ0MjMwODU5XX0=
+eyJoaXN0b3J5IjpbMjEzODI2NTIzOSw2ODkzODc4NzIsLTE3MT
+Y4MjQ5MiwyMDIyNjczNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1
+NiwtMTQ0MDY1MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMj
+ExNzY1MTk5NSwtNzc4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0
+NTg3ODMsLTEyOTkzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyND
+g5OSwtNTUxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwt
+MTI0NDIzMDg1OV19
 -->
