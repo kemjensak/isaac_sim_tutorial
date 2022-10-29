@@ -371,7 +371,7 @@
 - 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
 ```bash
 
-$ roslaunch ur5ㄷ_gazebo ur5.launch 
+$ roslaunch ur5e_with_2f85_gazebo ur5e_with_2f85_bringup.launch 
 -> Real Robot의 역할로써 동작, 
 
 $ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
@@ -490,7 +490,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NjA0MDI2LC03OTE0MDUxMjksNjg5Mz
+eyJoaXN0b3J5IjpbNzUxNjM1OTM3LC03OTE0MDUxMjksNjg5Mz
 g3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQx
 LDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMT
 A2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4
