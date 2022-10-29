@@ -166,6 +166,10 @@
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
 - `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
 
+## Preparing Gazebo
+- 
+- 
+
 ## MoveIT! Servoing
 ```mermaid 
 sequenceDiagram 
@@ -279,7 +283,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzA5MjA2MCwyMDIyNjczNjM0LC04Nz
+eyJoaXN0b3J5IjpbMTQzNzY5ODgxMCwyMDIyNjczNjM0LC04Nz
 cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
 MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
 0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
