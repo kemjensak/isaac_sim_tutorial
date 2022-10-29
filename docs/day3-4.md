@@ -175,6 +175,8 @@
 
  	   $ cd ur5e_with_2f85_gazebo
  	   $ mkdir config launch
+ 	  
+- config 디렉토리 내에 ur5e_with_2f85_controllers.yaml 파일과 launch 디렉토리 내에 ur5e_with_2f85_bringup.launch, ur5e_with_2f85_control.launch 파일
 
 ## MoveIT! Servoing
 ```mermaid 
@@ -289,7 +291,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMzNjEyNTQsMjAyMjY3MzYzNCwtOD
+eyJoaXN0b3J5IjpbLTE2NDg3MDUyOTUsMjAyMjY3MzYzNCwtOD
 c3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAz
 NTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NS
 wtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0x
