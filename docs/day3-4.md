@@ -378,7 +378,7 @@ $ roslaunch ur5e_with_2f85_moveit_config move_group.launch
 -> MoveIT 실행, move group 생성
 
 $ roslaunch ur5e_with_2f85_moveit_config moveit_rviz.launch rviz_config:=true
--> ur5e_with_2f85 로 변경
+-> Rviz를 통한 조작
 
 $ roslaunch moveit_servo spacenav_cpp.launch
 -> isaac sim의 sensor data를 받아 계산한 target pose의 publisher로 변경
@@ -490,7 +490,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTA3NzIxNywtNzkxNDA1MTI5LDY4OT
+eyJoaXN0b3J5IjpbMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OT
 M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
 MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
 EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
