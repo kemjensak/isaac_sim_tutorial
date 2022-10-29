@@ -94,15 +94,15 @@
        $ code load_ur5e_with_2f85_demo.launch
       
  - 열린 VScode에 아래의 코드를 붙여넣는다.
-```html
-<?xml version="1.0"?>
-<launch>
-  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_with_2f85.xacro'"/>
-  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
-  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
-  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
-</launch>
-```
+	```html
+	<?xml version="1.0"?>
+	<launch>
+	  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_with_2f85.xacro'"/>
+	  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+	  <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
+	  <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false" output="screen"/>
+	</launch>
+	```
 - `Ctrl-S`로 저장 후 닫는다.
 
 - `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85.launch` 파일을 만든다.
@@ -279,7 +279,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzcwOTYyMCwyMDIyNjczNjM0LC04Nz
+eyJoaXN0b3J5IjpbMTk3MTk0ODA3NiwyMDIyNjczNjM0LC04Nz
 cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
 MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
 0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
