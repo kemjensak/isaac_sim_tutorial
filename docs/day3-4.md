@@ -381,7 +381,7 @@ $ roslaunch ur5e_with_2f85_moveit_config moveit_rviz.launch rviz_config:=true
 -> Rviz를 통한 조작
 
 $ roslaunch moveit_servo spacenav_cpp.launch
--> 아직 수정중
+-> 수정중(Pose_tracker)
 
 ```
 ## MoveIT! Servoing
@@ -490,7 +490,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MzA5NDgwLDE0NjA3Njk0NjMsLTc5MT
+eyJoaXN0b3J5IjpbMjMxODMyMjU4LDE0NjA3Njk0NjMsLTc5MT
 QwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5MiwyMDIyNjczNjM0
 LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMz
 YxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1
