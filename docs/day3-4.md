@@ -167,7 +167,9 @@
 - `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
 
 ## Preparing Gazebo
-- 
+- ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
+ 
+	   $ catkin_create_pkg ur5e_with_2f85_gazebo
 - 
 
 ## MoveIT! Servoing
@@ -283,11 +285,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzY5ODgxMCwyMDIyNjczNjM0LC04Nz
-cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
-MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
-0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
-NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNT
-U4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2
-LC04NTU4MzA5OF19
+eyJoaXN0b3J5IjpbMzYwNTc4Mjk0LDIwMjI2NzM2MzQsLTg3Nz
+IzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUw
+OTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLT
+E4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3
+OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4NzYsNzc2ODA1NT
+g5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0yNzUzMDgyOTYs
+LTg1NTgzMDk4XX0=
 -->
