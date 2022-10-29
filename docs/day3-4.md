@@ -177,32 +177,7 @@
 	generic_hw_control_loop:
 	  loop_hz: 300
 	  cycle_time_error_threshold: 0.01
-	    - wrist_3_joint
-	    - robotiq_85_left_knuckle_joint
-	  sim_control_mode: 1  # 0: position, 1: velocity
-	# Publish all joint states
-	# Creates the /joint_states topic necessary in ROS
-	joint_state_controller:
-	  type: joint_state_controller/JointStateController
-	  publish_rate: 50
-	controller_list:
-	- name: "pos_joint_traj_controller"
-	  action_ns: follow_joint_trajectory
-	  type: FollowJointTrajectory
-	  joints:
-	    - shoulder_pan_joint
-	    - shoulder_lift_joint
-	    - elbow_joint
-	    - wrist_1_joint
-	    - wrist_2_joint
-	    - wrist_3_joint
-	    - robotiq_85_left_knuckle_joint
-	- name: "gripper_controller"
-	  action_ns: follow_joint_trajectory
-	  type: FollowJointTrajectory
-	  joints:
-	    - robotiq_85_left_knuckle_joint
-	```# Settings for ros_control hardware interface
+	# Settings for ros_control hardware interface
 	hardware_interface:
 	  joints:
 	    - shoulder_pan_joint
@@ -505,11 +480,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5NDc4MDIwLDY4OTM4Nzg3MiwtMTcxNj
-gyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2
-LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMT
-E3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1
-ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0OD
-k5LC01NTE3MDc4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0x
-MjQ0MjMwODU5XX0=
+eyJoaXN0b3J5IjpbLTc5MTQwNTEyOSw2ODkzODc4NzIsLTE3MT
+Y4MjQ5MiwyMDIyNjczNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1
+NiwtMTQ0MDY1MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMj
+ExNzY1MTk5NSwtNzc4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0
+NTg3ODMsLTEyOTkzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyND
+g5OSwtNTUxNzA3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwt
+MTI0NDIzMDg1OV19
 -->
