@@ -181,7 +181,7 @@
       $ code config/ur5e_with_2f85_controllers.yaml
     
 - 내용은 아래와 같이 입력한다.
-```
+```yaml
  joint_state_controller:
   type: joint_state_controller/JointStateController
   publish_rate: &loop_hz 500
@@ -340,11 +340,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY4MjQ5MiwyMDIyNjczNjM0LC04Nz
-cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
-MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
-0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
-NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNT
-U4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2
-LC04NTU4MzA5OF19
+eyJoaXN0b3J5IjpbMTgzNDU2NjE4NywtMTcxNjgyNDkyLDIwMj
+I2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUy
+NTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC
+03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5
+OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MD
+c4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5
+LC0yNzUzMDgyOTZdfQ==
 -->
