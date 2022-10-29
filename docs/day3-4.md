@@ -171,12 +171,12 @@
  
 	   $ catkin_create_pkg ur5e_with_2f85_gazebo
 	   
-- config와 launch 디렉토리를 만들고, 
+- `config`와 `launch` 디렉토리를 만들고, 
 
  	   $ cd ur5e_with_2f85_gazebo
  	   $ mkdir config launch
  	  
-- VS code를 이용해 config 디렉토리 내에 ur5e_with_2f85_controllers.yaml 파일을 만들고, 
+- VS code를 이용해 config 디렉토리 내에 `ur5e_with_2f85_controllers.yaml` 파일을 만들고, 
 
       $ code config/ur5e_with_2f85_controllers.yaml
     
@@ -224,7 +224,7 @@
 	  type: position_controllers/JointGroupPositionController
 	  joints: *robot_joints
 	```
-- 저장 후, launch 디렉토리 내에 ur5e_with_2f85_bringup.launch 파일을 만들고, 
+- 저장 후, launch 디렉토리 내에 `ur5e_with_2f85_bringup.launch` 파일을 만들고, 
 
       $ code launch/ur5e_with_2f85_bringup.launch
     
@@ -266,12 +266,14 @@
 	</launch>
 	```
 
-- 저장 후, 동일한 launch 디렉토리 내에 ur5e_with_2f85_control.launch 파일을 만들고, 
+- 저장 후, 동일한 launch 디렉토리 내에 `ur5e_with_2f85_control.launch` 파일을 만들고, 
 
       $ code launch/ur5e_with_2f85_bringup.launch
     
 - 내용은 아래와 같이 입력한다.
-ur5e_with_2f85_control.launch 파일을 만든다.
+	```xml
+	
+	```
 ## MoveIT! Servoing
 ```mermaid 
 sequenceDiagram 
@@ -387,11 +389,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5NzIzNTYwLC0xNzE2ODI0OTIsMjAyMj
-Y3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1
-NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLT
-c3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5
-MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNz
-g3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTks
-LTI3NTMwODI5Nl19
+eyJoaXN0b3J5IjpbLTc3MDMwMjI4MiwtMTcxNjgyNDkyLDIwMj
+I2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUy
+NTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC
+03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5
+OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MD
+c4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5
+LC0yNzUzMDgyOTZdfQ==
 -->
