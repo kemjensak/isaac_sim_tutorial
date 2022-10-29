@@ -166,7 +166,7 @@
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
 - `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 실행하여 moveit을 통해 manipulator를 제어해 본다.
 
-- `ros_control`의 컨트롤러를 통한 제어를 위해 아래와 같이 컨트롤러를 추가한다.
+- `ros_control`의 컨트롤러를 통한 제어를 위해, `ur5e_with_2f85_moveit_config/config/ros_controllers.yaml`파ㅇ 패키지
 
 ## Preparing Gazebo
 - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
@@ -435,11 +435,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMj
-Y3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1
-NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLT
-c3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5
-MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNz
-g3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTks
-LTI3NTMwODI5Nl19
+eyJoaXN0b3J5IjpbLTE2MTI4NjgwODksNjg5Mzg3ODcyLC0xNz
+E2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEz
+NTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LD
+IxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0
+NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5Mj
+Q4OTksLTU1MTcwNzg3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzks
+LTEyNDQyMzA4NTldfQ==
 -->
