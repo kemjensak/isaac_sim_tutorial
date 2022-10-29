@@ -45,10 +45,6 @@
 	      <xacro:robotiq_85_gripper prefix="" parent="tool0">
 	        <origin xyz="0.0 0.0 0.0" rpy="${pi/2} -${pi/2} 0" />
 	      </xacro:robotiq_85_gripper>  
-
-	       <!-- 2f-85 from ros-industrial (Which is NOT working properly in xacro)-->
-	      <!-- <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model_macro.xacro" />
-	      <xacro:robotiq_arg2f_85 prefix=""/> -->
 	          
 	      <!-- ur5e -->
 	      <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
@@ -283,11 +279,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjkxMzIyMzUsMjAyMjY3MzYzNCwtOD
-c3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAz
-NTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NS
-wtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0x
-OTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MD
-U1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5
-NiwtODU1ODMwOThdfQ==
+eyJoaXN0b3J5IjpbMTU1NzcwOTYyMCwyMDIyNjczNjM0LC04Nz
+cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
+MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
+0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
+NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNT
+U4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2
+LC04NTU4MzA5OF19
 -->
