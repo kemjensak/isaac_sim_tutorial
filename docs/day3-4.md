@@ -470,15 +470,8 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - http://wiki.ros.org/ros_control/Tutorials/Create%20your%20own%20hardware%20interface
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
-
-
-
-![](https://us.v-cdn.net/6027406/uploads/editor/ug/u1677dlpb7la.png)
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mjc4NTg4OSwtNzkxNDA1MTI5LDY4OT
+eyJoaXN0b3J5IjpbMTgxNTMzMTYxOSwtNzkxNDA1MTI5LDY4OT
 M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
 MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
 EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
