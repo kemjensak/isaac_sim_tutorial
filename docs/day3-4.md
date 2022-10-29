@@ -316,7 +316,6 @@
 	    args="--stopped $(arg stopped_controllers)" output="screen" respawn="false" />
 
 	</launch>
-
 	```
 ## MoveIT! Servoing
 ```mermaid 
@@ -433,7 +432,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjA0NjI0OCwtMTcxNjgyNDkyLDIwMj
+eyJoaXN0b3J5IjpbMTEwNzg0ODMyNiwtMTcxNjgyNDkyLDIwMj
 I2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUy
 NTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC
 03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5
