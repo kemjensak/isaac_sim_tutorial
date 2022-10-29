@@ -365,6 +365,8 @@
 	</launch>
 	```
 - 저장 후 닫는다.
+
+- 아래의 명령어를 순서대로 입력하여 Gazebo와 MoveI
 ## MoveIT! Servoing
 ```mermaid 
 sequenceDiagram 
@@ -471,7 +473,7 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTMzMTYxOSwtNzkxNDA1MTI5LDY4OT
+eyJoaXN0b3J5IjpbLTU2NTQzMDA1OCwtNzkxNDA1MTI5LDY4OT
 M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
 MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
 EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
