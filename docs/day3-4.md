@@ -173,7 +173,8 @@
 	   
 - config와 launch 디렉토리를 만들고, 
 
- 	   $ mkdir ur5e_with_2f85_gazebo/config ur5e_with_2f85_gazebo/launch
+ 	   $ cd ur5e_with_2f85_gazebo
+ 	   $ mkdir config launch
 
 ## MoveIT! Servoing
 ```mermaid 
@@ -288,11 +289,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTE5Njc1OCwyMDIyNjczNjM0LC04Nz
-cyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1
-MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC
-0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MTUsLTE5
-NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3NjgwNT
-U4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1MzA4Mjk2
-LC04NTU4MzA5OF19
+eyJoaXN0b3J5IjpbLTEyMzMzNjEyNTQsMjAyMjY3MzYzNCwtOD
+c3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAz
+NTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NS
+wtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0x
+OTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNzg3Niw3NzY4MD
+U1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTksLTI3NTMwODI5
+NiwtODU1ODMwOThdfQ==
 -->
