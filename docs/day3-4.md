@@ -134,7 +134,8 @@
 ![edit_planning_group](https://user-images.githubusercontent.com/60342784/194872835-6fb4dee5-c101-47d8-bb20-8deec8d13386.png)
 
 - *Add Kin. Chain*을 클릭하고 좌측 하단의 *Expand All*을 클릭하여 모든 link가 보이게 한 후, 아래 그림과 같이 *Base Link*를 `base_link`로, *Tip Link*를 `tool0`로 설정한다.
-![Screenshot from 2022-10-10 22-08-58](https://user-images.githubusercontent.com/60342784/194873782-23373d88-504b-4faf-808e-0de0da9666be.png)
+![Screenshot from 2022-10-29 21-54-17](https://user-images.githubusercontent.com/60342784/198832679-1b19689f-b3f6-49d4-89ed-c57e931adc50.png)
+
 
 - *Save*를 눌러 저장한 후 다시 *Add Group*을 눌러 아래와 같이 입력한다.
 ![Screenshot from 2022-10-10 22-16-49](https://user-images.githubusercontent.com/60342784/194875273-da510f44-b175-4894-b60a-a9a907139166.png)
@@ -488,11 +489,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MD
-c2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDky
-LDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xND
-QwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUx
-OTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4My
-wtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01
-NTE3MDc4NzZdfQ==
+eyJoaXN0b3J5IjpbMjA5ODY3NDMwNiwxMDcxMTI0NjAyLDIzMT
+gzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcy
+LC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
+AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
+Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
+wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
+Nzg5MjQ4OTldfQ==
 -->
