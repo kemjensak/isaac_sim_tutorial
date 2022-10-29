@@ -234,7 +234,7 @@
 	<launch>
 
 	  <!-- Controller configuration -->
-	  <arg name="controller_config_file" default="$(find ur5e_with_2f85_gazebo)/config/ur5e_controllers.yaml" doc="Config file used for defining the ROS-Control controllers."/>
+	  <arg name="controller_config_file" default="$(find ur5e_with_2f85_gazebo)/config/ur5e_with_2f85_controllers.yaml" doc="Config file used for defining the ROS-Control controllers."/>
 	  <arg name="controllers" default="joint_state_controller pos_joint_traj_controller gripper_controller" doc="Controllers that are activated by default."/>
 	  <arg name="stopped_controllers" default="joint_group_pos_controller" doc="Controllers that are initally loaded, but not started."/>
 
@@ -381,11 +381,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2Mzg1MiwtMTcxNjgyNDkyLDIwMjI2Nz
-M2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2
-LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03Nz
-gzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5OTMx
-MTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MDc4Nz
-YsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5LC0y
-NzUzMDgyOTZdfQ==
+eyJoaXN0b3J5IjpbODEyNDA5MjA3LC0xNzE2ODI0OTIsMjAyMj
+Y3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1
+NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLT
+c3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC0xMjk5
+MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1MTcwNz
+g3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMzA4NTks
+LTI3NTMwODI5Nl19
 -->
