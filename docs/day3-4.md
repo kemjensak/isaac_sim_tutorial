@@ -16,7 +16,7 @@
 
 - 필요한 패키지를 아래 주소에서 받아 빌드한다.
  
-    ~~https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_2f_85_gripper_visualization~~
+    ~~https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/IROL-SSU/isaac_sim_tutorial_pkgs/tree/master/robotiq_85_description~~
      **->모든 inertial 주석 제거 내용 추가 필요, 새로운 description repository로 교체 필요**
      
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
@@ -252,11 +252,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMz
-YxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1
-Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkzMTE0MT
-UsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNzA3ODc2LDc3
-NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1OSwtMjc1Mz
-A4Mjk2LC04NTU4MzA5OCwtMTg1MTY0ODY5MSwxMDM5MDUyMTMx
-LDE1Mjg2MjYyNjVdfQ==
+eyJoaXN0b3J5IjpbNTE3NDY4MjExLDIwNDAyMTEzNTYsLTE0ND
+A2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5
+OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MSwtMjA0NDU4NzgzLC
+0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02Nzg5MjQ4OTksLTU1
+MTcwNzg3Niw3NzY4MDU1ODksLTIwNjQ2NzEyNzksLTEyNDQyMz
+A4NTksLTI3NTMwODI5NiwtODU1ODMwOTgsLTE4NTE2NDg2OTEs
+MTAzOTA1MjEzMV19
 -->
