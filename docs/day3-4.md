@@ -167,9 +167,11 @@
 ![Screenshot from 2022-10-10 22-42-20](https://user-images.githubusercontent.com/60342784/194880048-48179c32-5361-41cd-aa00-9349f45e64e2.png)
 
 - 좌측의 *Passive Joints*를 클릭하여 아래 그림과 같이 gripper의 나머지 조인트를 모두 Passive joint로 설정한다.
-![Screenshot from 2022-10-10 23-06-06](https://user-images.githubusercontent.com/60342784/194884833-b9010fb7-02d2-455c-ad63-d82f113a6644.png)
+![Screenshot from 2022-10-29 21-59-34](https://user-images.githubusercontent.com/60342784/198832951-9470409f-d3e8-47e9-aad8-4deb30dc21a6.png)
 
-- 좌측의 *Controllers - Auto Add FollowJointsTraj*를 클릭하여 생성된 Controller의 이름과 Controller Type을 아래 그림과 같이 변경한다.![Screenshot from 2022-10-10 23-09-01](https://user-images.githubusercontent.com/60342784/194886160-1b159919-2f5c-4837-b4e9-bd4a01226b32.png)
+
+- 좌측의 *Controllers - Auto Add FollowJointsTraj*를 클릭하여 생성된 Controller의 이름과 Controller Type을 아래 그림과 같이 변경한다.![Screenshot from 2022-10-29 22-00-20](https://user-images.githubusercontent.com/60342784/198832987-fdfa60af-af62-4ef8-9995-22fd64b36621.png)
+
 
 - 좌측의 *Author Information* 을 클릭하여 작성자의 정보를 입력한다.
 - 좌측의 *Configulation Files*로 이동하여 *Configuration Package Save Path*를 ros workspace로 지정하고, 경로의 맨 뒤에 `/ur5e_with_2f85_moveit_config`를 붙여준다.
@@ -501,11 +503,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 - https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/src/hardware_interface.cpp
 - https://github.com/Toni-SM/semu.robotics.ros_bridge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3NjM2NDAsMTA3MTEyNDYwMiwyMz
-E4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3
-MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMD
-QwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUy
-NjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNz
-EsLTIwNDQ1ODc4MywtMTI5OTMxMTQxNSwtMTk3OTA3MzYxNywt
-Njc4OTI0ODk5XX0=
+eyJoaXN0b3J5IjpbMTQ5MjAyNTM5NywxMDcxMTI0NjAyLDIzMT
+gzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcy
+LC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwND
+AyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2
+Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4MDE3MS
+wtMjA0NDU4NzgzLC0xMjk5MzExNDE1LC0xOTc5MDczNjE3LC02
+Nzg5MjQ4OTldfQ==
 -->
