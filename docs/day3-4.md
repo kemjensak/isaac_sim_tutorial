@@ -94,7 +94,7 @@
        $ code load_ur5e_with_2f85_demo.launch
       
  - 열린 VScode에 아래의 코드를 붙여넣는다.
-	```html
+	```xml
 	<?xml version="1.0"?>
 	<launch>
 	  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_with_2f85.xacro'"/>
@@ -110,7 +110,7 @@
        $ code load_ur5e_with_2f85.launch
       
  - 열린 VScode에 아래의 코드를 붙여넣는다.
-	```html
+	```xml
 	<?xml version="1.0"?>
 	<launch>
 	  <param name="robot_description" command="$(find xacro)/xacro '$(find ur5e_with_2f85_description)/urdf/ur5e_with_2f85.xacro'"/>
@@ -381,11 +381,11 @@ $ roslaunch moveit_servo spacenav_cpp.launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTM5Mzg5NSwtMTcxNjgyNDkyLDIwMj
-I2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUy
-NTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC
-03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1ODc4MywtMTI5
-OTMxMTQxNSwtMTk3OTA3MzYxNywtNjc4OTI0ODk5LC01NTE3MD
-c4NzYsNzc2ODA1NTg5LC0yMDY0NjcxMjc5LC0xMjQ0MjMwODU5
-LC0yNzUzMDgyOTZdfQ==
+eyJoaXN0b3J5IjpbLTExNTg3NjUwMzksLTE3MTY4MjQ5MiwyMD
+IyNjczNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1
+MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NS
+wtNzc4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEy
+OTkzMTE0MTUsLTE5NzkwNzM2MTcsLTY3ODkyNDg5OSwtNTUxNz
+A3ODc2LDc3NjgwNTU4OSwtMjA2NDY3MTI3OSwtMTI0NDIzMDg1
+OSwtMjc1MzA4Mjk2XX0=
 -->
