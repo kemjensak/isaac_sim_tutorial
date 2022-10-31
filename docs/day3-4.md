@@ -1,3 +1,159 @@
+
+# ROS 기본
+## 1. Ubuntu 20.04 LTS 설치
+## 2. Nvidia driver install
+ - Isaac sim 구동을 위한 요구사항 https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/requirements.html
+ - 터미널 실행 단축키는 ctrl + alt + T
+ - Ubuntu  기본 명령어
+ 
+	 |명령어|의미|설명|
+	|------|---|---|
+	|:cd        |change directory|`cd ~` 홈 디렉토리로 이동,  `cd ..`  상위 디렉토리로 이동,`cd /경로`: 특정 경로로 이동|
+	|:ls|테스트2|파일&디렉토리 목록 출력|
+	|:mkdir|make directory|`mkdir 폴더이름` 디렉토리 생성|
+	|:echo|테스트2|`echo <target>` 터미널 창에 출력|
+	|:alias|별명|명령어의 별칭 등록|
+	|:sudo|superuser do|사용자 권한을 root로|
+
+- 절대경로와 상대경로 `.`은 현재 디렉토리, `..`은 바로 상위 디렉토리를 의미. 
+- 현재 위치(`/catkin_ws/src`)에서 `cd ../catkin_ws/src/ur5e_config`이면, 상위 디렉토리인 `catkin_ws`로 이동한 후, 그 하위 디렉토리인 `/catkin_ws/src/ur5e_config`로 이동.
+
+ - 그래픽카드 및 설치 가능한 드라이버 확인 
+		
+		$ ubuntu-drivers devices 
+		$ sudo apt install nvidia-driver-<model #>
+
+## 3. ROS noetic 버전 설치 [goto ROS wiki](http://wiki.ros.org/noetic/Installation/Ubuntu)
+
+ - `ros-latest.list`에 ROS 저장소를 추가
+ - ROS 저장소로부터 패키지를 내려받기 위해 공개키 추가
+ 
+		$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+		$ sudo apt install curl # if you haven't already installed curl
+	    $ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+
+ - **운영체제에서 사용 가능한 패키지들과 그 버전에 대한 정보를 업데이트**. 설치되어 있는 패키지를 최신으로 업데이트하는 것이 아닌 설치가능한 리스트를 업데이트하는 것
+   
+	   $ sudo apt update
+
+- **(참고) 운영체제에 apt-get install 명령으로 설치한 패키지들을 최신 버전으로 업그레이드**. apt-get upgrade 명령을 이용하면 apt-get update로 가져온 각 패키지들의 최신 버전에 맞게 업그레이드를 한다.    
+
+		$ sudo apt-get upgrade
+
+### 3-1 설치(desktop-full 버전 설치)
+
+ - **Desktop-Full Install: (Recommended)** : Everything in **Desktop** plus 2D/3D simulators and 2D/3D perception packages
+ - Desktop-Full 버전의 용량은 2GB를 초과하기 때문에 상당한 시간이 소요됨.
+
+		$ sudo apt install ros-noetic-desktop-full
+	
+ - 추가적인 패키지를 설치하기 위한 명령어.
+	
+		$ sudo apt install ros-noetic-PACKAGENAME
+		e.g. $ sudo apt install ros-noetic-slam-gmapping
+
+
+### 3-2 환경설정
+ - ROS는 여러 shell을 실행하며 기능을 테스트하게 됨. 이 때, 터미널 창을 열 때마다 ~/.bashrc에 정의된 ROS의 환경변수들이 자동으로 쉘에 추가되도록 설정하면 편함.  새로운 쉘이 실행될 때마다 bash에 자동적으로 ROS 환경변수가 추가되도록 하기 위해 아래의 명령을 입력한다.
+
+		$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc  ## bash shell이 아닌 zsh쉘이면 ~/.zshrc로 변경
+		$ source ~/.bashrc
+
+ - 현재 쉘에서만 환경변수를 바꾸고 싶다면 아래 명령 한 줄만 입력
+	
+	 	$ source /opt/ros/kinetic/setup.bash 
+
+### 3-3 패키지 빌드에 필요한 의존성
+
+ - 패키지 빌드에 필요한 의존성 설치: ROS 패키지를 빌드하기 위해 다른 의존성 패키지를 설치한다.
+
+		$ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+	
+ - rosdep 초기화: ROS 를 사용하기 전에 반드시 rosdep 을 초기화해야 한다. 
+ - rosdep을 사용하면 컴파일하려는 소스에 대한 시스템 종속성을 쉽게 설치할 수 있으며 ROS에서 일부 핵심 구성 요소를 실행하는 데 필요. 
+ 
+	 	$ sudo rosdep init
+		$ rosdep update
+
+## 4. 작업공간 생성 및 빌드
+
+ - 작업 폴더 생성 및 초기화: ROS 에서 catkin 이라는 ROS 전용 빌드 시스템을 사용하고 있다. 이를 사용하려면 다음처럼 catkin 작업 폴더를 생성하고 초기화해야 한다. 이 설정은 작업 폴더를 새롭게 생성하지 않는 한 처음 한 번만 설정해 주면 된다.
+ 
+	 	$ mkdir -p ~/catkin_ws/src
+		$ cd ~/catkin_ws/src
+		$ catkin_init_workspace  #작업공간을 만듬
+
+ - 현재 catkin 작업 폴더에는 src 폴더와 그 안에 CMakeList.txt 파일만 있지만 시험삼아 catkin_make 명령어를 이용해 빌드해 보자.
+ 
+		$ cd ~/catkin_ws/
+		$ catkin_make #빌드
+	
+ - 마지막을 catkin 빌드 시스템과 관련된 환경 파일을 불러오자.
+
+		$ source ~/catkin_ws/devel/setup.bash
+
+ - 설치확인: roscore 구동*(굳이 turtlesim 예제를 실행하지 않아도, roscore 명령어가 위 처럼 잘 실행 된다면 ROS Noetic 설치가 완료 되었다고 봐도 될 것이다.)
+
+
+## 5. ROS 작업환경 설정: bashrc 파일 편집
+
+ - 위 명령어를 실행한 후, 아래의 코드를 bashrc 가장 끝 부분에 복붙.
+	```
+	$ gedit ~/.bashrc
+
+	# ROS 환경설정 파일
+	source /opt/ros/noetic/setup.bash
+	source ~/catkin_ws/devel/setup.bash
+
+	# ROS 네트워크 설정 - 노드 간 msg 통신을 위한 설정. 
+	# 하나의 PC에서 모든 ROS 패키지를 실행한다면, IP 주소는 필요없고, 아래와 같이 localhost로 설정하면 됨. 
+	export ROS_HOSTNAME=localhost
+	export ROS_MASTER_URI=http://localhost:11311
+
+	# ROS alias 명령어 설정
+	alias cs='cd ~/catkin_ws/src'
+	alias cw='cd ~/catkin_ws'
+	alias cm='cd ~/catkin_ws && catkin_make'
+	alias sb='source ~/.bashrc'
+	```
+
+## 6. Terminator, IDE
+
+### 6.1 Terminator
+ - ROS를 기반으로 개발/테스트를 하기위해서는, 여러개의 쉘을 동시에 켜고 명령어를 입력/실행해야 한다.  이 기능을 편리하게 할 수 있는 프로그램 중 하나가 **터미네이터(Terminator)**이다.
+ 
+		$ sudo apt-get install terminator
+
+### 6.2 VS Code (https://code.visualstudio.com/)
+ - 윈도우: C/C++(Visual Studio), Python(Pycharm) 
+ - Ubuntu: VS Code(Visual Studio Code)
+ - 통합개발환경(IDE): 코딩, 디버그, 컴파일, 배포 등 모든 작업이 가능
+
+![](https://blog.kakaocdn.net/dn/T6azV/btqTow6ro5x/fQxTZFACLMY0yOtREEEyBk/img.png)
+
+		$ code . #실행
+
+ - vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,  
+ - https://www.youtube.com/watch?v=RXyFSnjMd7M
+ - ctrl+ 누른 후, setting 창에 ROS를 검색한 후, ROS distro에 'noetic'을 입력. 
+ - https://pinkwink.kr/1190
+
+
+---
+    출처: https://rocknz.tistory.com/entry/ROS-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%AA%A8%EC%9D%8C
+    출처: https://velog.io/@717lumos/ROS-ROS%EC%84%A4%EC%B9%98-Ubuntu18.04-ROS-melodic 
+	출처: https://velog.io/@717lumos/ROS-Linux-ROS-%EC%A3%BC%EC%9A%94-%EB%AA%85%EB%A0%B9%EC%96%B4
+	출처: https://rocknz.tistory.com/entry/ROS-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%AA%A8%EC%9D%8C
+	출처: https://conceptbug.tistory.com/entry/ROS-Ubuntu-2004-LTS
+---
+
+
+# ROS Gazebo기반 UR5e 가상화 및 모션제어 프레임워크 구현
+
+
+
+
+
 # DAY3~4: Omniverse issac sim 기반 commercial manipulator
 
 -   *~~UR5e, Gripper 대상: 각각의 URDF 작성, Xacro 통합, Moveit에서 연동 Kinematics 구성 (3hr)~~*
@@ -16,10 +172,11 @@
 ## Joining two URDF(xacro)
 ### create new package and xacro file and including two other xacro
 
-- 필요한 패키지를 아래 주소에서 받아 빌드한다.
- 
-    
-     **새로운 description repository링크 추가 필요**
+- 필요한 패키지를 아래 명령어를 통해 받는다. (`catkin_ws/src`에서 입력)
+	 ```
+	$ git clone https://github.com/kemjensak/robotiq_85_description.git
+	$ git clone -b melodic-devel-staging https://github.com/ros-industrial/universal_robot.git universal_robot
+	 ```
      
  - ROS workspace 내의 src에서 다음 명령어를 입력하여 새로운 패키지를 생성한다.
  
@@ -115,10 +272,16 @@
 	</launch>
 	```
 - `Ctrl-S`로 저장 후 닫는다.
+- 아래 명령어를 통해 빌드에 필요한 패키지들을 설치한다.
+	```
+	$ cd ~/catkin_ws
+	$ rosdep install --from-paths src --ignore-src -r -y
+	 ```
 - `catkin_make`또는 `catkin build`후  아래  명령어를 통해 위에서 만든 `load_ur5e_with_2f85_demo.launch` 파일을 실행한다.
-
-      $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85_demo.launch 
-
+	```
+	$ source ~/.bashrc
+	$ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85_demo.launch 
+	```
  - 실행된 `Rviz`의 *Global Options*의 *Fixed Frame*을 `world`로 변경하고, *Add* 버튼을 눌러 *RobotModel*을 추가한다.
  - UR5e manipulator와 말단부에 장착된 2f-85 gripper를 확인할 수 있으며, 함께 실행된 `joint_state_publisher_gui`의 슬라이더를 움직여 각 joint의 값을 변경해 볼 수 있다.
 
@@ -179,6 +342,7 @@
 -  *Generate Package*를 클릭하여 `ur5e_with_2f85_moveit_config` 패키지를 생성한다.
 - `catkin_make`또는 `catkin build`후 위에서 만든 패키지의 `demo.launch` 파일을 아래의 명령어로 실행하여 `rviz`의 `MoveIT` plugin을 통해 manipulator를 제어해 본다.
 	```
+	$ source ~/.bashrc
 	$ roslaunch ur5e_with_2f85_moveit_config demo.launch
 	```
 - `ros_control`을 통한 제어를 위해, `ur5e_with_2f85_moveit_config/config/ros_controllers.yaml`에 아래의 내용을 붙여넣는다.
@@ -219,7 +383,6 @@
 	    - wrist_1_joint
 	    - wrist_2_joint
 	    - wrist_3_joint
-	    - robotiq_85_left_knuckle_joint
 	- name: "gripper_controller"
 	  action_ns: follow_joint_trajectory
 	  type: FollowJointTrajectory
@@ -330,7 +493,7 @@
 
 - 저장 후, 동일한 launch 디렉토리 내에 `ur5e_with_2f85_control.launch` 파일을 만들고, 
 
-      $ code launch/ur5e_with_2f85_bringup.launch
+      $ code launch/ur5e_with_2f85_control.launch
     
 - 내용은 아래와 같이 입력한다.
 	```xml
@@ -374,7 +537,8 @@
 	    args="$(arg controllers)" output="screen" respawn="false" />
 
 	  <!-- Load other controllers, but do not start them -->
-	  <node name="ros_control_stopped_spawner" pkg="controller_manager" type="spawner"
+	  <node name="ros_control_stopped_spawner" pkg="controller_manager" type="
+	  pawner"
 	    args="--stopped $(arg stopped_controllers)" output="screen" respawn="false" />
 
 	</launch>
@@ -512,4 +676,22 @@ czNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MDY1MjU1
 NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5NSwtNz
 c4MzY1Mjg1LC0xODY4NjgwMTcxLC0yMDQ0NTg3ODMsLTEyOTkz
 MTE0MTVdfQ==
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODU5OTg5MjI4LC0xMzEzNjYxOTI2LC0xMD
+M1MTI3Mzk1LC02OTgyMjE3NDMsLTY3Mjk3NzI5MSw2MjY4MjU2
+MzYsMTA3MTM5OTI2NCwtMTgzODQ3ODY2MCwtOTA5NzcwMDc5LD
+czMjMyODc0NiwtMTcwNjg3MzQzLC01MTk3NjczMjcsLTc3NjE1
+MDE5MCwtMTA2ODgxMjI5Nyw5MDUzNzUyMTUsMTM5Nzc4MzU2OC
+wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
+NDc5ODA4XX0=
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMz
+c5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgs
+MTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNj
+gyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2
+LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMT
+E3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2ODAxNzEsLTIwNDQ1
+ODc4M119
 -->
