@@ -132,7 +132,7 @@
 - 설치를 위해 제목의 링크를 클릭하고, 우측 상단의 다운로드 버튼을 클릭한다.
 	![](https://blog.kakaocdn.net/dn/T6azV/btqTow6ro5x/fQxTZFACLMY0yOtREEEyBk/img.png)
 
-- 
+- ㄱ
 		$ code . #실행
 
  - vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,  
@@ -689,11 +689,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMTIwNjgzLDExMDI4MTYyNDMsLTg0Nj
-Q2MDM3NywxMzM3OTczNTg1LC00NzA0NzEwLDEwNzExMjQ2MDIs
-MjMxODMyMjU4LDE0NjA3Njk0NjMsLTc5MTQwNTEyOSw2ODkzOD
-c4NzIsLTE3MTY4MjQ5MiwyMDIyNjczNjM0LC04NzcyMzYwNDEs
-MjA0MDIxMTM1NiwtMTQ0MDY1MjU1NiwxMzYxMDM1MDk2LDIxMD
-Y1MjYyNzksMjExNzY1MTk5NSwtNzc4MzY1Mjg1LC0xODY4Njgw
-MTcxXX0=
+eyJoaXN0b3J5IjpbLTI0ODk2NTkxMCwxMTAyODE2MjQzLC04ND
+Y0NjAzNzcsMTMzNzk3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAy
+LDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mz
+g3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQx
+LDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMT
+A2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4
+MDE3MV19
 -->
