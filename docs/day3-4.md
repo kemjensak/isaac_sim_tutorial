@@ -129,10 +129,10 @@
  - Ubuntu: VS Code(Visual Studio Code)
  - 통합개발환경(IDE): 코딩, 디버그, 컴파일, 배포 등 모든 작업이 가능
 
-- 설치를 위해 제목의 링크를 클릭하고, 우측 상단의 다운로드 버튼을 클릭한다.
+- 설치를 위해 제목의 링크를 클릭하고, 좌측 중단의  `.deb` 확장자 설치파일을 클릭하여 다운로드 한다.
 	![](https://blog.kakaocdn.net/dn/T6azV/btqTow6ro5x/fQxTZFACLMY0yOtREEEyBk/img.png)
 
-- 가운데의  `.deb` 확장자 설치파일을 클릭하여 다운로드한다.
+- 
 		$ code . #실행
 
  - vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,  
@@ -689,11 +689,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY3MDg4NDUsMTEwMjgxNjI0MywtOD
-Q2NDYwMzc3LDEzMzc5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYw
-MiwyMzE4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OT
-M4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0
-MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTYsMj
-EwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUyODUsLTE4Njg2
-ODAxNzFdfQ==
+eyJoaXN0b3J5IjpbMTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04ND
+Y0NjAzNzcsMTMzNzk3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAy
+LDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mz
+g3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQx
+LDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMT
+A2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4NSwtMTg2ODY4
+MDE3MV19
 -->
