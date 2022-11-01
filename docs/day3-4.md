@@ -128,8 +128,10 @@
  - 윈도우: C/C++(Visual Studio), Python(Pycharm) 
  - Ubuntu: VS Code(Visual Studio Code)
  - 통합개발환경(IDE): 코딩, 디버그, 컴파일, 배포 등 모든 작업이 가능
+  
+	---
+	#### 다운로드 및 설치 
 	
-	### 설치 
 - 설치를 위해 제목의 링크를 클릭하고, 좌측 중단의  `.deb` 확장자 설치파일을 클릭하여 다운로드 한다.
 	![Screenshot from 2022-11-01 21-45-09](https://user-images.githubusercontent.com/60342784/199235493-bd2af9af-cb50-4984-9e11-24d42f26471c.png)
 
@@ -690,11 +692,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI5ODMyNTUsMTQxMTIxNTQ2MCwxMT
-AyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwNDcx
-MCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OT
-E0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYz
-NCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMT
-M2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2
-NTI4NV19
+eyJoaXN0b3J5IjpbOTE0NjAyMzIsMTQxMTIxNTQ2MCwxMTAyOD
+E2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwNDcxMCwx
+MDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OTE0MD
+UxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNCwt
+ODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMTM2MT
+AzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2NTI4
+NV19
 -->
