@@ -145,7 +145,8 @@
 ![Screenshot from 2022-11-01 21-50-03](https://user-images.githubusercontent.com/60342784/199236790-86c5faf1-61dc-44ff-a38c-e6c37d0f22db.png)
  - 본 교육과정 진행에 필요한 extension인 Python, C/C++, CMake, ROS, XML tools 를 각각 검색하고 `Install`을 눌러 설치한다.
 ![Screenshot from 2022-11-01 21-50-03](https://user-images.githubusercontent.com/60342784/199237853-02023bca-fa8c-4a22-854e-3be30bb7aa12.png)
-~~- vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,~~  
+
+	~~- vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,~~  
  - https://www.youtube.com/watch?v=RXyFSnjMd7M
  - ctrl+ 누른 후, setting 창에 ROS를 검색한 후, ROS distro에 'noetic'을 입력. 
  - https://pinkwink.kr/1190
@@ -699,11 +700,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzkyOTgxMywyMjQ3ODE1MjEsMTQxMT
-IxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4
-NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNz
-Y5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIs
-MjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0ND
-A2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5
-OTVdfQ==
+eyJoaXN0b3J5IjpbNzMxMjQ2Nzg1LDIyNDc4MTUyMSwxNDExMj
+E1NDYwLDExMDI4MTYyNDMsLTg0NjQ2MDM3NywxMzM3OTczNTg1
+LC00NzA0NzEwLDEwNzExMjQ2MDIsMjMxODMyMjU4LDE0NjA3Nj
+k0NjMsLTc5MTQwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5Miwy
+MDIyNjczNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MD
+Y1MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5
+NV19
 -->
