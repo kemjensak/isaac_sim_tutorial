@@ -137,10 +137,12 @@
 
 - 다운로드된 파일을 더블클릭으로 실행하고, `install`을 눌러 설치를 진행한다.
 - 설치가 완료되면 아래와 같은 화면이 보인다. ![Screenshot from 2022-11-01 21-50-03](https://user-images.githubusercontent.com/60342784/199236239-d1dd6316-161b-44ac-ad05-d99baae3ddf4.png)
-- 아래 명령어를 터미널에 입력하거나, 좌측 하단의 show application 아이콘을 눌러 code를 입력하여 VS code를 실행한다.
+- 아래 명령어를 터미널에 입력하거나, 좌측 하단의 `show application` 아이콘을 눌러 code를 입력하여 VS code를 실행한다.
 
 	  $ code . #실행
 
+- 아래 그림과 같이 좌측의 `Extensions`를 누르면 설치할 수 있는  vscode extension이 표시된다.
+![Screenshot from 2022-11-01 21-50-03](https://user-images.githubusercontent.com/60342784/199236790-86c5faf1-61dc-44ff-a38c-e6c37d0f22db.png)
  - vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,  
  - https://www.youtube.com/watch?v=RXyFSnjMd7M
  - ctrl+ 누른 후, setting 창에 ROS를 검색한 후, ROS distro에 'noetic'을 입력. 
@@ -695,11 +697,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0NzgxNTIxLDE0MTEyMTU0NjAsMTEwMj
-gxNjI0MywtODQ2NDYwMzc3LDEzMzc5NzM1ODUsLTQ3MDQ3MTAs
-MTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxND
-A1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQs
-LTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNj
-EwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUy
-ODVdfQ==
+eyJoaXN0b3J5IjpbMTIzMzc5NjY0MywyMjQ3ODE1MjEsMTQxMT
+IxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4
+NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNz
+Y5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIs
+MjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0ND
+A2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5
+OTVdfQ==
 -->
