@@ -143,7 +143,7 @@
 
 - 아래 그림과 같이 좌측의 `Extensions`를 누르면 설치할 수 있는  vscode extension이 표시된다.
 ![Screenshot from 2022-11-01 21-50-03](https://user-images.githubusercontent.com/60342784/199236790-86c5faf1-61dc-44ff-a38c-e6c37d0f22db.png)
- - Python, C/C++, CMake, ROS, XML tools
+ - Python, C/C++, CMake, ROS, XML tools 를 각각 검색하고 `Install`을 눌러 설치한다.
 
 - vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,  
  - https://www.youtube.com/watch?v=RXyFSnjMd7M
@@ -699,11 +699,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI5NzAyNDYsMjI0NzgxNTIxLDE0MT
-EyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMzc5NzM1
-ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MD
-c2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDky
-LDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xND
-QwNjUyNTU2LDEzNjEwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUx
-OTk1XX0=
+eyJoaXN0b3J5IjpbODgzODYxNjU4LDIyNDc4MTUyMSwxNDExMj
+E1NDYwLDExMDI4MTYyNDMsLTg0NjQ2MDM3NywxMzM3OTczNTg1
+LC00NzA0NzEwLDEwNzExMjQ2MDIsMjMxODMyMjU4LDE0NjA3Nj
+k0NjMsLTc5MTQwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5Miwy
+MDIyNjczNjM0LC04NzcyMzYwNDEsMjA0MDIxMTM1NiwtMTQ0MD
+Y1MjU1NiwxMzYxMDM1MDk2LDIxMDY1MjYyNzksMjExNzY1MTk5
+NV19
 -->
