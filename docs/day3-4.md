@@ -135,7 +135,9 @@
 - 설치를 위해 제목의 링크를 클릭하고, 페이지 좌측 중단의  `.deb` 확장자 설치파일을 클릭하여 다운로드 한다.
 	![Screenshot from 2022-11-01 21-45-09](https://user-images.githubusercontent.com/60342784/199235493-bd2af9af-cb50-4984-9e11-24d42f26471c.png)
 
-- 
+- 다운로드된 파일을 더블클릭으로 실행하고, `install`을 눌러 설치를 진행한다.
+- 설치가 완료되면 아래와 같은 화면이 보인다.
+- ![Screenshot from 2022-11-01 21-50-03](https://user-images.githubusercontent.com/60342784/199236239-d1dd6316-161b-44ac-ad05-d99baae3ddf4.png)
 		$ code . #실행
 
  - vscode가 실행된 후, 본 교육과정 진행에 필요한 몇 가지 vscode extension들을 설치: Python, C/C++, CMake, ROS, ROS Snippets, XML tools,  
@@ -692,11 +694,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM5MDEyMzYsMTQxMTIxNTQ2MCwxMT
-AyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwNDcx
-MCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OT
-E0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYz
-NCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTYsMT
-M2MTAzNTA5NiwyMTA2NTI2Mjc5LDIxMTc2NTE5OTUsLTc3ODM2
-NTI4NV19
+eyJoaXN0b3J5IjpbMzg4ODgzOTMxLDE0MTEyMTU0NjAsMTEwMj
+gxNjI0MywtODQ2NDYwMzc3LDEzMzc5NzM1ODUsLTQ3MDQ3MTAs
+MTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxND
+A1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQs
+LTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNj
+EwMzUwOTYsMjEwNjUyNjI3OSwyMTE3NjUxOTk1LC03NzgzNjUy
+ODVdfQ==
 -->
