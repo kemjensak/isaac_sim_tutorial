@@ -210,98 +210,93 @@
 	  <robot name="ur5e_with_2f85" 
 	    xmlns:xacro="http://wiki.ros.org/xacro">
 
-	      <!-- 2f-85 -->
-	      <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
-	      <xacro:robotiq_85_gripper prefix="" parent="flange">
-	        <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
-	      </xacro:robotiq_85_gripper>  
-	          
-	      <!-- ur5e -->
-	      <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
-	      <!-- <xacro:ur5e_robot prefix="" /> -->
-	      <xacro:ur5e_robot prefix="" transmission_hw_interface="hardware_interface/EffortJointInterface" />
-	      
-	      <link name="world"/>
+	    <!-- 2f-85 -->
+	    <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
+	    <xacro:robotiq_85_gripper prefix="" parent="flange">
+	    <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+	    </xacro:robotiq_85_gripper>  
+	        
+	    <!-- ur5e -->
+	    <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
+	    <!-- <xacro:ur5e_robot prefix="" /> -->
+	    <xacro:ur5e_robot prefix="" transmission_hw_interface="hardware_interface/EffortJointInterface" />
 
-	      <link name="tcp"/>
-	      
-	      <joint name="world-base" type="fixed">
-	          <parent link="world"/>
-	          <child link="base_link"/>
-	          <origin xyz="0 0 0" rpy="0 0 1.57" />
-	      </joint>
+	    <link name="world"/>
 
-	      <joint name="tool0-tcp" type="fixed">
-	          <parent link="tool0"/>
-	          <child link="tcp"/>
-	          <origin xyz="0 0 0.162" rpy="0 0 0" />
-	      </joint>
-	      
-	      <gazebo>
-	        <plugin name="ros_control" filename="libgazebo_ros_control.so">
-	          <!--robotNamespace>/</robotNamespace-->
-	          <!--robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType-->
-	        </plugin>
-	      </gazebo>
+	    <link name="tcp"/>
 
-	      <!-- Configure self collision properties per link -->
-	      <gazebo reference="shoulder_link">
-	        <selfCollide>true</selfCollide>
-	      </gazebo>
-	    </torsional>
-	</gazebo>
+	    <joint name="world-base" type="fixed">
+	        <parent link="world"/>
+	        <child link="base_link"/>
+	        <origin xyz="0 0 0" rpy="0 0 1.57" />
+	    </joint>
 
+	    <joint name="tool0-tcp" type="fixed">
+	        <parent link="tool0"/>
+	        <child link="tcp"/>
+	        <origin xyz="0 0 0.162" rpy="0 0 0" />
+	    </joint>
 
+	    <gazebo>
+	    <plugin name="ros_control" filename="libgazebo_ros_control.so">
+	        <!--robotNamespace>/</robotNamespace-->
+	        <!--robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType-->
+	    </plugin>
+	    </gazebo>
 
-	  </robot>      <gazebo reference="upper_arm_link">
-	        <selfCollide>true</selfCollide>
-	      </gazebo>
-	      <gazebo reference="forearm_link">
-	        <selfCollide>true</selfCollide>
-	      </gazebo>
-	      <gazebo reference="wrist_1_link">
-	        <selfCollide>true</selfCollide>
-	      </gazebo>
-	      <gazebo reference="wrist_3_link">
-	        <selfCollide>true</selfCollide>
-	      </gazebo>
-	      <gazebo reference="wrist_2_link">
-	        <selfCollide>true</selfCollide>
-	      </gazebo>
+	    <!-- Configure self collision properties per link -->
+	    <gazebo reference="shoulder_link">
+	    <selfCollide>true</selfCollide>
+	    </gazebo>
+	    <gazebo reference="upper_arm_link">
+	    <selfCollide>true</selfCollide>
+	    </gazebo>
+	    <gazebo reference="forearm_link">
+	    <selfCollide>true</selfCollide>
+	    </gazebo>
+	    <gazebo reference="wrist_1_link">
+	    <selfCollide>true</selfCollide>
+	    </gazebo>
+	    <gazebo reference="wrist_3_link">
+	    <selfCollide>true</selfCollide>
+	    </gazebo>
+	    <gazebo reference="wrist_2_link">
+	    <selfCollide>true</selfCollide>
+	    </gazebo>
 
 
 
-	  <gazebo reference="robotiq_85_left_finger_tip_link">
-	    <mu1>100</mu1>
-	    <mu2>100</mu2>
-	    <kp>1000000.0</kp>
-	    <kd>10.0</kd>
-	    <slip1>0</slip1>
-	    <slip2>0</slip2>
-	    <minDepth>0.001</minDepth>
-	     <torsional>
-	        <ode>
-	            <coefficient>1000</coefficient>
-	            <slip>0</slip>
-	        </ode>
-	    </torsional>
-	</gazebo>
-	  <gazebo reference="robotiq_85_right_finger_tip_link">
-	    <mu1>100</mu1>
-	    <mu2>100</mu2>
-	    <kp>1000000.0</kp>
-	    <kd>10.0</kd>
-	    <slip1>0</slip1>
-	    <slip2>0</slip2>
-	    <minDepth>0.001</minDepth>
-	     <torsional>
-	        <ode>
-	            <coefficient>1000</coefficient>
-	            <slip>0</slip>
-	        </ode>
-	    </torsional>
-	</gazebo>
-	  </robot>
+	    <gazebo reference="robotiq_85_left_finger_tip_link">
+	        <mu1>100</mu1>
+	        <mu2>100</mu2>
+	        <kp>1000000.0</kp>
+	        <kd>10.0</kd>
+	        <slip1>0</slip1>
+	        <slip2>0</slip2>
+	        <minDepth>0.001</minDepth>
+	        <torsional>
+	            <ode>
+	                <coefficient>1000</coefficient>
+	                <slip>0</slip>
+	            </ode>
+	        </torsional>
+	    </gazebo>
+	    <gazebo reference="robotiq_85_right_finger_tip_link">
+	        <mu1>100</mu1>
+	        <mu2>100</mu2>
+	        <kp>1000000.0</kp>
+	        <kd>10.0</kd>
+	        <slip1>0</slip1>
+	        <slip2>0</slip2>
+	        <minDepth>0.001</minDepth>
+	        <torsional>
+	            <ode>
+	                <coefficient>1000</coefficient>
+	                <slip>0</slip>
+	            </ode>
+	        </torsional>
+	        </gazebo>
+	</robot>
 	```
  - `Ctrl-S`로 저장 후 닫는다.
  - 위에서 만든 `launch` 디렉토리 내에서 아래 명령어를 입력하여 새로운 `load_ur5e_with_2f85_demo.launch` 파일을 만든다.
@@ -1326,11 +1321,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDc5ODcwNSwtMTM5OTU2ODYsLTE5MT
-E3MTkzOTQsLTE2NzgxMDEzMiwxNDA4ODc4Mzk0LC0xMzQyMzIy
-NjgzLDg0MDY0MjE0Myw1MjMxNjM2MjMsNzMxMjQ2Nzg1LDIyND
-c4MTUyMSwxNDExMjE1NDYwLDExMDI4MTYyNDMsLTg0NjQ2MDM3
-NywxMzM3OTczNTg1LC00NzA0NzEwLDEwNzExMjQ2MDIsMjMxOD
-MyMjU4LDE0NjA3Njk0NjMsLTc5MTQwNTEyOSw2ODkzODc4NzJd
-fQ==
+eyJoaXN0b3J5IjpbLTE1NjAxMDkxOTEsLTY1MDc5ODcwNSwtMT
+M5OTU2ODYsLTE5MTE3MTkzOTQsLTE2NzgxMDEzMiwxNDA4ODc4
+Mzk0LC0xMzQyMzIyNjgzLDg0MDY0MjE0Myw1MjMxNjM2MjMsNz
+MxMjQ2Nzg1LDIyNDc4MTUyMSwxNDExMjE1NDYwLDExMDI4MTYy
+NDMsLTg0NjQ2MDM3NywxMzM3OTczNTg1LC00NzA0NzEwLDEwNz
+ExMjQ2MDIsMjMxODMyMjU4LDE0NjA3Njk0NjMsLTc5MTQwNTEy
+OV19
 -->
