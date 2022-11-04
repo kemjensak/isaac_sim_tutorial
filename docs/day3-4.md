@@ -529,7 +529,7 @@
     
 - 내용은 아래와 같이 입력한다.
 	```xml
-	<?xml version="1.0"?>
+		<?xml version="1.0"?>
 	<launch>
 
 	  <!-- Controller configuration -->
@@ -563,6 +563,7 @@
 	    <arg name="stopped_controllers" value="$(arg stopped_controllers)"/>
 	  </include>
 	</launch>
+
 	```
 
 - 저장 후, 동일한 launch 디렉토리 내에 `ur5e_with_2f85_control.launch` 파일을 만들고, 
@@ -571,7 +572,7 @@
     
 - 내용은 아래와 같이 입력한다.
 	```xml
-	<?xml version="1.0"?>
+		<?xml version="1.0"?>
 	<launch>
 	  <!-- Parameters we share with ur_robot_driver -->
 	  <arg name="controller_config_file" doc="Config file used for defining the ROS-Control controllers."/>
@@ -611,11 +612,11 @@
 	    args="$(arg controllers)" output="screen" respawn="false" />
 
 	  <!-- Load other controllers, but do not start them -->
-	  <node name="ros_control_stopped_spawner" pkg="controller_manager" type="
-	  pawner"
+	  <node name="ros_control_stopped_spawner" pkg="controller_manager" type="spawner"
 	    args="--stopped $(arg stopped_controllers)" output="screen" respawn="false" />
 
 	</launch>
+
 	```
 - 저장 후 닫는다.
 
@@ -761,11 +762,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzE1NzQzNSw4NDA2NDIxNDMsNTIzMT
-YzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwx
-MTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwND
-cxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03
-OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3Mz
-YzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTZd
-fQ==
+eyJoaXN0b3J5IjpbLTE4MDk1Nzc1MzQsODQwNjQyMTQzLDUyMz
+E2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIxLDE0MTEyMTU0NjAs
+MTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMzc5NzM1ODUsLTQ3MD
+Q3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MDc2OTQ2Mywt
+NzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2Nz
+M2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2
+XX0=
 -->
