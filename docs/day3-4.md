@@ -518,10 +518,10 @@
 	  max_effort: 100
 	  gains:
 	    robotiq_85_left_knuckle_joint:
-	      p: 300
-	      d: 1
+	      p: 40
+	      d: 0
 	      i: 0.1
-	      i_clamp: 100
+	      i_clamp: 1
 	```
 - 저장 후, `launch` 디렉토리 내에 `bringup.launch` 파일을 만들고, 
 
@@ -1081,11 +1081,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODg3ODM5NCwtMTM0MjMyMjY4Myw4ND
-A2NDIxNDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEs
-MTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNz
-k3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwx
-NDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2OD
-I0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTZd
+eyJoaXN0b3J5IjpbLTUxNDIyMDc0NCwxNDA4ODc4Mzk0LC0xMz
+QyMzIyNjgzLDg0MDY0MjE0Myw1MjMxNjM2MjMsNzMxMjQ2Nzg1
+LDIyNDc4MTUyMSwxNDExMjE1NDYwLDExMDI4MTYyNDMsLTg0Nj
+Q2MDM3NywxMzM3OTczNTg1LC00NzA0NzEwLDEwNzExMjQ2MDIs
+MjMxODMyMjU4LDE0NjA3Njk0NjMsLTc5MTQwNTEyOSw2ODkzOD
+c4NzIsLTE3MTY4MjQ5MiwyMDIyNjczNjM0LC04NzcyMzYwNDFd
 fQ==
 -->
