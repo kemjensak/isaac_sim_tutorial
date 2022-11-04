@@ -525,7 +525,7 @@
 	```
 - 저장 후, launch 디렉토리 내에 `bringup.launch` 파일을 만들고, 
 
-      $ code launch/ur5e_with_2f85_bringup.launch
+      $ code launch/bringup.launch
     
 - 내용은 아래와 같이 입력한다.
 	```xml
@@ -761,7 +761,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDE3MzM5OCw4NDA2NDIxNDMsNTIzMT
+eyJoaXN0b3J5IjpbMTA5MzE1NzQzNSw4NDA2NDIxNDMsNTIzMT
 YzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwx
 MTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwND
 cxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03
