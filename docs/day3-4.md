@@ -1268,10 +1268,6 @@ sequenceDiagram
 
 
 ## ToDo list
-
-- [ ] isaac sim의 ros extension중 joint state publisher를 통한 ur의 joint group pos(vel) controller 구동기능 구현
-	- [ ] joint state를 controller로 전송
-	- [ ] command의 joint state msg를 변경하여 isaac sim으로
 - [ ] `ur_pose_tracker` 코드 완성
 
 ## 문제점
@@ -1330,11 +1326,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk1Njg2LC0xOTExNzE5Mzk0LC0xNj
-c4MTAxMzIsMTQwODg3ODM5NCwtMTM0MjMyMjY4Myw4NDA2NDIx
-NDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMT
-IxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4
-NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNz
-Y5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTJd
+eyJoaXN0b3J5IjpbMTg0OTcxMDM1OSwtMTM5OTU2ODYsLTE5MT
+E3MTkzOTQsLTE2NzgxMDEzMiwxNDA4ODc4Mzk0LC0xMzQyMzIy
+NjgzLDg0MDY0MjE0Myw1MjMxNjM2MjMsNzMxMjQ2Nzg1LDIyND
+c4MTUyMSwxNDExMjE1NDYwLDExMDI4MTYyNDMsLTg0NjQ2MDM3
+NywxMzM3OTczNTg1LC00NzA0NzEwLDEwNzExMjQ2MDIsMjMxOD
+MyMjU4LDE0NjA3Njk0NjMsLTc5MTQwNTEyOSw2ODkzODc4NzJd
 fQ==
 -->
