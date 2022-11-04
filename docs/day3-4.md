@@ -638,6 +638,9 @@
 
 	</launch>
 	```
+- 저장 후, `urdf` 디렉토리 내에 `pick_and_place.launch` 파일을 만들고, 
+
+     $ code launch/pick_and_place.launch
 
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
@@ -781,7 +784,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzAyNDU1OCw4NDA2NDIxNDMsNTIzMT
+eyJoaXN0b3J5IjpbMTkyMDQyNTcyMyw4NDA2NDIxNDMsNTIzMT
 YzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwx
 MTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwND
 cxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03
