@@ -937,6 +937,8 @@
 	$ cd ~/catkin_ws/src
 	$ catkin_create_pkg ur5e_with_2f85
 	```
+- 패키지 폴더 내 `package.xml`에 아래 내용을 붙여넣는다.
+- 
 	
 
 
@@ -1081,7 +1083,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDIyMDc0NCwxNDA4ODc4Mzk0LC0xMz
+eyJoaXN0b3J5IjpbLTE2NzgxMDEzMiwxNDA4ODc4Mzk0LC0xMz
 QyMzIyNjgzLDg0MDY0MjE0Myw1MjMxNjM2MjMsNzMxMjQ2Nzg1
 LDIyNDc4MTUyMSwxNDExMjE1NDYwLDExMDI4MTYyNDMsLTg0Nj
 Q2MDM3NywxMzM3OTczNTg1LC00NzA0NzEwLDEwNzExMjQ2MDIs
