@@ -938,7 +938,36 @@
 	$ catkin_create_pkg ur5e_with_2f85
 	```
 - 패키지 폴더 내 `package.xml`에 아래 내용을 붙여넣는다.
-- 
+	```xml
+	<?xml version="1.0"?>
+	<package format="2">
+	  <name>ur5e_with_2f85</name>
+	  <version>0.0.0</version>
+
+	  <description>The ur5e_with_2f85 package</description>
+
+	  <maintainer email="jinseok.kim970@gmail.com">Jinseok Kim</maintainer>
+	  <author email="jinseok.kim970@gmail.com">Jinseok Kim</author>
+
+	  <license>BSD</license>
+
+	  <buildtool_depend>catkin</buildtool_depend>
+
+	  <depend>moveit_core</depend>
+	  <depend>moveit_ros_planning</depend>
+	  <depend>moveit_ros_planning_interface</depend>
+	  <depend>std_msgs</depend>
+	  <depend>gazebo_msgs</depend>
+	  <depend>geometry_msgs</depend>
+
+	  <!-- <exec_depend>gazebo_ros</exec_depend> -->
+	  <exec_depend>ur5e_with_2f85_gazebo</exec_depend>
+	  <exec_depend>ur5e_with_2f85_description</exec_depend>
+
+	  <test_depend>rosunit</test_depend>
+
+	</package>
+	```
 	
 
 
@@ -1083,11 +1112,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzgxMDEzMiwxNDA4ODc4Mzk0LC0xMz
-QyMzIyNjgzLDg0MDY0MjE0Myw1MjMxNjM2MjMsNzMxMjQ2Nzg1
-LDIyNDc4MTUyMSwxNDExMjE1NDYwLDExMDI4MTYyNDMsLTg0Nj
-Q2MDM3NywxMzM3OTczNTg1LC00NzA0NzEwLDEwNzExMjQ2MDIs
-MjMxODMyMjU4LDE0NjA3Njk0NjMsLTc5MTQwNTEyOSw2ODkzOD
-c4NzIsLTE3MTY4MjQ5MiwyMDIyNjczNjM0LC04NzcyMzYwNDFd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNDQ2ODMxMTUsLTE2NzgxMDEzMiwxND
+A4ODc4Mzk0LC0xMzQyMzIyNjgzLDg0MDY0MjE0Myw1MjMxNjM2
+MjMsNzMxMjQ2Nzg1LDIyNDc4MTUyMSwxNDExMjE1NDYwLDExMD
+I4MTYyNDMsLTg0NjQ2MDM3NywxMzM3OTczNTg1LC00NzA0NzEw
+LDEwNzExMjQ2MDIsMjMxODMyMjU4LDE0NjA3Njk0NjMsLTc5MT
+QwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5MiwyMDIyNjczNjM0
+XX0=
 -->
