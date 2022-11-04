@@ -935,21 +935,20 @@
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
 - 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
-```bash
+	```bash
+	$ roslaunch ur5e_with_2f85_gazebo ur5e_with_2f85_bringup.launch 
+	-> 제작한 로봇을 Gazebo에 spawn. Real Robot의 역할을 함.
 
-$ roslaunch ur5e_with_2f85_gazebo ur5e_with_2f85_bringup.launch 
--> 제작한 로봇을 Gazebo에 spawn. Real Robot의 역할을 함.
+	$ roslaunch ur5e_with_2f85_moveit_config move_group.launch
+	-> MoveIT 실행, move group 생성
 
-$ roslaunch ur5e_with_2f85_moveit_config move_group.launch
--> MoveIT 실행, move group 생성
+	$ roslaunch ur5e_with_2f85_moveit_config moveit_rviz.launch rviz_config:=true
+	-> Rviz를 통한 조작
 
-$ roslaunch ur5e_with_2f85_moveit_config moveit_rviz.launch rviz_config:=true
--> Rviz를 통한 조작
+	$ roslaunch moveit_servo spacenav_cpp.launch
+	-> 수정중(Pose_tracker)
 
-$ roslaunch moveit_servo spacenav_cpp.launch
--> 수정중(Pose_tracker)
-
-```
+	```
 ## MoveIT! Servoing
 ```
 sequenceDiagram 
@@ -1074,7 +1073,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTM3NzU1OSwtMTM0MjMyMjY4Myw4ND
+eyJoaXN0b3J5IjpbLTI1NzAxMDkwNSwtMTM0MjMyMjY4Myw4ND
 A2NDIxNDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEs
 MTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNz
 k3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwx
