@@ -641,7 +641,196 @@
 - 저장 후, `urdf` 디렉토리 내에 `bin.urdf` 파일을 만들고, 
 
      $ code launch/bin.launch
-     
+```xml
+	<?xml version='1.0'?>
+	<robot name ='bin'>
+
+	<link name="world"/>
+
+	<joint name = "joint_fix" type = "fixed">
+	  <parent link="world"/>
+	  <child link = "bottom"/>
+	</joint>
+
+
+	<link name ="bottom"> <!--2-->
+	  <collision>
+	    <origin xyz="0 0 0" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.4 0.4 0.02"/> <!--3-->
+	    </geometry>
+	  </collision>
+
+	  <visual>
+	    <origin xyz="0 0 0" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.4 0.4 0.02"/>
+	    </geometry>
+	  </visual>
+
+	  <inertial>
+	    <origin xyz="0 0 0" rpy="0 0 0" />
+	    <mass value="0.05" />
+	    <inertia
+	      ixx="0.001" ixy="0.0"  ixz="0.0"
+	      iyy="0.001" iyz="0.0"
+	      izz="0.001" />
+	  </inertial>
+	</link>
+
+	<joint name = "left_wall" type = "fixed">
+	  <parent link="bottom"/>
+	  <child link = "left"/>
+	</joint>
+
+
+	<link name = "left">
+	  <collision> <!--4-->
+	    <origin xyz="-0.2 0 0.05" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.02 0.4 0.2"/>
+	    </geometry>
+	  </collision>
+
+	  <visual>
+	    <origin xyz="-0.2 0 0.05" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.02 0.4 0.2"/>
+	    </geometry>
+	  </visual>
+
+	  <inertial>
+	    <origin xyz="-0.2 0 0.05" rpy="0 0 0" />
+	    <mass value="0.05" />
+	    <inertia
+	      ixx="0.001" ixy="0.0"  ixz="0.0"
+	      iyy="0.001" iyz="0.0"
+	      izz="0.001" />
+	  </inertial>
+	</link>
+
+	<joint name = "right_wall" type = "fixed">
+	  <parent link="bottom"/>
+	  <child link = "right"/>
+	</joint>
+
+	<link name="right">
+	  <collision>
+	    <origin xyz="0.2 0 0.05" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.02 0.4 0.2"/>
+	    </geometry>
+	  </collision>
+
+	  <visual>
+	    <origin xyz="0.2 0 0.05" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.02 0.4 0.2"/>
+	    </geometry>
+	  </visual>
+
+	  <inertial>
+	    <origin xyz="0.2 0 0.05" rpy="0 0 0" />
+	    <mass value="0.05" />
+	    <inertia
+	      ixx="0.001" ixy="0.0"  ixz="0.0"
+	      iyy="0.001" iyz="0.0"
+	      izz="0.001" />
+	  </inertial>
+	</link>
+
+	<joint name = "back_wall" type = "fixed">
+	  <parent link="bottom"/>
+	  <child link = "back"/>
+	</joint>
+
+	<link name="back">
+	  <collision>
+	    <origin xyz="0 0.2 0.05" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.4 0.02 0.2"/>
+	    </geometry>
+	  </collision>
+
+	  <visual>
+	    <origin xyz="0 0.2 0.05" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.4 0.02 0.2"/>
+	    </geometry>
+	  </visual>
+
+	  <inertial>
+	    <origin xyz="0 0.2 0.05" rpy="0 0 0" />
+	    <mass value="0.05" />
+	    <inertia
+	      ixx="0.001" ixy="0.0"  ixz="0.0"
+	      iyy="0.001" iyz="0.0"
+	      izz="0.001" />
+	  </inertial>
+	</link>
+
+	<joint name = "front_wall" type = "fixed">
+	  <parent link="bottom"/>
+	  <child link = "front"/>
+	</joint>
+
+	<link name="front">
+	  <collision>
+	    <origin xyz="0 -0.2 0.05" rpy= "0 0 0"/>
+	    <geometry>
+	      <box size="0.4 0.02 0.2"/>
+	    </geometry>
+	  </collision>
+
+	  <visual>
+	    <origin xyz="0 -0.2 0.05" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.4 0.02 0.2"/>
+	    </geometry>
+	  </visual>
+
+	  <inertial>
+	    <origin xyz="0 -0.2 0.05" rpy="0 0 0"/>
+	    <mass value="0.05" />
+	    <inertia
+	      ixx="0.001" ixy="0.0"  ixz="0.0"
+	      iyy="0.001" iyz="0.0"
+	      izz="0.001" />
+	  </inertial>
+	</link>
+
+	<gazebo reference="bottom">
+	  <mu1>10</mu1>
+	  <mu2>10</mu2>
+	  <material>Gazebo/Blue</material>
+	</gazebo>
+
+	<gazebo reference="right">
+	  <mu1>10</mu1>
+	  <mu2>10</mu2>
+	  <material>Gazebo/Blue</material>
+	</gazebo>
+
+	<gazebo reference="left">
+	  <mu1>10</mu1>
+	  <mu2>10</mu2>
+	  <material>Gazebo/Blue</material>
+	</gazebo>
+
+	<gazebo reference="back">
+	  <mu1>10</mu1>
+	  <mu2>10</mu2>
+	  <material>Gazebo/Blue</material>
+	</gazebo>
+
+	<gazebo reference="front">
+	  <mu1>10</mu1>
+	  <mu2>10</mu2>
+	  <material>Gazebo/Blue</material>
+	</gazebo>
+
+	</robot>
+```
 
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
@@ -785,7 +974,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTM2OTAyNywtMTM0MjMyMjY4Myw4ND
+eyJoaXN0b3J5IjpbMTc1OTkzNDg4NSwtMTM0MjMyMjY4Myw4ND
 A2NDIxNDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEs
 MTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNz
 k3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwx
