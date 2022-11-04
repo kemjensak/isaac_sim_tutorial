@@ -206,7 +206,7 @@
  - 열린 VScode에 아래의 코드를 붙여넣는다.
 
 	```xml
-		<?xml version="1.0"?>
+	<?xml version="1.0"?>
 	  <robot name="ur5e_with_2f85" 
 	    xmlns:xacro="http://wiki.ros.org/xacro">
 
@@ -529,7 +529,7 @@
     
 - 내용은 아래와 같이 입력한다.
 	```xml
-		<?xml version="1.0"?>
+	<?xml version="1.0"?>
 	<launch>
 
 	  <!-- Controller configuration -->
@@ -572,7 +572,7 @@
     
 - 내용은 아래와 같이 입력한다.
 	```xml
-		<?xml version="1.0"?>
+	<?xml version="1.0"?>
 	<launch>
 	  <!-- Parameters we share with ur_robot_driver -->
 	  <arg name="controller_config_file" doc="Config file used for defining the ROS-Control controllers."/>
@@ -1326,7 +1326,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTcxMDM1OSwtMTM5OTU2ODYsLTE5MT
+eyJoaXN0b3J5IjpbLTY1MDc5ODcwNSwtMTM5OTU2ODYsLTE5MT
 E3MTkzOTQsLTE2NzgxMDEzMiwxNDA4ODc4Mzk0LC0xMzQyMzIy
 NjgzLDg0MDY0MjE0Myw1MjMxNjM2MjMsNzMxMjQ2Nzg1LDIyND
 c4MTUyMSwxNDExMjE1NDYwLDExMDI4MTYyNDMsLTg0NjQ2MDM3
