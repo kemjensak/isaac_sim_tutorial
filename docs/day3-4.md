@@ -566,7 +566,7 @@
 
 	```
 
-- 저장 후, 동일한 launch 디렉토리 내에 `ur5e_with_2f85_control.launch` 파일을 만들고, 
+- 저장 후, 동일한 `launch` 디렉토리 내에 `ur5e_with_2f85_control.launch` 파일을 만들고, 
 
       $ code launch/ur5e_with_2f85_control.launch
     
@@ -784,11 +784,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzczNDcyNzUsODQwNjQyMTQzLDUyMz
-E2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIxLDE0MTEyMTU0NjAs
-MTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMzc5NzM1ODUsLTQ3MD
-Q3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MDc2OTQ2Mywt
-NzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2Nz
-M2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2
-XX0=
+eyJoaXN0b3J5IjpbMTgxNjY2ODYwMyw4NDA2NDIxNDMsNTIzMT
+YzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwx
+MTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwND
+cxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03
+OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3Mz
+YzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTZd
+fQ==
 -->
