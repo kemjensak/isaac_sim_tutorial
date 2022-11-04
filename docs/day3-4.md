@@ -456,7 +456,7 @@
  
 	   $ catkin_create_pkg ur5e_with_2f85_gazebo
 	   
-- `config`와 `launch` 디렉토리를 만들고, 
+- `config`와 `launch`, `urdf` 디렉토리를 만들고, 
 
  	   $ cd ur5e_with_2f85_gazebo
  	   $ mkdir config launch
@@ -781,7 +781,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTg5OTc0Miw4NDA2NDIxNDMsNTIzMT
+eyJoaXN0b3J5IjpbMTI4OTI3NzU5MSw4NDA2NDIxNDMsNTIzMT
 YzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwx
 MTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwND
 cxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03
