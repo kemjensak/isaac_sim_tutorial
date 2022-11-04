@@ -831,6 +831,10 @@
 
 	</robot>
 	```
+- 저장 후, `urdf` 디렉토리 내에 `conveyor_belt.urdf` 파일을 만들고, 
+
+    $ code launch/conveyor_belt.launch
+`
 
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
@@ -974,11 +978,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM3MjQxMjMsLTEzNDIzMjI2ODMsOD
-QwNjQyMTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIx
-LDE0MTEyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMz
-c5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgs
-MTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNj
-gyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2
-XX0=
+eyJoaXN0b3J5IjpbODgzNDE2NjgsLTEzNDIzMjI2ODMsODQwNj
+QyMTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIxLDE0
+MTEyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMzc5Nz
+M1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2
+MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyND
+kyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2XX0=
+
 -->
