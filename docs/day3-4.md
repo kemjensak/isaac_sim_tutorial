@@ -1012,8 +1012,12 @@
 	)
 	target_link_libraries(pick_and_place_gazebo_example ${catkin_LIBRARIES})
 	```
-- 
-
+- `src` 디렉토리에 `pick_and_place_gazebo_example.cpp` 파일을 만들고 아래 내용을 붙여넣는다.
+	```
+	$ code pick_and_place_gazebo_example.cpp
+	```
+	```cpp
+	
 
 
 
@@ -1158,7 +1162,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTcxNjMwMDQsLTE2NzgxMDEzMiwxND
+eyJoaXN0b3J5IjpbLTE5MTE3MTkzOTQsLTE2NzgxMDEzMiwxND
 A4ODc4Mzk0LC0xMzQyMzIyNjgzLDg0MDY0MjE0Myw1MjMxNjM2
 MjMsNzMxMjQ2Nzg1LDIyNDc4MTUyMSwxNDExMjE1NDYwLDExMD
 I4MTYyNDMsLTg0NjQ2MDM3NywxMzM3OTczNTg1LC00NzA0NzEw
