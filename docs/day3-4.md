@@ -1199,7 +1199,7 @@
 
 - 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
 	```bash
-	$ roslaunch ur5e_with_2f85_gazebo ur5e_with_2f85_bringup.launch 
+	$ roslaunch ur5e_with_2f85_gazebo bringup.launch 
 	-> 제작한 로봇을 Gazebo에 spawn. Real Robot의 역할을 함.
 
 	$ roslaunch ur5e_with_2f85_moveit_config move_group.launch
@@ -1336,11 +1336,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI0NDgwODgsLTE5MTE3MTkzOTQsLT
-E2NzgxMDEzMiwxNDA4ODc4Mzk0LC0xMzQyMzIyNjgzLDg0MDY0
-MjE0Myw1MjMxNjM2MjMsNzMxMjQ2Nzg1LDIyNDc4MTUyMSwxND
-ExMjE1NDYwLDExMDI4MTYyNDMsLTg0NjQ2MDM3NywxMzM3OTcz
-NTg1LC00NzA0NzEwLDEwNzExMjQ2MDIsMjMxODMyMjU4LDE0Nj
-A3Njk0NjMsLTc5MTQwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5
-Ml19
+eyJoaXN0b3J5IjpbNDIwNzY0NDMzLC0xOTExNzE5Mzk0LC0xNj
+c4MTAxMzIsMTQwODg3ODM5NCwtMTM0MjMyMjY4Myw4NDA2NDIx
+NDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMT
+IxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4
+NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNz
+Y5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTJd
+fQ==
 -->
