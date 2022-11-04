@@ -882,9 +882,59 @@
 	</gazebo>
 	</robot>
 	```
-- 저장 후, `urdf` 디렉토리 내에 `conveyor_belt.urdf` 파일을 만들고, 
+- 저장 후, `urdf` 디렉토리 내에 `red_box.urdf` 파일을 만들고, 
 
-    $ code launch/conveyor_belt.launch
+    $ code launch/red_box.launch
+	```xml
+	<?xml version="1.0"?>
+	<robot name="red_box">
+
+	<link name="base_link">
+	  <collision>
+	    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.055 0.055 0.03" />
+	    </geometry>
+	  </collision>
+
+	  <visual>
+	    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="0.055 0.055 0.03" />
+	    </geometry>
+	  </visual>
+
+	  <inertial>
+	    <origin xyz="0 0 0.02" rpy="0 0 0" />
+	    <mass value="0.1" />
+	    <inertia
+	      ixx="0.001" ixy="0.0"  ixz="0.0"
+	      iyy="0.001" iyz="0.0"
+	      izz="0.001" />
+	  </inertial>
+	  </link>
+
+	<gazebo reference="base_link">
+	  <material>Gazebo/Red</material>
+	    <mu1>100</mu1>
+	    <mu2>100</mu2>
+	    <kp>10000.0</kp>
+	    <kd>10000.0</kd>
+	    <slip1>0</slip1>
+	    <slip2>0</slip2>
+	    <minDepth>0.001</minDepth>
+	     <torsional>
+	        <ode>
+	            <coefficient>1000</coefficient>
+	            <slip>0</slip>
+	        </ode>
+	    </torsional>
+	</gazebo>
+
+
+
+	</robot>
+	```
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
 - 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
@@ -1027,7 +1077,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA5MDg1MDEsLTEzNDIzMjI2ODMsOD
+eyJoaXN0b3J5IjpbLTE4MjQxNDk3MDksLTEzNDIzMjI2ODMsOD
 QwNjQyMTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIx
 LDE0MTEyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMz
 c5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgs
