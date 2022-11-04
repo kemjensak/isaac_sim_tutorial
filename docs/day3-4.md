@@ -969,7 +969,7 @@
 	</package>
 	```
 - `CmakeLists.txt` 에 아래 내용을 붙여넣는다.
-	```xml
+	```cpp
 	cmake_minimum_required(VERSION 3.0.2)
 	project(ur5e_with_2f85)
 
@@ -1010,8 +1010,8 @@
 	  src/pick_and_place_gazebo_example.cpp  
 	)
 	target_link_libraries(pick_and_place_gazebo_example ${catkin_LIBRARIES})
-
-
+	```
+- 
 
 
 
@@ -1157,11 +1157,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg4MzUyNzAsLTE2NzgxMDEzMiwxND
-A4ODc4Mzk0LC0xMzQyMzIyNjgzLDg0MDY0MjE0Myw1MjMxNjM2
-MjMsNzMxMjQ2Nzg1LDIyNDc4MTUyMSwxNDExMjE1NDYwLDExMD
-I4MTYyNDMsLTg0NjQ2MDM3NywxMzM3OTczNTg1LC00NzA0NzEw
-LDEwNzExMjQ2MDIsMjMxODMyMjU4LDE0NjA3Njk0NjMsLTc5MT
-QwNTEyOSw2ODkzODc4NzIsLTE3MTY4MjQ5MiwyMDIyNjczNjM0
-XX0=
+eyJoaXN0b3J5IjpbNDAxNTA2NjA3LC0xNjc4MTAxMzIsMTQwOD
+g3ODM5NCwtMTM0MjMyMjY4Myw4NDA2NDIxNDMsNTIzMTYzNjIz
+LDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwxMTAyOD
+E2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwNDcxMCwx
+MDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03OTE0MD
+UxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3MzYzNF19
+
 -->
