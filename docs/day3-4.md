@@ -523,7 +523,7 @@
 	      i: 0.1
 	      i_clamp: 100
 	```
-- 저장 후, launch 디렉토리 내에 `bringup.launch` 파일을 만들고, 
+- 저장 후, `launch` 디렉토리 내에 `bringup.launch` 파일을 만들고, 
 
       $ code launch/bringup.launch
     
@@ -784,7 +784,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjY2ODYwMyw4NDA2NDIxNDMsNTIzMT
+eyJoaXN0b3J5IjpbLTYxNzc4OTI0Nyw4NDA2NDIxNDMsNTIzMT
 YzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwx
 MTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwND
 cxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03
