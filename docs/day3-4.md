@@ -834,8 +834,57 @@
 - 저장 후, `urdf` 디렉토리 내에 `conveyor_belt.urdf` 파일을 만들고, 
 
     $ code launch/conveyor_belt.launch
-`
+	```xml
+	<?xml version="1.0"?>
+	<robot name="conveyor_belt">
 
+	<!-- conveyor belt is just a long flat box for objects to slide on it -->
+
+	<!-- world link -->
+	<link name="world"/>
+
+	<!-- base_link and its fixed joint -->
+	<joint name="joint_fix" type="fixed">
+	  <parent link="world"/>
+	  <child link="base_link"/>
+	</joint>
+
+
+	<link name="base_link">
+	  <collision>
+	    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="5 1 0.2"/>
+	    </geometry>
+	  </collision>
+
+	  <visual>
+	    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+	    <geometry>
+	      <box size="5 1 0.2"/>
+	    </geometry>
+	  </visual>
+
+	  <inertial>
+	    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+	    <mass value="1"/>
+	    <inertia
+	      ixx="1.0" ixy="0.0" ixz="0.0"
+	      iyy="1.0" iyz="0.0"
+	      izz="1.0"/>
+	  </inertial>
+	</link>
+
+	<gazebo reference="base_link">
+	  <mu1>0</mu1>
+	  <mu2>0</mu2>
+	  <material>Gazebo/FlatBlack</material>
+	</gazebo>
+	</robot>
+	```
+- 저장 후, `urdf` 디렉토리 내에 `conveyor_belt.urdf` 파일을 만들고, 
+
+    $ code launch/conveyor_belt.launch
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
 - 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
@@ -978,11 +1027,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzNDE2NjgsLTEzNDIzMjI2ODMsODQwNj
-QyMTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIxLDE0
-MTEyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMzc5Nz
-M1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2
-MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyND
-kyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2XX0=
-
+eyJoaXN0b3J5IjpbLTEwNDA5MDg1MDEsLTEzNDIzMjI2ODMsOD
+QwNjQyMTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIx
+LDE0MTEyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMz
+c5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgs
+MTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNj
+gyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2
+XX0=
 -->
