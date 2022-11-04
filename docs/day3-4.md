@@ -206,26 +206,35 @@
  - 열린 VScode에 아래의 코드를 붙여넣는다.
 
 	```xml
-	<?xml version="1.0"?>
+		<?xml version="1.0"?>
 	  <robot name="ur5e_with_2f85" 
 	    xmlns:xacro="http://wiki.ros.org/xacro">
 
 	      <!-- 2f-85 -->
 	      <xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
-	      <xacro:robotiq_85_gripper prefix="" parent="tool0">
-	        <origin xyz="0.0 0.0 0.0" rpy="${pi/2} -${pi/2} 0" />
+	      <xacro:robotiq_85_gripper prefix="" parent="flange">
+	        <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
 	      </xacro:robotiq_85_gripper>  
 	          
 	      <!-- ur5e -->
 	      <xacro:include filename="$(find ur_description)/urdf/inc/ur5e_macro.xacro" />
-	      <xacro:ur5e_robot prefix="" />
+	      <!-- <xacro:ur5e_robot prefix="" /> -->
+	      <xacro:ur5e_robot prefix="" transmission_hw_interface="hardware_interface/EffortJointInterface" />
 	      
 	      <link name="world"/>
+
+	      <link name="tcp"/>
 	      
-	      <joint name="world2base" type="fixed">
+	      <joint name="world-base" type="fixed">
 	          <parent link="world"/>
 	          <child link="base_link"/>
 	          <origin xyz="0 0 0" rpy="0 0 1.57" />
+	      </joint>
+
+	      <joint name="tool0-tcp" type="fixed">
+	          <parent link="tool0"/>
+	          <child link="tcp"/>
+	          <origin xyz="0 0 0.162" rpy="0 0 0" />
 	      </joint>
 	      
 	      <gazebo>
@@ -239,7 +248,12 @@
 	      <gazebo reference="shoulder_link">
 	        <selfCollide>true</selfCollide>
 	      </gazebo>
-	      <gazebo reference="upper_arm_link">
+	    </torsional>
+	</gazebo>
+
+
+
+	  </robot>      <gazebo reference="upper_arm_link">
 	        <selfCollide>true</selfCollide>
 	      </gazebo>
 	      <gazebo reference="forearm_link">
@@ -254,6 +268,39 @@
 	      <gazebo reference="wrist_2_link">
 	        <selfCollide>true</selfCollide>
 	      </gazebo>
+
+
+
+	  <gazebo reference="robotiq_85_left_finger_tip_link">
+	    <mu1>100</mu1>
+	    <mu2>100</mu2>
+	    <kp>1000000.0</kp>
+	    <kd>10.0</kd>
+	    <slip1>0</slip1>
+	    <slip2>0</slip2>
+	    <minDepth>0.001</minDepth>
+	     <torsional>
+	        <ode>
+	            <coefficient>1000</coefficient>
+	            <slip>0</slip>
+	        </ode>
+	    </torsional>
+	</gazebo>
+	  <gazebo reference="robotiq_85_right_finger_tip_link">
+	    <mu1>100</mu1>
+	    <mu2>100</mu2>
+	    <kp>1000000.0</kp>
+	    <kd>10.0</kd>
+	    <slip1>0</slip1>
+	    <slip2>0</slip2>
+	    <minDepth>0.001</minDepth>
+	     <torsional>
+	        <ode>
+	            <coefficient>1000</coefficient>
+	            <slip>0</slip>
+	        </ode>
+	    </torsional>
+	</gazebo>
 	  </robot>
 	```
  - `Ctrl-S`로 저장 후 닫는다.
@@ -714,11 +761,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3OD
-E1MjEsMTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcs
-MTMzNzk3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMj
-I1OCwxNDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0x
-NzE2ODI0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwNDAyMT
-EzNTYsLTE0NDA2NTI1NTYsMTM2MTAzNTA5NiwyMTA2NTI2Mjc5
-XX0=
+eyJoaXN0b3J5IjpbODQwNjQyMTQzLDUyMzE2MzYyMyw3MzEyND
+Y3ODUsMjI0NzgxNTIxLDE0MTEyMTU0NjAsMTEwMjgxNjI0Mywt
+ODQ2NDYwMzc3LDEzMzc5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyND
+YwMiwyMzE4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4
+OTM4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNj
+A0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTZd
+fQ==
 -->
