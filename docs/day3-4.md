@@ -641,7 +641,7 @@
 - 저장 후, `urdf` 디렉토리 내에 `bin.urdf` 파일을 만들고, 
 
      $ code launch/bin.launch
-```xml
+	```xml
 	<?xml version='1.0'?>
 	<robot name ='bin'>
 
@@ -830,7 +830,7 @@
 	</gazebo>
 
 	</robot>
-```
+	```
 
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
@@ -974,11 +974,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTkzNDg4NSwtMTM0MjMyMjY4Myw4ND
-A2NDIxNDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEs
-MTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNz
-k3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwx
-NDYwNzY5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2OD
-I0OTIsMjAyMjY3MzYzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTZd
-fQ==
+eyJoaXN0b3J5IjpbLTIxMjM3MjQxMjMsLTEzNDIzMjI2ODMsOD
+QwNjQyMTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIx
+LDE0MTEyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMz
+c5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgs
+MTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNj
+gyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNjA0MSwyMDQwMjExMzU2
+XX0=
 -->
