@@ -1203,11 +1203,7 @@
 	-> 제작한 로봇을 Gazebo에 spawn하여 시뮬레이션 환경을 만들고 moveIT 실행.
 
 	$ rosrun ur5e_with_2f85 pick_and_place_gazebo_example
-	-> Rviz를 통한 조작
-
-	$ roslaunch moveit_servo spacenav_cpp.launch
-	-> 수정중(Pose_tracker)
-
+	-> cpp 코드를 통한 Pick and place 시작
 	```
 ## MoveIT! Servoing
 ```
@@ -1333,7 +1329,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTIwNzE0NiwtMTkxMTcxOTM5NCwtMT
+eyJoaXN0b3J5IjpbMjEyMzE4NDI2MiwtMTkxMTcxOTM5NCwtMT
 Y3ODEwMTMyLDE0MDg4NzgzOTQsLTEzNDIzMjI2ODMsODQwNjQy
 MTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIxLDE0MT
 EyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMzc5NzM1
