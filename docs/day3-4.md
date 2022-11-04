@@ -932,6 +932,13 @@
 	</gazebo>
 	</robot>
 	```
+
+
+
+
+
+
+
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
 - 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
@@ -1073,7 +1080,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzAxMDkwNSwtMTM0MjMyMjY4Myw4ND
+eyJoaXN0b3J5IjpbMTQ4NDI1OTEwOSwtMTM0MjMyMjY4Myw4ND
 A2NDIxNDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEs
 MTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNz
 k3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwx
