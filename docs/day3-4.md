@@ -1197,13 +1197,12 @@
 
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
 
-- 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 실행한다.
+- 아래의 명령어를 순서대로 입력하여 `Gazebo`와 `MoveIT`을 통한 Pick and place 시뮬레이션 환경을 실행한다.
 	```bash
 	$ roslaunch ur5e_with_2f85_gazebo bringup.launch 
 	-> 제작한 로봇을 Gazebo에 spawn. Real Robot의 역할을 함.
 
-	$ roslaunch ur5e_with_2f85_moveit_config move_group.launch
-	-> MoveIT 실행, move group 생성
+	
 
 	$ roslaunch ur5e_with_2f85_moveit_config moveit_rviz.launch rviz_config:=true
 	-> Rviz를 통한 조작
@@ -1336,11 +1335,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNzY0NDMzLC0xOTExNzE5Mzk0LC0xNj
-c4MTAxMzIsMTQwODg3ODM5NCwtMTM0MjMyMjY4Myw4NDA2NDIx
-NDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMT
-IxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4
-NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNz
-Y5NDYzLC03OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTJd
-fQ==
+eyJoaXN0b3J5IjpbMTM1Nzk1NTA0MSwtMTkxMTcxOTM5NCwtMT
+Y3ODEwMTMyLDE0MDg4NzgzOTQsLTEzNDIzMjI2ODMsODQwNjQy
+MTQzLDUyMzE2MzYyMyw3MzEyNDY3ODUsMjI0NzgxNTIxLDE0MT
+EyMTU0NjAsMTEwMjgxNjI0MywtODQ2NDYwMzc3LDEzMzc5NzM1
+ODUsLTQ3MDQ3MTAsMTA3MTEyNDYwMiwyMzE4MzIyNTgsMTQ2MD
+c2OTQ2MywtNzkxNDA1MTI5LDY4OTM4Nzg3MiwtMTcxNjgyNDky
+XX0=
 -->
