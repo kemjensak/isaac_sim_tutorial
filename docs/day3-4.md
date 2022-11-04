@@ -523,7 +523,7 @@
 	      i: 0.1
 	      i_clamp: 100
 	```
-- 저장 후, launch 디렉토리 내에 `ur5e_with_2f85_bringup.launch` 파일을 만들고, 
+- 저장 후, launch 디렉토리 내에 `bringup.launch` 파일을 만들고, 
 
       $ code launch/ur5e_with_2f85_bringup.launch
     
@@ -761,11 +761,11 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNjQyMTQzLDUyMzE2MzYyMyw3MzEyND
-Y3ODUsMjI0NzgxNTIxLDE0MTEyMTU0NjAsMTEwMjgxNjI0Mywt
-ODQ2NDYwMzc3LDEzMzc5NzM1ODUsLTQ3MDQ3MTAsMTA3MTEyND
-YwMiwyMzE4MzIyNTgsMTQ2MDc2OTQ2MywtNzkxNDA1MTI5LDY4
-OTM4Nzg3MiwtMTcxNjgyNDkyLDIwMjI2NzM2MzQsLTg3NzIzNj
-A0MSwyMDQwMjExMzU2LC0xNDQwNjUyNTU2LDEzNjEwMzUwOTZd
+eyJoaXN0b3J5IjpbMTk4MDE3MzM5OCw4NDA2NDIxNDMsNTIzMT
+YzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEsMTQxMTIxNTQ2MCwx
+MTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNzk3MzU4NSwtNDcwND
+cxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwxNDYwNzY5NDYzLC03
+OTE0MDUxMjksNjg5Mzg3ODcyLC0xNzE2ODI0OTIsMjAyMjY3Mz
+YzNCwtODc3MjM2MDQxLDIwNDAyMTEzNTYsLTE0NDA2NTI1NTZd
 fQ==
 -->
