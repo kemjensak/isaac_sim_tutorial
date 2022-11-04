@@ -933,10 +933,11 @@
 	</robot>
 	```
 - 저장 후, 아래 명령어를 통해 새로운 `ur5e_with_2f85` 패키지를 만든다.
-```bash
-$ cd ~/catkin_ws/src
-$ catkin_create_pkg ur5e_with_2f85
-
+	```bash
+	$ cd ~/catkin_ws/src
+	$ catkin_create_pkg ur5e_with_2f85
+	```
+	
 
 
 - `catkin_make` 또는 `catkin build`로 패키지들을 빌드한다. 
@@ -1080,7 +1081,7 @@ wtNDY0OTI2ODQ1LDEyMjA0MDc5OTgsMTAyOTUxNjE5NCwtMTcz
 NDc5ODA4XX0=
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTcyMTI3MCwtMTM0MjMyMjY4Myw4ND
+eyJoaXN0b3J5IjpbMTQwODg3ODM5NCwtMTM0MjMyMjY4Myw4ND
 A2NDIxNDMsNTIzMTYzNjIzLDczMTI0Njc4NSwyMjQ3ODE1MjEs
 MTQxMTIxNTQ2MCwxMTAyODE2MjQzLC04NDY0NjAzNzcsMTMzNz
 k3MzU4NSwtNDcwNDcxMCwxMDcxMTI0NjAyLDIzMTgzMjI1OCwx
