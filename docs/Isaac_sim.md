@@ -534,9 +534,9 @@
 - 아래 그림과 같이 토글 스위치를 클릭하여 ENABLED 로 표시되도록 한다.
 ![Screenshot from 2022-11-06 18-46-28](https://user-images.githubusercontent.com/60342784/200164109-5f0d6533-a215-480e-b814-5630ba2a04e9.png)
 
-- 
+- 상단의 Create -> Mesh -> Cube를 클릭하여 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Njc0MzA2MSwtMTM1MjM4NzAxMiwtMT
-c0NzYwMTAzMiwxMzAxMzQxOTc2XX0=
+eyJoaXN0b3J5IjpbLTE0MTE2MTUzMDUsLTEzNTIzODcwMTIsLT
+E3NDc2MDEwMzIsMTMwMTM0MTk3Nl19
 -->
