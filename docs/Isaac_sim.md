@@ -537,8 +537,9 @@
 - 상단의 `Create -> Shapes -> Cube`를 클릭하여 Cube를 만들고 Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
 ![Screenshot from 2022-11-06 19-00-38](https://user-images.githubusercontent.com/60342784/200164633-2ce53aa0-548b-45dc-9c36-b3ea3e37990f.png)
 
-- 
+- 이제 Sc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4ODQ2NDY2LC0xNDExNjE1MzA1LC0xMz
-UyMzg3MDEyLC0xNzQ3NjAxMDMyLDEzMDEzNDE5NzZdfQ==
+eyJoaXN0b3J5IjpbLTIxNDA3ODQyMiw1Mzg4NDY0NjYsLTE0MT
+E2MTUzMDUsLTEzNTIzODcwMTIsLTE3NDc2MDEwMzIsMTMwMTM0
+MTk3Nl19
 -->
