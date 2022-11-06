@@ -543,9 +543,9 @@
 - `Viewport`에 아래 그림과 같이 표시됨을 확인한다.
 ![Screenshot from 2022-11-06 19-11-53](https://user-images.githubusercontent.com/60342784/200165112-503c424e-82b8-47a9-8aed-d3e227e17358.png)
 
-- 
+- 상단의 탭에서 Create -> Visual Scripting -> Action Graph를 클릭하여 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODEyMjY5MCw1Mzg4NDY0NjYsLTE0MT
-E2MTUzMDUsLTEzNTIzODcwMTIsLTE3NDc2MDEwMzIsMTMwMTM0
-MTk3Nl19
+eyJoaXN0b3J5IjpbLTgyMTM4NTEwMiwtNjI4MTIyNjkwLDUzOD
+g0NjQ2NiwtMTQxMTYxNTMwNSwtMTM1MjM4NzAxMiwtMTc0NzYw
+MTAzMiwxMzAxMzQxOTc2XX0=
 -->
