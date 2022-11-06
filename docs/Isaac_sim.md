@@ -537,12 +537,15 @@
 - 상단의 `Create -> Shapes -> Cube`를 클릭하여 Cube를 만들고 Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
 ![Screenshot from 2022-11-06 19-00-38](https://user-images.githubusercontent.com/60342784/200164633-2ce53aa0-548b-45dc-9c36-b3ea3e37990f.png)
 
-- 이제 Transform -> Scale 값으로 Cube의 크기를 미터 단위로 조절할 수 있다.
+- 이제 `Transform -> Scale` 값으로 Cube의 크기를 미터 단위로 조절할 수 있다.
 - 아래와 같이 Transform의 값들을 조절한다.
 ![Screenshot from 2022-11-06 19-11-26](https://user-images.githubusercontent.com/60342784/200165093-c9bbe853-7c74-478c-8a7d-f52f876e70ba.png)
+- `Viewport`에 아래 그림과 같이 표시됨을 확인한다.
+![Screenshot from 2022-11-06 19-11-53](https://user-images.githubusercontent.com/60342784/200165112-503c424e-82b8-47a9-8aed-d3e227e17358.png)
 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODk4NjgyNCw1Mzg4NDY0NjYsLTE0MT
+eyJoaXN0b3J5IjpbLTYyODEyMjY5MCw1Mzg4NDY0NjYsLTE0MT
 E2MTUzMDUsLTEzNTIzODcwMTIsLTE3NDc2MDEwMzIsMTMwMTM0
 MTk3Nl19
 -->
