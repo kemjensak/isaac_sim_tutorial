@@ -25,13 +25,13 @@
 - `Conveyor Belt`의 input 중 `velocity`를 0.5로 입력한다.
 ![Screenshot from 2022-11-06 19-25-04](https://user-images.githubusercontent.com/60342784/200165603-a2e53ec8-7b00-4ff5-8306-ce31a1e385c4.png)
 
-- Cube를 하나 더 만들기 위해 상단의 `Create -> Shapes -> Cube`를 클릭하고 Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
+- Cube를 하나 더 만들기 위해 상단의 `Create -> Shapes -> Cube`를 클릭하고 이름을 `red_box`로 변경한다. Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
 
 - Transform은 아래와 같이 입력한다.
 ![Screenshot from 2022-11-06 19-28-56](https://user-images.githubusercontent.com/60342784/200165709-490427e0-9983-46b9-b76b-88add55087dc.png)
 
-
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NT
-g4NzUwOTMsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbMTUyOTExMDUxMiwtNzgxNDMxNTUxLDI3Mj
+M5MTcyNSwtMTc1ODg3NTA5Myw0OTIwNzAyODVdfQ==
 -->
