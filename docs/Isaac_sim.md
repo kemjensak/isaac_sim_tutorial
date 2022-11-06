@@ -525,9 +525,11 @@
 
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
 
+# Pick and place example
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4NTA4ODQzLC0xNzQ3NjAxMDMyLDEzMD
-EzNDE5NzZdfQ==
+eyJoaXN0b3J5IjpbMTU3NTUwNDAwMSwtMTc0NzYwMTAzMiwxMz
+AxMzQxOTc2XX0=
 -->
