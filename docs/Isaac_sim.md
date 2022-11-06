@@ -539,8 +539,10 @@
 
 - 이제 Transform -> Scale 값으로 Cube의 크기를 미터 단위로 조절할 수 있다.
 - 아래와 같이 Transform의 값들을 조절한다.
+![Screenshot from 2022-11-06 19-11-26](https://user-images.githubusercontent.com/60342784/200165093-c9bbe853-7c74-478c-8a7d-f52f876e70ba.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM4ODYzODQsNTM4ODQ2NDY2LC0xND
-ExNjE1MzA1LC0xMzUyMzg3MDEyLC0xNzQ3NjAxMDMyLDEzMDEz
-NDE5NzZdfQ==
+eyJoaXN0b3J5IjpbLTgzODk4NjgyNCw1Mzg4NDY0NjYsLTE0MT
+E2MTUzMDUsLTEzNTIzODcwMTIsLTE3NDc2MDEwMzIsMTMwMTM0
+MTk3Nl19
 -->
