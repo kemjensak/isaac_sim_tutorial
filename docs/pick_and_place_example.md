@@ -24,6 +24,7 @@
 ![Screenshot from 2022-11-06 19-25-04](https://user-images.githubusercontent.com/60342784/200165603-a2e53ec8-7b00-4ff5-8306-ce31a1e385c4.png)
 
 - Cube를 하나 더 만들기 위해 상단의 `Create -> Shapes -> Cube`를 클릭하고 Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzUzMjM2MCw0OTIwNzAyODVdfQ==
+eyJoaXN0b3J5IjpbMjAwMzU5NzUwNyw0OTIwNzAyODVdfQ==
 -->
