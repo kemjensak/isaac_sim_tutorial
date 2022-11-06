@@ -526,11 +526,11 @@
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
 
 # Pick and place example
-- 하단 Content 탭에서 Isaac -> 
+- 하단 Content 탭에서 Isaac/Environments/Simple_Warehouse에 위
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU2NjcyNDYsLTEzNTIzODcwMTIsLT
+eyJoaXN0b3J5IjpbLTE0NTUzNDIyMzEsLTEzNTIzODcwMTIsLT
 E3NDc2MDEwMzIsMTMwMTM0MTk3Nl19
 -->
