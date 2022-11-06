@@ -530,10 +530,10 @@
 
 - 아래 그림과 같은 환경이 load 되었음을 확인한다.![Screenshot from 2022-11-06 18-43-39](https://user-images.githubusercontent.com/60342784/200164020-11854545-5aac-47b9-9daa-49a5e41355b9.png)
 
-
+- 상단 탭에서 Window -> Extensions를 클릭한다. conveyor 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc4ODI2MSwtMTM1MjM4NzAxMiwtMT
-c0NzYwMTAzMiwxMzAxMzQxOTc2XX0=
+eyJoaXN0b3J5IjpbMzkzMTkwMjM3LC0xMzUyMzg3MDEyLC0xNz
+Q3NjAxMDMyLDEzMDEzNDE5NzZdfQ==
 -->
