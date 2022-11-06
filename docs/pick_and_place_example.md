@@ -31,7 +31,8 @@
 ![Screenshot from 2022-11-06 19-28-56](https://user-images.githubusercontent.com/60342784/200165709-490427e0-9983-46b9-b76b-88add55087dc.png)
 
 - 추가한 `red_box`와 `conveyor`를 각각 우클릭하여 아래와 같이 `Physics` preset를 추가한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NDgyMzk0LC03ODE0MzE1NTEsMjcyMz
+eyJoaXN0b3J5IjpbNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMz
 kxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
 -->
