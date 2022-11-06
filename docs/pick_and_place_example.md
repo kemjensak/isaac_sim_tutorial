@@ -7,7 +7,7 @@
 - 아래 그림과 같이 토글 스위치를 클릭하여 ENABLED 로 표시되도록 한다.
 ![Screenshot from 2022-11-06 18-46-28](https://user-images.githubusercontent.com/60342784/200164109-5f0d6533-a215-480e-b814-5630ba2a04e9.png)
 
-- 상단의 `Create -> Shapes -> Cube`를 클릭하여 Cube를 만들고 Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
+- 상단의 `Create -> Shapes -> Cube`를 클릭하여 Cube를 만들고 이름을 `convayor`로 변경한다. Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
 ![Screenshot from 2022-11-06 19-00-38](https://user-images.githubusercontent.com/60342784/200164633-2ce53aa0-548b-45dc-9c36-b3ea3e37990f.png)
 
 - 이제 `Transform -> Scale` 값으로 Cube의 크기를 미터 단위로 조절할 수 있다.
@@ -19,7 +19,7 @@
 - 상단의 탭에서 `Create -> Visual Scripting -> Action Graph`를 클릭하여 Action 그래프를 추가한다.
 - 아래 그림과 같이 Action Graph를 만든다.
 ![Screenshot from 2022-11-06 19-20-48](https://user-images.githubusercontent.com/60342784/200165438-04460a5b-7d3b-4297-8129-0330e31f7c18.png)
-
+- 
 - `Conveyor Belt`의 input 중 `velocity`를 0.5로 입력한다.
 ![Screenshot from 2022-11-06 19-25-04](https://user-images.githubusercontent.com/60342784/200165603-a2e53ec8-7b00-4ff5-8306-ce31a1e385c4.png)
 
@@ -30,5 +30,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbLTE0ODczODI1MjgsLTE3NTg4NzUwOTMsND
+kyMDcwMjg1XX0=
 -->
