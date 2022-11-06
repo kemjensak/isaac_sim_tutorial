@@ -27,23 +27,6 @@
 
 ## URDF preparation
 
-  
-
-- universal_robot repository의 ur_description 패키지가 없다면 아래 명령어를 통해 받는다.
-
-  
-
-`git clone -b calibration_devel https://github.com/fmauch/universal_robot.git`
-
-  
-
-- 받은 패키지를 컴파일한다.
-
-  
-
-`catkin_make` or `catkin build`
-
-  
 
 - 다음의 명령어를 통해 `universal_robot/ur_description/urdf` 에 위치한 UR5e.xacro 파일을 `.xacro` 에서 `.urdf` 로 변환한다.
 
@@ -577,5 +560,5 @@
 
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTM0MTk3Nl19
+eyJoaXN0b3J5IjpbMTA4Nzg5NDA1NSwxMzAxMzQxOTc2XX0=
 -->
