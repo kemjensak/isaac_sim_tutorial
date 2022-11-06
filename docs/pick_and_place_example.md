@@ -21,7 +21,8 @@
 ![Screenshot from 2022-11-06 19-20-48](https://user-images.githubusercontent.com/60342784/200165438-04460a5b-7d3b-4297-8129-0330e31f7c18.png)
 
 - `Conveyor Belt`의 input 중 `velocity`를 0.5로 입력한다.
-![Screenshot from 2022-11-06 19-25-04](https://user-images.githubusercontent.com/60342784/200165581-4294232b-2ff2-4510-a517-31ea0b53f52e.png)
+![Screenshot from 2022-11-06 19-25-04](https://user-images.githubusercontent.com/60342784/200165603-a2e53ec8-7b00-4ff5-8306-ce31a1e385c4.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MTI0NjQ5LDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbLTE5ODg1NDE1MSw0OTIwNzAyODVdfQ==
 -->
