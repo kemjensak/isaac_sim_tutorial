@@ -2,4 +2,5 @@
 	path = gazebo_pkgs/robotiq_85_description
 	url = https://github.com/kemjensak/robotiq_85_description
 [submodule "gazebo_pkgs/universal_robot"]
+	path = gazebo_pkgs/universal_robot
 	url = https://github.com/ros-industrial/universal_robot/tree/melodic-devel-staging
