@@ -1,0 +1,3 @@
+[submodule "gazebo_pkgs/robotiq_85_description"]
+	path = gazebo_pkgs/robotiq_85_description
+	url = https://github.com/kemjensak/robotiq_85_description

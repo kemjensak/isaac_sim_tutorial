@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur5e_with_2f85_description
+    relative_path: urdf/ur5e_with_2f85.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur5e_with_2f85.srdf
+  CONFIG:
+    author_name: kjs
+    author_email: jinseok.kim970@gmail.com
+    generated_timestamp: 1667642238

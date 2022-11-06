@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot name="red_box">
+
+<link name="base_link">
+  <collision>
+    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+    <geometry>
+      <box size="0.055 0.055 0.03" />
+    </geometry>
+  </collision>
+
+  <visual>
+    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+    <geometry>
+      <box size="0.055 0.055 0.03" />
+    </geometry>
+  </visual>
+
+  <inertial>
+    <origin xyz="0 0 0.02" rpy="0 0 0" />
+    <mass value="0.1" />
+    <inertia
+      ixx="0.001" ixy="0.0"  ixz="0.0"
+      iyy="0.001" iyz="0.0"
+      izz="0.001" />
+  </inertial>
+  </link>
+
+<gazebo reference="base_link">
+  <material>Gazebo/Red</material>
+    <mu1>100</mu1>
+    <mu2>100</mu2>
+    <kp>10000.0</kp>
+    <kd>10000.0</kd>
+    <slip1>0</slip1>
+    <slip2>0</slip2>
+    <minDepth>0.001</minDepth>
+     <torsional>
+        <ode>
+            <coefficient>1000</coefficient>
+            <slip>0</slip>
+        </ode>
+    </torsional>
+</gazebo>
+</robot>
