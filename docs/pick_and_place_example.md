@@ -37,9 +37,9 @@
 - 추가한 `OmniPBR`의 이름을 `simple_red`로 변경한 후, `Property`의 `Base Color`를 다음과 같이 설정한다.
 ![Screenshot from 2022-11-06 19-59-42](https://user-images.githubusercontent.com/60342784/200166879-b5a3a29a-72e4-408b-bf3e-8a545faca986.png)
 
-- red_box의 property 중, 
+- red_box의 property중, Materials on selected 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk4ODE2NCw2NzgxOTc3MDQsLTc4MT
+eyJoaXN0b3J5IjpbLTEwNDkwMDQ1OCw2NzgxOTc3MDQsLTc4MT
 QzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1
 XX0=
 -->
