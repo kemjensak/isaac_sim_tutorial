@@ -29,6 +29,7 @@
 
 
 - 다음의 명령어를 통해 `universal_robot/ur_description/urdf` 에 위치한 UR5e.xacro 파일을 `.xacro` 에서 `.urdf` 로 변환한다.
+**-> [기 제작된 urdf](https://github.com/IROL-SSU/isaac_sim_tutorial/blob/main/gazebo_pkgs/ur5e_with_2f85_description/urdf/ur5e_with_2f85.xacro)로 변경 필요**
 
   
 
@@ -560,5 +561,5 @@
 
 # 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzg5NDA1NSwxMzAxMzQxOTc2XX0=
+eyJoaXN0b3J5IjpbLTE3NDc2MDEwMzIsMTMwMTM0MTk3Nl19
 -->
