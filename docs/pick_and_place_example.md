@@ -33,11 +33,13 @@
 - 추가한 `red_box`와 `conveyor`를 각각 우클릭하여 아래와 같이 `Physics` preset를 추가한다.
 ![Screenshot from 2022-11-06 19-50-23](https://user-images.githubusercontent.com/60342784/200166520-1d5cddab-33f7-4280-8864-5b7e6bf73040.png)
 
-- 상단 탭의 Create -> Material -> OmniPBR을 클릭하여 추가한다.
-- 이름을 simple_red로 변경한 후, Property의 Base Color를 다음과 같이 설정한다.
+- 상단 탭의 `Create -> Material -> OmniPBR`을 클릭하여 추가한다.
+- 추가한 `OmniPBR`의 이름을 `simple_red`로 변경한 후, `Property`의 `Base Color`를 다음과 같이 설정한다.
 ![Screenshot from 2022-11-06 19-59-42](https://user-images.githubusercontent.com/60342784/200166879-b5a3a29a-72e4-408b-bf3e-8a545faca986.png)
+
+- red_box의 property 중, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAxNzk1NjUsNjc4MTk3NzA0LC03OD
-E0MzE1NTEsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4
-NV19
+eyJoaXN0b3J5IjpbLTE2Njk4ODE2NCw2NzgxOTc3MDQsLTc4MT
+QzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1
+XX0=
 -->
