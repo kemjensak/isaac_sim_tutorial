@@ -39,8 +39,11 @@
 
 - `red_box`의 `property`중, `Materials on selected models`를 아래와 같이 변경한다.
 ![Screenshot from 2022-11-06 20-02-35](https://user-images.githubusercontent.com/60342784/200166997-4d30b250-1a26-4180-8444-f21d212b94d9.png)
+
+- 좌측의 Play 버튼을 눌러 red_box가 conveyor 위에서 움직이는지 확인한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg3MjUwMTYsNjc4MTk3NzA0LC03OD
-E0MzE1NTEsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4
-NV19
+eyJoaXN0b3J5IjpbOTA2Nzg1NDI4LDY3ODE5NzcwNCwtNzgxND
+MxNTUxLDI3MjM5MTcyNSwtMTc1ODg3NTA5Myw0OTIwNzAyODVd
+fQ==
 -->
