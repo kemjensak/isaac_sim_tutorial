@@ -543,9 +543,9 @@
 - `Viewport`에 아래 그림과 같이 표시됨을 확인한다.
 ![Screenshot from 2022-11-06 19-11-53](https://user-images.githubusercontent.com/60342784/200165112-503c424e-82b8-47a9-8aed-d3e227e17358.png)
 
-- 상단의 탭에서 Create -> Visual Scripting -> Action Graph를 클릭하여 
+- 상단의 탭에서 `Create -> Visual Scripting -> Action Graph`를 클릭하여 Action 그래프를 추가한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTM4NTEwMiwtNjI4MTIyNjkwLDUzOD
-g0NjQ2NiwtMTQxMTYxNTMwNSwtMTM1MjM4NzAxMiwtMTc0NzYw
-MTAzMiwxMzAxMzQxOTc2XX0=
+eyJoaXN0b3J5IjpbLTIwMjAwMTQ3MzYsLTYyODEyMjY5MCw1Mz
+g4NDY0NjYsLTE0MTE2MTUzMDUsLTEzNTIzODcwMTIsLTE3NDc2
+MDEwMzIsMTMwMTM0MTk3Nl19
 -->
