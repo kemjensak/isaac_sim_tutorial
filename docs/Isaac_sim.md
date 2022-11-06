@@ -537,9 +537,10 @@
 - 상단의 `Create -> Shapes -> Cube`를 클릭하여 Cube를 만들고 Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
 ![Screenshot from 2022-11-06 19-00-38](https://user-images.githubusercontent.com/60342784/200164633-2ce53aa0-548b-45dc-9c36-b3ea3e37990f.png)
 
-- 이제 Sc
+- 이제 Transform -> Scale 값으로 Cube의 크기를 미터 단위로 조절할 수 있다.
+- 아래와 같이 Transform의 값들을 조절한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA3ODQyMiw1Mzg4NDY0NjYsLTE0MT
-E2MTUzMDUsLTEzNTIzODcwMTIsLTE3NDc2MDEwMzIsMTMwMTM0
-MTk3Nl19
+eyJoaXN0b3J5IjpbLTE3MTM4ODYzODQsNTM4ODQ2NDY2LC0xND
+ExNjE1MzA1LC0xMzUyMzg3MDEyLC0xNzQ3NjAxMDMyLDEzMDEz
+NDE5NzZdfQ==
 -->
