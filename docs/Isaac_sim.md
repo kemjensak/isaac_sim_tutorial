@@ -526,11 +526,11 @@
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
 
 # Pick and place example
-- 
+- 하단 Content 탭에서 Isaac -> 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIzODcwMTIsLTE3NDc2MDEwMzIsMT
-MwMTM0MTk3Nl19
+eyJoaXN0b3J5IjpbLTEzNTU2NjcyNDYsLTEzNTIzODcwMTIsLT
+E3NDc2MDEwMzIsMTMwMTM0MTk3Nl19
 -->
