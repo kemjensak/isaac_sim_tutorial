@@ -19,7 +19,7 @@
 - 상단의 탭에서 `Create -> Visual Scripting -> Action Graph`를 클릭하여 Action 그래프를 추가한다.
 - 아래 그림과 같이 Action Graph를 만든다.
 ![Screenshot from 2022-11-06 19-20-48](https://user-images.githubusercontent.com/60342784/200165438-04460a5b-7d3b-4297-8129-0330e31f7c18.png)
-- Conveyor Belt의 input 중 velocity는 
+- `Conveyor Belt`의 input 중 `velocity`를 0.5로 입력한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU3MzU2NzYsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbMjg3OTE2Mzc5LDQ5MjA3MDI4NV19
 -->
