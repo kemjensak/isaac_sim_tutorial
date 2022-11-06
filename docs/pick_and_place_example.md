@@ -42,9 +42,11 @@
 
 - 좌측의 Play 버튼을 눌러 red_box가 conveyor 위에서 움직이는지 확인한다.
 
-- 상단의 탭에서 I
+- 상단의 탭에서 상단의 탭에서  _Isaac Utils > Workflows > URDF Importer_  를 실행한다.
+
+- `clean stage` 는 체크 해제, _Fix Base Link_ 는 체크하고 , _Joint Drive Type_ 을 Position으로 설정한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03OD
-E0MzE1NTEsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4
-NV19
+eyJoaXN0b3J5IjpbMTE0OTg3NDU4OSwtMTQ5NjQzMDgzMCw2Nz
+gxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUw
+OTMsNDkyMDcwMjg1XX0=
 -->
