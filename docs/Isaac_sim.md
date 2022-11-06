@@ -530,10 +530,13 @@
 
 - 아래 그림과 같은 환경이 load 되었음을 확인한다.![Screenshot from 2022-11-06 18-43-39](https://user-images.githubusercontent.com/60342784/200164020-11854545-5aac-47b9-9daa-49a5e41355b9.png)
 
-- 상단 탭에서 Window -> Extensions를 클릭한다. conveyor 
+- 상단 탭에서 Window -> Extensions를 클릭하고 conveyor를 검색창에 입력한다.
+- 아래 그림과 같이 토글 스위치를 클릭하여 ENABLED 로 표시되도록 한다.
+![Screenshot from 2022-11-06 18-46-28](https://user-images.githubusercontent.com/60342784/200164109-5f0d6533-a215-480e-b814-5630ba2a04e9.png)
 
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMTkwMjM3LC0xMzUyMzg3MDEyLC0xNz
-Q3NjAxMDMyLDEzMDEzNDE5NzZdfQ==
+eyJoaXN0b3J5IjpbMTI0Njc0MzA2MSwtMTM1MjM4NzAxMiwtMT
+c0NzYwMTAzMiwxMzAxMzQxOTc2XX0=
 -->
