@@ -46,14 +46,14 @@
 
 - 앞서 제작하였던  ur5e_with_2f85.xacro 파일의 위치로 이동하여 아래 명령어를 입력한다.
 	 ```
-	rosrun xacro xacro -o ur5e.urdf ur5e.xacro
+	$ rosrun xacro xacro -o ur5e.urdf ur5e.xacro
 	```
 
 - `clean stage` 는 체크 해제, `Fix Base Link` 는 체크하고 , `Joint Drive Type` 을 Position으로 설정한다.
 
 - 만들었던 URDF 파일을 `Import`의 `Input File` 로 지정하고 Stage 탭의  `/World`  를 선택한 상태에서  `Import`  버튼을 누른다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDUyNzcyNDUsMjAxODA3MzcyNiwtMT
+eyJoaXN0b3J5IjpbLTE3NTA1ODE2MjUsMjAxODA3MzcyNiwtMT
 Q5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3
 MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
 -->
