@@ -44,9 +44,9 @@
 
 - 상단의 탭에서 상단의 탭에서  _Isaac Utils > Workflows > URDF Importer_  를 실행한다.
 
-- `clean stage` 는 체크 해제, _Fix Base Link_ 는 체크하고 , _Joint Drive Type_ 을 Position으로 설정한다.
+- `clean stage` 는 체크 해제, `Fix Base Link` 는 체크하고 , `Joint Drive Type` 을 Position으로 설정한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTg3NDU4OSwtMTQ5NjQzMDgzMCw2Nz
+eyJoaXN0b3J5IjpbLTE1MjgwNjE0NSwtMTQ5NjQzMDgzMCw2Nz
 gxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUw
 OTMsNDkyMDcwMjg1XX0=
 -->
