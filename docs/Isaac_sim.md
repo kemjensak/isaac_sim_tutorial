@@ -526,12 +526,14 @@
 5. `rostopic  echo  tag_detections` 명령어를 실행하여 detection 결과를 확인한다.
 
 # Pick and place example
-- 하단 Content 탭에서 `Isaac/Environments/Simple_Warehouse`에 위치한 `warehouse.usd` 파일을 우측의 `stage` 탭으로 드래그한다.
-- 
+- 하단 Content 탭에서 `Isaac/Environments/Simple_Warehouse`에 위치한 `warehouse.usd` 파일을 우측의 `stage` 탭으로 드래그한다.\
+
+- 아래 그림과 같은 환경이 load 되었음을 확인한다.![Screenshot from 2022-11-06 18-43-39](https://user-images.githubusercontent.com/60342784/200164020-11854545-5aac-47b9-9daa-49a5e41355b9.png)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1ODI2NjU3LC0xMzUyMzg3MDEyLC0xNz
-Q3NjAxMDMyLDEzMDEzNDE5NzZdfQ==
+eyJoaXN0b3J5IjpbLTE5Mjc4ODI2MSwtMTM1MjM4NzAxMiwtMT
+c0NzYwMTAzMiwxMzAxMzQxOTc2XX0=
 -->
