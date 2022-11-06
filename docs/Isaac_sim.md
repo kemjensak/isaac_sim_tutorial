@@ -534,11 +534,11 @@
 - 아래 그림과 같이 토글 스위치를 클릭하여 ENABLED 로 표시되도록 한다.
 ![Screenshot from 2022-11-06 18-46-28](https://user-images.githubusercontent.com/60342784/200164109-5f0d6533-a215-480e-b814-5630ba2a04e9.png)
 
-- 상단의 `Create -> Shapes -> Cube`를 클릭하여 Cube를 만들고 Property의 Geometry -> Mesh -> Size를 아래와 같이 1로 변경한다.
+- 상단의 `Create -> Shapes -> Cube`를 클릭하여 Cube를 만들고 Property의 `Geometry -> Mesh -> Size`를 아래와 같이 `1`로 변경한다.
 ![Screenshot from 2022-11-06 19-00-38](https://user-images.githubusercontent.com/60342784/200164633-2ce53aa0-548b-45dc-9c36-b3ea3e37990f.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NTc5NDQ3LC0xNDExNjE1MzA1LC0xMz
-UyMzg3MDEyLC0xNzQ3NjAxMDMyLDEzMDEzNDE5NzZdfQ==
+eyJoaXN0b3J5IjpbMTY5OTQ4NzYwNSwtMTQxMTYxNTMwNSwtMT
+M1MjM4NzAxMiwtMTc0NzYwMTAzMiwxMzAxMzQxOTc2XX0=
 -->
