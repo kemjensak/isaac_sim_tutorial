@@ -54,6 +54,14 @@
 
 ![Screenshot from 2022-11-06 20-02-35](https://user-images.githubusercontent.com/60342784/200166997-4d30b250-1a26-4180-8444-f21d212b94d9.png)
 
+- 상단 탭의 `Create -> Shapes -> Cylinder`을 클릭하여 추가한다.
+- 추가한 `OmniPBR`의 이름을 `simple_red`로 변경한 후, `Property`의 `Base Color`를 다음과 같이 설정한다.
+
+
+
+
+
+
 - 좌측의 Play 버튼을 눌러 red_box가 conveyor 위에서 움직이는지 확인한다.
 - 앞서 제작하였던  ur5e_with_2f85.xacro 파일의 위치로 이동하여 아래 명령어를 입력한다.
 	 ```
@@ -68,8 +76,8 @@
 - 제작한 URDF 파일을 `Import`의 `Input File` 로 지정하고 Stage 탭의  `/World`  를 선택한 상태에서  `Import`  버튼을 누른다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ5NjEyMDcsLTE1ODMzNDEzNzQsLT
-g5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0
-MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC
-0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbLTkwNTc4MzQ1OSwtMTU4MzM0MTM3NCwtOD
+k5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQz
+MDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLT
+E3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
 -->
