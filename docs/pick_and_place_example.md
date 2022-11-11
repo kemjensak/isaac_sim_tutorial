@@ -99,11 +99,15 @@
 
 ![Screenshot from 2022-11-11 22-37-40](https://user-images.githubusercontent.com/60342784/201351620-6fe3e96b-d47e-47fd-ad4d-ff4f3c03641f.png)
 
+- 아래 그림과 같은 Action graph 생성.
+
+![Screenshot from 2022-11-11 23-19-16](https://user-images.githubusercontent.com/60342784/201359011-ec752985-eb88-49f8-a539-848881d7e78e.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc5Mzk4MjEsLTkzODM4NDYzNiwtMT
-c1NjQyODA5OSwtMTU4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5
-NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MD
-QsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDky
-MDcwMjg1XX0=
+eyJoaXN0b3J5IjpbMTAyNDUzNjA5MSwtMTM0NzkzOTgyMSwtOT
+M4Mzg0NjM2LC0xNzU2NDI4MDk5LC0xNTgzMzQxMzc0LC04OTkz
+ODQwOTAsLTQxODk3NjIxOCwyMDE4MDczNzI2LC0xNDk2NDMwOD
+MwLDY3ODE5NzcwNCwtNzgxNDMxNTUxLDI3MjM5MTcyNSwtMTc1
+ODg3NTA5Myw0OTIwNzAyODVdfQ==
 -->
