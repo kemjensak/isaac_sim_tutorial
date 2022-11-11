@@ -15,6 +15,7 @@
 
 - 이제 `Transform -> Scale` 값으로 Cube의 크기를 미터 단위로 조절할 수 있다.
 - 아래와 같이 Transform의 값들을 조절한다.
+
 ![Screenshot from 2022-11-06 19-11-26](https://user-images.githubusercontent.com/60342784/200165093-c9bbe853-7c74-478c-8a7d-f52f876e70ba.png)
 
 - `Viewport`에 아래 그림과 같이 표시됨을 확인한다.
@@ -65,7 +66,7 @@
 - 제작한 URDF 파일을 `Import`의 `Input File` 로 지정하고 Stage 탭의  `/World`  를 선택한 상태에서  `Import`  버튼을 누른다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk4MjQ5NDAsLTg5OTM4NDA5MCwtND
+eyJoaXN0b3J5IjpbLTE1ODMzNDEzNzQsLTg5OTM4NDA5MCwtND
 E4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3
 NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLD
 Q5MjA3MDI4NV19
