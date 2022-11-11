@@ -67,7 +67,7 @@
 	$ rosrun xacro xacro -o ur5e_with_2f85.urdf ur5e_with_2f85.xacro
 	```
 - 같은 위치에 `ur5e_with_2f85.urdf` 파일이 생성되었음을 확인한다.
-- 파일을 열어 left_finger_joint
+- 파일을 열어 left_finger_joint와 right_finger_joint의 joint type을 fixed에서 continuous로 변경.
 - 버그로 인해 이동하여야 함.(내용 보완필요)
 - 상단의 탭에서 상단의 탭에서  `Isaac Utils > Workflows > URDF Importer`  를 실행한다.
 
@@ -87,11 +87,11 @@
 ![Screenshot from 2022-11-11 22-21-43](https://user-images.githubusercontent.com/60342784/201349003-7dbe28a8-4542-4169-bc4b-cc203b0db1e0.png)
 
 
-- 
+- Urdf로 import한 `ur5e_with_2f85
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDI3NzgxNCwtMTc1NjQyODA5OSwtMT
-U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
-MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
-wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbLTEyMzA3NzcxMDMsLTE3NTY0MjgwOTksLT
+E1ODMzNDEzNzQsLTg5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgw
+NzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NT
+EsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
 -->
