@@ -77,13 +77,13 @@
 
 ![Screenshot from 2022-11-11 22-08-54](https://user-images.githubusercontent.com/60342784/201347038-7dc9c6c3-0125-4f5b-b502-0862348b48ca.png)
 
-- 하단 Content 탭에서 `Isaac/Props/Simple_Warehouse`에 위치한 `warehouse.usd` 파일을 우측의 `stage` 탭으로 드래그한다. 
+- 하단 Content 탭에서 `Isaac/Props/KLT_Bin`에 위치한 `small_KLT.usd` 파일을 우측의 `stage` 탭으로 드래그한다.
 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODYwMzA3ODQsLTE3NTY0MjgwOTksLT
-E1ODMzNDEzNzQsLTg5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgw
-NzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NT
-EsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbLTExNDU1OTA4NSwtMTc1NjQyODA5OSwtMT
+U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
+MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
+wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
 -->
