@@ -124,10 +124,11 @@ rosrun topic_tools relay joint_states joint_command_desired
 $ roslaunch ur5e_with_2f85_gazebo pick_and_place.launch
 $ rosrun topic_tools relay joint_states joint_command_desired
 $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
+(isaac
 $ rosrun ur5e_with_2f85 pick_and_place_gazebo_example
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTkxNTEwLC0xNzQ2OTIyNDc3LDE2Mz
+eyJoaXN0b3J5IjpbNzczMjQ4NTE5LC0xNzQ2OTIyNDc3LDE2Mz
 A1MDg0LC0xMzQ3OTM5ODIxLC05MzgzODQ2MzYsLTE3NTY0Mjgw
 OTksLTE1ODMzNDEzNzQsLTg5OTM4NDA5MCwtNDE4OTc2MjE4LD
 IwMTgwNzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03ODE0
