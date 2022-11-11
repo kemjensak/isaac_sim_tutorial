@@ -87,12 +87,14 @@
 ![Screenshot from 2022-11-11 22-21-43](https://user-images.githubusercontent.com/60342784/201349003-7dbe28a8-4542-4169-bc4b-cc203b0db1e0.png)
 
 
-- Urdf로 import한 `ur5e_with_2f85` 에서  robotiq에 부착된 모든 joint들을 아래와 같이 추가/수정 필요.
-- `robotiq_85_left_finger_joint`, `robotiq_85_right_finger_joint`외 모든 joint를 
+- Urdf로 import한 `ur5e_with_2f85` 에서  robotiq의 모든 joint들을 아래와 같이 추가/수정 필요.
+- `robotiq_85_left_finger_joint`, `robotiq_85_right_finger_joint`외 모든 joint를 `Exclude From Articulation` 체크, `Max Force` 값 0로 설정.
+- 각 joint 회전축 확인하여 올바르게 변경.
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc0OTI5ODUsLTE3NTY0MjgwOTksLT
-E1ODMzNDEzNzQsLTg5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgw
-NzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NT
-EsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbMTU3NzAyODE4MSwtMTc1NjQyODA5OSwtMT
+U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
+MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
+wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
 -->
