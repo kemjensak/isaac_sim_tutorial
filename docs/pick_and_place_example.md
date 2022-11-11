@@ -121,13 +121,13 @@ $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
 - 
 rosrun topic_tools relay joint_states joint_command_desired
 ```
-$ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch
+$ roslaunch ur5e_with_2f85_gazebo pick_and_place.launch
 $ rosrun joint_state_publisher_gui joint_state_publisher_gui joint_states:=joint_command_desired
 $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
 (리포지토리 내 isaac_pkgs/issac_joint_mod_relay 에 위치한 패키지, 다운로드 or 코딩 필요)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTIwNjE4NywtMTc0NjkyMjQ3NywxNj
+eyJoaXN0b3J5IjpbLTMyMzM1Njk3MywtMTc0NjkyMjQ3NywxNj
 MwNTA4NCwtMTM0NzkzOTgyMSwtOTM4Mzg0NjM2LC0xNzU2NDI4
 MDk5LC0xNTgzMzQxMzc0LC04OTkzODQwOTAsLTQxODk3NjIxOC
 wyMDE4MDczNzI2LC0xNDk2NDMwODMwLDY3ODE5NzcwNCwtNzgx
