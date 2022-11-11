@@ -124,13 +124,13 @@ rosrun topic_tools relay joint_states joint_command_desired
 $ roslaunch ur5e_with_2f85_gazebo pick_and_place.launch
 $ rosrun topic_tools relay joint_states joint_command_desired
 $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
-(리포지토리 내 isaac_pkgs/issac_joint_mod_relay 에 위치한 패키지, 다운로드 or 코딩 필요)
+$ rosrun ur5e_with_2f85 pick_and_place_gazebo_example
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDE1MjMyNCwtMTc0NjkyMjQ3NywxNj
-MwNTA4NCwtMTM0NzkzOTgyMSwtOTM4Mzg0NjM2LC0xNzU2NDI4
-MDk5LC0xNTgzMzQxMzc0LC04OTkzODQwOTAsLTQxODk3NjIxOC
-wyMDE4MDczNzI2LC0xNDk2NDMwODMwLDY3ODE5NzcwNCwtNzgx
-NDMxNTUxLDI3MjM5MTcyNSwtMTc1ODg3NTA5Myw0OTIwNzAyOD
-VdfQ==
+eyJoaXN0b3J5IjpbLTc4OTkxNTEwLC0xNzQ2OTIyNDc3LDE2Mz
+A1MDg0LC0xMzQ3OTM5ODIxLC05MzgzODQ2MzYsLTE3NTY0Mjgw
+OTksLTE1ODMzNDEzNzQsLTg5OTM4NDA5MCwtNDE4OTc2MjE4LD
+IwMTgwNzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03ODE0
+MzE1NTEsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4NV
+19
 -->
