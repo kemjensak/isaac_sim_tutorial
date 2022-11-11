@@ -38,7 +38,8 @@
 
 - Transform은 아래와 같이 입력한다.
 
-![Screenshot from 2022-11-06 19-28-56](https://user-images.githubusercontent.com/60342784/200165709-490427e0-9983-46b9-b76b-88add55087dc.png)
+![Screenshot from 2022-11-11 22-05-13](https://user-images.githubusercontent.com/60342784/201346376-381c9575-3e8b-43bf-9a38-ccafdda06793.png)
+
 
 - 추가한 `red_box`와 `conveyor`를 각각 우클릭하여 아래와 같이 `Physics` preset를 추가한다.
 
@@ -67,8 +68,8 @@
 - 제작한 URDF 파일을 `Import`의 `Input File` 로 지정하고 Stage 탭의  `/World`  를 선택한 상태에서  `Import`  버튼을 누른다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODU0NzgyNiwtMTU4MzM0MTM3NCwtOD
-k5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQz
-MDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLT
-E3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbLTE1MjQ5NjEyMDcsLTE1ODMzNDEzNzQsLT
+g5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0
+MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC
+0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
 -->
