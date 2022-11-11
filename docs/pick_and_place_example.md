@@ -57,6 +57,8 @@
 - 상단 탭의 `Create -> Shapes -> Cylinder`을 클릭하여 추가한다.
 - 추가한 `Cylinder`의 `Property -> Geometry ->Mesh`를 다음과 같이 설정한다.
 
+![Screenshot from 2022-11-11 22-07-47](https://user-images.githubusercontent.com/60342784/201346842-d1569bc3-0884-4eb9-b8db-482fd88981f0.png)
+
 
 
 
@@ -76,8 +78,8 @@
 - 제작한 URDF 파일을 `Import`의 `Input File` 로 지정하고 Stage 탭의  `/World`  를 선택한 상태에서  `Import`  버튼을 누른다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MjIyNDE2LC0xNTgzMzQxMzc0LC04OT
-kzODQwOTAsLTQxODk3NjIxOCwyMDE4MDczNzI2LC0xNDk2NDMw
-ODMwLDY3ODE5NzcwNCwtNzgxNDMxNTUxLDI3MjM5MTcyNSwtMT
-c1ODg3NTA5Myw0OTIwNzAyODVdfQ==
+eyJoaXN0b3J5IjpbLTE5MDc3MzQ3NzAsLTE1ODMzNDEzNzQsLT
+g5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0
+MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC
+0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
 -->
