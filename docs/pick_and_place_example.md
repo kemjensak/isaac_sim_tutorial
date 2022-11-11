@@ -81,12 +81,15 @@
 - `Transform`을 아래와 같이 설정한다.
  ![Screenshot from 2022-11-11 22-21-04](https://user-images.githubusercontent.com/60342784/201348901-57256d47-2a1e-4f69-ad03-3b9585eeb17b.png)
 
-- 
+- 아래 그림과 같은 환경이 갖추어졌음을 확인한다.
+
+![Screenshot from 2022-11-11 22-21-43](https://user-images.githubusercontent.com/60342784/201349003-7dbe28a8-4542-4169-bc4b-cc203b0db1e0.png)
+
 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjU3NTMxMCwtMTc1NjQyODA5OSwtMT
+eyJoaXN0b3J5IjpbLTUxOTgwNzM2MCwtMTc1NjQyODA5OSwtMT
 U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
 MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
 wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
