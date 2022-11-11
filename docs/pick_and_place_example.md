@@ -74,13 +74,16 @@
 - `clean stage` 는 체크 해제, `Fix Base Link` 는 체크하고 , `Joint Drive Type` 을 Position으로 설정한다.
 
 - 제작한 URDF 파일을 `Import`의 `Input File` 로 지정하고 Stage 탭의  `/World`  를 선택한 상태에서  `Import`  버튼을 누른다.
-- 생성된 'ur5e_with_2f85'
+- 생성된 'ur5e_with_2f85' prim을 선택하고 Property의 Transform을 아래와 같이 설정한다.
+
+![Screenshot from 2022-11-11 22-08-54](https://user-images.githubusercontent.com/60342784/201347038-7dc9c6c3-0125-4f5b-b502-0862348b48ca.png)
+
 
 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTk1Mjc4MiwtMTU4MzM0MTM3NCwtOD
+eyJoaXN0b3J5IjpbLTc1MjY2ODQyNywtMTU4MzM0MTM3NCwtOD
 k5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQz
 MDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLT
 E3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
