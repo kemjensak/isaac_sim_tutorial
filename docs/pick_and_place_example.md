@@ -77,12 +77,16 @@
 
 ![Screenshot from 2022-11-11 22-08-54](https://user-images.githubusercontent.com/60342784/201347038-7dc9c6c3-0125-4f5b-b502-0862348b48ca.png)
 
-- 하단 Content 탭에서 `Isaac/Props/KLT_Bin`에 위치한 `small_KLT.usd` 파일을 우측의 `stage` 탭으로 드래그한다.
+- 하단 Content 탭에서 `Isaac/Props/KLT_Bin`에 위치한 `small_KLT.usd` 파일을 우측의 `stage` 탭으로 `World` Prim의 하위로 삽입되도록 드래그한다.
+- `Transform`을 아래와 같이 설정한다.
+ ![Screenshot from 2022-11-11 22-21-04](https://user-images.githubusercontent.com/60342784/201348901-57256d47-2a1e-4f69-ad03-3b9585eeb17b.png)
+
+- 
 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU1OTA4NSwtMTc1NjQyODA5OSwtMT
+eyJoaXN0b3J5IjpbMTczNjU3NTMxMCwtMTc1NjQyODA5OSwtMT
 U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
 MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
 wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
