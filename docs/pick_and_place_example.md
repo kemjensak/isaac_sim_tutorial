@@ -55,7 +55,7 @@
 ![Screenshot from 2022-11-06 20-02-35](https://user-images.githubusercontent.com/60342784/200166997-4d30b250-1a26-4180-8444-f21d212b94d9.png)
 
 - 상단 탭의 `Create -> Shapes -> Cylinder`을 클릭하여 추가한다.
-- 추가한 `Cylinder`를  `simple_red`로 변경한 후, `Property`의 `Base Color`를 다음과 같이 설정한다.
+- 추가한 `Cylinder`의 `Property -> Geometry ->Mesh`를 다음과 같이 설정한다.
 
 
 
@@ -76,8 +76,8 @@
 - 제작한 URDF 파일을 `Import`의 `Input File` 로 지정하고 Stage 탭의  `/World`  를 선택한 상태에서  `Import`  버튼을 누른다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDgzMjMxOTgsLTE1ODMzNDEzNzQsLT
-g5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0
-MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC
-0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbODU1MjIyNDE2LC0xNTgzMzQxMzc0LC04OT
+kzODQwOTAsLTQxODk3NjIxOCwyMDE4MDczNzI2LC0xNDk2NDMw
+ODMwLDY3ODE5NzcwNCwtNzgxNDMxNTUxLDI3MjM5MTcyNSwtMT
+c1ODg3NTA5Myw0OTIwNzAyODVdfQ==
 -->
