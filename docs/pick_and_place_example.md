@@ -1,5 +1,5 @@
 # Pick and place example
-- 하단 Content 탭에서 `Isaac/Environments/Simple_Warehouse`에 위치한 `warehouse.usd` 파일을 우측의 `stage` 탭으로 드래그한다.\
+- 하단 Content 탭에서 `Isaac/Environments/Simple_Warehouse`에 위치한 `warehouse.usd` 파일을 우측의 `stage` 탭으로 드래그한다.
 
 - 아래 그림과 같은 환경이 load 되었음을 확인한다.
 ![Screenshot from 2022-11-06 18-43-39](https://user-images.githubusercontent.com/60342784/200164020-11854545-5aac-47b9-9daa-49a5e41355b9.png)
@@ -77,13 +77,13 @@
 
 ![Screenshot from 2022-11-11 22-08-54](https://user-images.githubusercontent.com/60342784/201347038-7dc9c6c3-0125-4f5b-b502-0862348b48ca.png)
 
-
+- 하단 
 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY0MjgwOTksLTE1ODMzNDEzNzQsLT
-g5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0
-MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC
-0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbNTMwNTk5ODgwLC0xNzU2NDI4MDk5LC0xNT
+gzMzQxMzc0LC04OTkzODQwOTAsLTQxODk3NjIxOCwyMDE4MDcz
+NzI2LC0xNDk2NDMwODMwLDY3ODE5NzcwNCwtNzgxNDMxNTUxLD
+I3MjM5MTcyNSwtMTc1ODg3NTA5Myw0OTIwNzAyODVdfQ==
 -->
