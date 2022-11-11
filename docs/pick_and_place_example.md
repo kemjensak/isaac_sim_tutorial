@@ -62,7 +62,6 @@
 ![Screenshot from 2022-11-11 22-07-47](https://user-images.githubusercontent.com/60342784/201346842-d1569bc3-0884-4eb9-b8db-482fd88981f0.png)
 
 
-
 - 앞서 제작하였던  ur5e_with_2f85.xacro 파일의 위치로 이동하여 아래 명령어를 입력한다.
 	 ```
 	$ rosrun xacro xacro -o ur5e_with_2f85.urdf ur5e_with_2f85.xacro
@@ -83,8 +82,8 @@
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTY5NDE1LC0xNTgzMzQxMzc0LC04OT
-kzODQwOTAsLTQxODk3NjIxOCwyMDE4MDczNzI2LC0xNDk2NDMw
-ODMwLDY3ODE5NzcwNCwtNzgxNDMxNTUxLDI3MjM5MTcyNSwtMT
-c1ODg3NTA5Myw0OTIwNzAyODVdfQ==
+eyJoaXN0b3J5IjpbNDMwMDkzOTcsLTE1ODMzNDEzNzQsLTg5OT
+M4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0MzA4
+MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC0xNz
+U4ODc1MDkzLDQ5MjA3MDI4NV19
 -->
