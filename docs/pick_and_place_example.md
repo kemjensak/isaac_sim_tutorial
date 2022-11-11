@@ -112,11 +112,14 @@
 $ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch
 $ rosrun joint_state_publisher_gui joint_state_publisher_gui joint_states:=joint_command_desired
 $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
-(리포지토리 내 isaac_pkgs/issac_joint_mod_relay 에 위치한 패키지임)
+(리포지토리 내 isaac_pkgs/issac_joint_mod_relay 에 위치한 패키지, 다운로드 or 코딩 필요)
+```
+- isaac sim에서 play
+- joint_state_publisher_gui 슬라이더를 움직여 isaac에서 각 joint의 움직임이 확인되면 정상.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5NjU2NDU0LC0xMzQ3OTM5ODIxLC05Mz
-gzODQ2MzYsLTE3NTY0MjgwOTksLTE1ODMzNDEzNzQsLTg5OTM4
-NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0MzA4Mz
-AsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC0xNzU4
-ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbMTYzMDUwODQsLTEzNDc5Mzk4MjEsLTkzOD
+M4NDYzNiwtMTc1NjQyODA5OSwtMTU4MzM0MTM3NCwtODk5Mzg0
+MDkwLC00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQzMDgzMC
+w2NzgxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4
+NzUwOTMsNDkyMDcwMjg1XX0=
 -->
