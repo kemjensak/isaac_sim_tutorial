@@ -79,6 +79,7 @@
 ![Screenshot from 2022-11-11 22-08-54](https://user-images.githubusercontent.com/60342784/201347038-7dc9c6c3-0125-4f5b-b502-0862348b48ca.png)
 
 - 하단 Content 탭에서 `Isaac/Props/KLT_Bin`에 위치한 `small_KLT.usd` 파일을 우측의 `stage` 탭으로 `World` Prim의 하위로 삽입되도록 드래그한다.
+- 
 - `Transform`을 아래와 같이 설정한다.
  ![Screenshot from 2022-11-11 22-21-04](https://user-images.githubusercontent.com/60342784/201348901-57256d47-2a1e-4f69-ad03-3b9585eeb17b.png)
 
@@ -128,10 +129,10 @@ $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
 $ rosrun ur5e_with_2f85 pick_and_place_gazebo_example
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzkyNzgxMiwtMTc0NjkyMjQ3NywxNj
-MwNTA4NCwtMTM0NzkzOTgyMSwtOTM4Mzg0NjM2LC0xNzU2NDI4
-MDk5LC0xNTgzMzQxMzc0LC04OTkzODQwOTAsLTQxODk3NjIxOC
-wyMDE4MDczNzI2LC0xNDk2NDMwODMwLDY3ODE5NzcwNCwtNzgx
-NDMxNTUxLDI3MjM5MTcyNSwtMTc1ODg3NTA5Myw0OTIwNzAyOD
-VdfQ==
+eyJoaXN0b3J5IjpbNTYyMDM4MDc5LDE0NTc5Mjc4MTIsLTE3ND
+Y5MjI0NzcsMTYzMDUwODQsLTEzNDc5Mzk4MjEsLTkzODM4NDYz
+NiwtMTc1NjQyODA5OSwtMTU4MzM0MTM3NCwtODk5Mzg0MDkwLC
+00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQzMDgzMCw2Nzgx
+OTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUwOT
+MsNDkyMDcwMjg1XX0=
 -->
