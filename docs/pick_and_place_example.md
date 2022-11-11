@@ -61,12 +61,13 @@
 
 ![Screenshot from 2022-11-11 22-07-47](https://user-images.githubusercontent.com/60342784/201346842-d1569bc3-0884-4eb9-b8db-482fd88981f0.png)
 
-
+- 
 - 앞서 제작하였던  ur5e_with_2f85.xacro 파일의 위치로 이동하여 아래 명령어를 입력한다.
 	 ```
 	$ rosrun xacro xacro -o ur5e_with_2f85.urdf ur5e_with_2f85.xacro
 	```
 - 같은 위치에 `ur5e_with_2f85.urdf` 파일이 생성되었음을 확인한다.
+- 파일을 열어 left_finger_joint
 - 버그로 인해 이동하여야 함.(내용 보완필요)
 - 상단의 탭에서 상단의 탭에서  `Isaac Utils > Workflows > URDF Importer`  를 실행한다.
 
@@ -89,7 +90,7 @@
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTgwNzM2MCwtMTc1NjQyODA5OSwtMT
+eyJoaXN0b3J5IjpbLTg3NDI3NzgxNCwtMTc1NjQyODA5OSwtMT
 U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
 MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
 wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
