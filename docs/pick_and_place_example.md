@@ -79,6 +79,7 @@
 ![Screenshot from 2022-11-11 22-08-54](https://user-images.githubusercontent.com/60342784/201347038-7dc9c6c3-0125-4f5b-b502-0862348b48ca.png)
 
 - 하단 Content 탭에서 `Isaac/Props/KLT_Bin`에 위치한 `small_KLT.usd` 파일을 우측의 `stage` 탭으로 `World` Prim의 하위로 삽입되도록 드래그한다.
+- 
 - `Transform`을 아래와 같이 설정한다.
  ![Screenshot from 2022-11-11 22-21-04](https://user-images.githubusercontent.com/60342784/201348901-57256d47-2a1e-4f69-ad03-3b9585eeb17b.png)
 
@@ -88,7 +89,7 @@
 
 
 - Urdf로 import한 `ur5e_with_2f85` 에서  robotiq의 모든 joint들을 아래와 같이 추가/수정 필요.
-- `robotiq_85_left_finger_joint`, `robotiq_85_right_finger_joint`외 모든 joint를 `Exclude From Articulation` 체크, Drive의 `Max Force` 값 0로 설정, 위의 두 joint는 6으로 설정.
+- `robotiq_85_left_knuckle_joint`, `robotiq_85_right_knuckle_joint`외 모든 joint를 `Exclude From Articulation` 체크, Drive의 `Max Force` 값 0로 설정, 위의 두 joint는 6으로 설정.
 - urdf에서 수정한 joint의 회전축 확인하여 올바르게 변경.
 - `robotiq_85_left_finger_tip_link`와 `robotiq_85_left_finger_tip_link`에 revolute joint 추가 후 Drive 설정 적용.
  ![Screenshot from 2022-11-11 22-33-21](https://user-images.githubusercontent.com/60342784/201351042-b08721ec-a038-4d45-9dd5-5772edcfb1ed.png)
@@ -116,10 +117,22 @@ $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
 ```
 - isaac sim에서 play
 - joint_state_publisher_gui 슬라이더를 움직여 isaac에서 각 joint의 움직임이 확인되면 정상.
+
+- Gazebo의 joint_states 받아 isaac sim에서 그대로 움직이기 위해 아래 명령어 입력.
+- 
+rosrun topic_tools relay joint_states joint_command_desired
+```
+$ roslaunch ur5e_with_2f85_gazebo pick_and_place.launch
+$ rosrun topic_tools relay joint_states joint_command_desired
+$ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
+(isaac에서 Play후..)
+$ rosrun ur5e_with_2f85 pick_and_place_gazebo_example
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDUwODQsLTEzNDc5Mzk4MjEsLTkzOD
-M4NDYzNiwtMTc1NjQyODA5OSwtMTU4MzM0MTM3NCwtODk5Mzg0
-MDkwLC00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQzMDgzMC
-w2NzgxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4
-NzUwOTMsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbNDY2MDk5NzQ3LDE0NTc5Mjc4MTIsLTE3ND
+Y5MjI0NzcsMTYzMDUwODQsLTEzNDc5Mzk4MjEsLTkzODM4NDYz
+NiwtMTc1NjQyODA5OSwtMTU4MzM0MTM3NCwtODk5Mzg0MDkwLC
+00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQzMDgzMCw2Nzgx
+OTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUwOT
+MsNDkyMDcwMjg1XX0=
 -->
