@@ -105,11 +105,17 @@
 
 - Articulation controller의 property 다음과 같이 설정.
 
+![Screenshot from 2022-11-11 23-21-34](https://user-images.githubusercontent.com/60342784/201359408-6a895f89-ee19-45eb-ac37-e649291431f7.png)
 
+- 다음 명령어 각각 실행
+```
+$ roslaunch ur5e_with_2f85_description load_ur5e_with_2f85.launch
+$ rosrun joint_state_publisher_gui joint_state_publisher_gui joint_states:=joint_command_desired
+$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2ODYzMDAwLC0xMzQ3OTM5ODIxLC05Mz
-gzODQ2MzYsLTE3NTY0MjgwOTksLTE1ODMzNDEzNzQsLTg5OTM4
-NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0MzA4Mz
-AsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC0xNzU4
-ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbLTIwNTg4Nzg1NTMsLTEzNDc5Mzk4MjEsLT
+kzODM4NDYzNiwtMTc1NjQyODA5OSwtMTU4MzM0MTM3NCwtODk5
+Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQzMD
+gzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3
+NTg4NzUwOTMsNDkyMDcwMjg1XX0=
 -->
