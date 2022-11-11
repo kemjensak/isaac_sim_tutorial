@@ -87,11 +87,12 @@
 ![Screenshot from 2022-11-11 22-21-43](https://user-images.githubusercontent.com/60342784/201349003-7dbe28a8-4542-4169-bc4b-cc203b0db1e0.png)
 
 
-- Urdf로 import한 `ur5e_with_2f85
+- Urdf로 import한 `ur5e_with_2f85` 의 joint들을 아래와 같이 추가/수정 필요.
+- robotiq의 모든 joint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA3NzcxMDMsLTE3NTY0MjgwOTksLT
-E1ODMzNDEzNzQsLTg5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgw
-NzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NT
-EsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbODY5NTM3MzYzLC0xNzU2NDI4MDk5LC0xNT
+gzMzQxMzc0LC04OTkzODQwOTAsLTQxODk3NjIxOCwyMDE4MDcz
+NzI2LC0xNDk2NDMwODMwLDY3ODE5NzcwNCwtNzgxNDMxNTUxLD
+I3MjM5MTcyNSwtMTc1ODg3NTA5Myw0OTIwNzAyODVdfQ==
 -->
