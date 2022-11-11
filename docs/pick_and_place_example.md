@@ -89,13 +89,13 @@
 
 - Urdf로 import한 `ur5e_with_2f85` 에서  robotiq의 모든 joint들을 아래와 같이 추가/수정 필요.
 - `robotiq_85_left_finger_joint`, `robotiq_85_right_finger_joint`외 모든 joint를 `Exclude From Articulation` 체크, Drive의 `Max Force` 값 0로 설정, 해당 두 joint는 6으로 설정.
-- 각 joint 회전축 확인하여 올바르게 변경.
+- urdf에서 수정한 joint의 회전축 확인하여 올바르게 변경.
 - `robotiq_85_left_finger_tip_link`와 `robotiq_85_left_finger_tip_link`에 revolute joint 추가 후 Drive 설정 적용.
  ![Screenshot from 2022-11-11 22-33-21](https://user-images.githubusercontent.com/60342784/201351042-b08721ec-a038-4d45-9dd5-5772edcfb1ed.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODAzNTUxMiwtMTc1NjQyODA5OSwtMT
+eyJoaXN0b3J5IjpbLTk5MzQ5NzQ4OSwtMTc1NjQyODA5OSwtMT
 U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
 MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
 wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
