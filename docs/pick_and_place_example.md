@@ -91,11 +91,12 @@
 - `robotiq_85_left_finger_joint`, `robotiq_85_right_finger_joint`외 모든 joint를 `Exclude From Articulation` 체크, Drive의 `Max Force` 값 0로 설정.
 - 각 joint 회전축 확인하여 올바르게 변경.
 - `robotiq_85_left_finger_tip_link`와 `robotiq_85_left_finger_tip_link`에 revolute joint 추가 후 Drive 설정 적용.
- ![Screenshot from 2022-11-11 22-33-21](https://user-images.githubusercontent.com/60342784/201350858-5445442d-fce1-4794-84d2-683017dc24eb.png)
+ ![Screenshot from 2022-11-11 22-33-21](https://user-images.githubusercontent.com/60342784/201351042-b08721ec-a038-4d45-9dd5-5772edcfb1ed.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODYyMTM5MCwtMTc1NjQyODA5OSwtMT
-U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
-MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
-wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbOTU1NzM4Mjc0LC0xNzU2NDI4MDk5LC0xNT
+gzMzQxMzc0LC04OTkzODQwOTAsLTQxODk3NjIxOCwyMDE4MDcz
+NzI2LC0xNDk2NDMwODMwLDY3ODE5NzcwNCwtNzgxNDMxNTUxLD
+I3MjM5MTcyNSwtMTc1ODg3NTA5Myw0OTIwNzAyODVdfQ==
 -->
