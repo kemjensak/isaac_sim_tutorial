@@ -93,7 +93,7 @@
 - `robotiq_85_left_finger_tip_link`와 `robotiq_85_left_finger_tip_link`에 revolute joint 추가 후 Drive 설정 적용.
  ![Screenshot from 2022-11-11 22-33-21](https://user-images.githubusercontent.com/60342784/201351042-b08721ec-a038-4d45-9dd5-5772edcfb1ed.png)
 
-- 추가한 joint설정은 아래와 같음.(R, L)
+- 추가한 joint에 대한 설정은 아래와 같음.(R, L)
 
 ![Screenshot from 2022-11-11 22-36-03](https://user-images.githubusercontent.com/60342784/201351415-cd7bc58b-8898-49ee-9b79-a914ed7318f1.png)
 
@@ -101,8 +101,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU3NzgzOTIsLTE3NTY0MjgwOTksLT
-E1ODMzNDEzNzQsLTg5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgw
-NzM3MjYsLTE0OTY0MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NT
-EsMjcyMzkxNzI1LC0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbLTkzODM4NDYzNiwtMTc1NjQyODA5OSwtMT
+U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
+MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
+wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
 -->
