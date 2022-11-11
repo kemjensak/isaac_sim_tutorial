@@ -67,7 +67,7 @@
 	$ rosrun xacro xacro -o ur5e_with_2f85.urdf ur5e_with_2f85.xacro
 	```
 - 같은 위치에 `ur5e_with_2f85.urdf` 파일이 생성되었음을 확인한다.
-- 버그로 인해 이동하여야 함.
+- 버그로 인해 이동하여야 함.(내용 보완필요)
 - 상단의 탭에서 상단의 탭에서  `Isaac Utils > Workflows > URDF Importer`  를 실행한다.
 
 - `clean stage` 는 체크 해제, `Fix Base Link` 는 체크하고 , `Joint Drive Type` 을 Position으로 설정한다.
@@ -82,8 +82,8 @@
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMDkzOTcsLTE1ODMzNDEzNzQsLTg5OT
-M4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0MzA4
-MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC0xNz
-U4ODc1MDkzLDQ5MjA3MDI4NV19
+eyJoaXN0b3J5IjpbLTE3NTY0MjgwOTksLTE1ODMzNDEzNzQsLT
+g5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0
+MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC
+0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
 -->
