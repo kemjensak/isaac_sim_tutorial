@@ -119,8 +119,7 @@ $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
 - joint_state_publisher_gui 슬라이더를 움직여 isaac에서 각 joint의 움직임이 확인되면 정상.
 
 - Gazebo의 joint_states 받아 isaac sim에서 그대로 움직이기 위해 아래 명령어 입력.
-- 
-rosrun topic_tools relay joint_states joint_command_desired
+
 ```
 $ roslaunch ur5e_with_2f85_gazebo pick_and_place.launch
 $ rosrun topic_tools relay joint_states joint_command_desired
@@ -129,10 +128,10 @@ $ rosrun isaac_joint_mod_relay ur5e_with_2f85_mod_joints_publisher.py
 $ rosrun ur5e_with_2f85 pick_and_place_gazebo_example
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MDk5NzQ3LDE0NTc5Mjc4MTIsLTE3ND
-Y5MjI0NzcsMTYzMDUwODQsLTEzNDc5Mzk4MjEsLTkzODM4NDYz
-NiwtMTc1NjQyODA5OSwtMTU4MzM0MTM3NCwtODk5Mzg0MDkwLC
-00MTg5NzYyMTgsMjAxODA3MzcyNiwtMTQ5NjQzMDgzMCw2Nzgx
-OTc3MDQsLTc4MTQzMTU1MSwyNzIzOTE3MjUsLTE3NTg4NzUwOT
-MsNDkyMDcwMjg1XX0=
+eyJoaXN0b3J5IjpbMTUxNjkzNjE1LDQ2NjA5OTc0NywxNDU3OT
+I3ODEyLC0xNzQ2OTIyNDc3LDE2MzA1MDg0LC0xMzQ3OTM5ODIx
+LC05MzgzODQ2MzYsLTE3NTY0MjgwOTksLTE1ODMzNDEzNzQsLT
+g5OTM4NDA5MCwtNDE4OTc2MjE4LDIwMTgwNzM3MjYsLTE0OTY0
+MzA4MzAsNjc4MTk3NzA0LC03ODE0MzE1NTEsMjcyMzkxNzI1LC
+0xNzU4ODc1MDkzLDQ5MjA3MDI4NV19
 -->
