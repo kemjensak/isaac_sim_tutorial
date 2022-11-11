@@ -14,6 +14,6 @@ include_directories(
 )
 
 catkin_install_python(PROGRAMS
-  scripts/panda_combined_joints_publisher.py
+  scripts/ur5e_with_2f85_combined_joints_publisher.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
