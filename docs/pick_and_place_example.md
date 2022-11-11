@@ -88,10 +88,10 @@
 
 
 - Urdf로 import한 `ur5e_with_2f85` 에서  robotiq 관련 모든 joint들을 아래와 같이 추가/수정 필요.
--
+- `robotiq_85_left_finger_joint`, `robotiq_85_right_finger_joint`외 모든 joint를 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTEwNTk5OSwtMTc1NjQyODA5OSwtMT
+eyJoaXN0b3J5IjpbLTc5NTUzNzM5NiwtMTc1NjQyODA5OSwtMT
 U4MzM0MTM3NCwtODk5Mzg0MDkwLC00MTg5NzYyMTgsMjAxODA3
 MzcyNiwtMTQ5NjQzMDgzMCw2NzgxOTc3MDQsLTc4MTQzMTU1MS
 wyNzIzOTE3MjUsLTE3NTg4NzUwOTMsNDkyMDcwMjg1XX0=
