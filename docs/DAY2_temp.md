@@ -385,10 +385,9 @@
 ```py
 import time
 import carb
+#launch Isaac Sim before other imports 
+#default first two lines in any standalone application
 from omni.isaac.kit import SimulationApp
-
-
-# Example ROS bridge sample showing rospy and rosclock interaction
 simulation_app = SimulationApp({"renderer": "RayTracedLighting", "headless": True})
 import omni
 from omni.isaac.core.utils.extensions import enable_extension
@@ -418,7 +417,7 @@ import rospy
 - OnImpulseEvent OmniGraph 노드는 어떠한 ROS OmniGraph 노드와 연결될 수 있으며, publish 혹은 subscribe 주기를 제어할 수 있다.
 - *ROS1 Publish Clock node*를 Standalone Python으로 정교하게 제어하는 예제:
  
-	```py
+	```
 	import omni.graph.core as og
 	og.Controller.edit(
 	    {"graph_path": "/ActionGraph", "evaluator_name": "execution"},
@@ -591,5 +590,5 @@ import rospy
 
 #### Publishing Custom Messages in Extension Scripting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3OTk5MDAxLDk5MjAxODkxXX0=
+eyJoaXN0b3J5IjpbLTkzODg3NDY4Nyw5OTIwMTg5MV19
 -->
