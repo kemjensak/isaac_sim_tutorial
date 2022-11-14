@@ -381,6 +381,8 @@
 	- 2. IsaacSim을 headless mode(websocket?)로 미리 켜둔 상태에서, Jupyter notebook을 기반으로 **line-by-line으로 작성/실행**하며 프로그램을 개발하는 방식임. 이 때, Live sync가 On이 되어 있는 것을 확인할 수 있고, Jupyter하고 IsaacSim은 비동기 방식으로 연동됨. 
 
 #### Standalone 방식으로 구동하는 예시
+
+
 - OnImpulseEvent OmniGraph 노드는 어떠한 ROS OmniGraph 노드와 연결될 수 있으며, publish 혹은 subscribe 주기를 제어할 수 있다.
 - *ROS1 Publish Clock node*를 Standalone Python으로 정교하게 제어하는 예제:
  
@@ -557,5 +559,5 @@
 
 #### Publishing Custom Messages in Extension Scripting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMDE4OTFdfQ==
+eyJoaXN0b3J5IjpbMTI5OTk5MDMzNSw5OTIwMTg5MV19
 -->
