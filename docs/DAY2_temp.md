@@ -385,6 +385,8 @@
 ```py
 import sys
 import carb
+#launch Isaac Sim before other imports
+#default first two lines in any standalone application
 from omni.isaac.kit import SimulationApp
 
 HOSPITAL_USD_PATH = "/Isaac/Samples/ROS/Scenario/multiple_robot_carter_hospital_navigation.usd"
@@ -614,5 +616,5 @@ if assets_root_path is None:
 
 #### Publishing Custom Messages in Extension Scripting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzg3NjQ0Nyw5OTIwMTg5MV19
+eyJoaXN0b3J5IjpbLTgzNzgxNzM2Nyw5OTIwMTg5MV19
 -->
