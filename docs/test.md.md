@@ -50,7 +50,9 @@
 	cd ~/catkin_ws/src
 	git clone https://github.com/ros-planning/panda_moveit_config.git -b noetic-devel
 	```
+- 아래 src 폴더에 panda_moveit_config 패키지가 생성된 것을 확인할 수 있음.
+![enter image description here](https://user-images.githubusercontent.com/96465330/202140693-0fa175e8-5e13-4810-9fe8-565fa93e8b8b.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ2MzE5NDksMTIwMTIxNDk4NV19
+eyJoaXN0b3J5IjpbOTYxNjkwMzg3LDEyMDEyMTQ5ODVdfQ==
 -->
