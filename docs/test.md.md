@@ -60,8 +60,10 @@
 
 - moveit 버전이 업그레이드 되면서 package 내부 파라미터 이름이 바뀌어, Isaac_moveit 패키지의 `franka_isaac_execution.launch` 파일 내부를 수정해야 하는데 수정 요소는 다음과 같다.
 - `<arg name="fake_execution" value="true">` -> `<arg  name="moveit_controller_manager"  value="fake"/>`
-
+![enter image description here](https://user-images.githubusercontent.com/96465330/202142014-ee76b8f2-987e-44bc-83e2-d59f7238d705.png)
+### MoveIt 연동 확인
+- Isaac sim과 MoveIt 연동을 확인하기 위해 다음 과
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTQ1MTI4NSwxMjAxMjE0OTg1XX0=
+eyJoaXN0b3J5IjpbMzYyODg0NTI0LDEyMDEyMTQ5ODVdfQ==
 -->
