@@ -67,8 +67,8 @@
 	- Isaac sim "Play"버튼 누름
 	- `rostopic echo /joint_states` 와 `rostopic echo /rgb`를 입력해 토픽 메시지가 잘 들어오는지 확인
 	- 토픽 메시지가 잘 들어오면 다음 launch 파일을 실행 `roslaunch isaac_moveit franka_isaac_execution.launch`
-	
+	![enter image description here](https://user-images.githubusercontent.com/96465330/202143373-fd43e2a9-a848-4cc4-b638-94dcd959e58b.png)- rviz 창이 나타나면, 하단의 Add 버튼을 누르고, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDkyNDc2NywxMjAxMjE0OTg1XX0=
+eyJoaXN0b3J5IjpbLTE4ODU4MzU2MTcsMTIwMTIxNDk4NV19
 -->
