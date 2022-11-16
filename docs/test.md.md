@@ -18,14 +18,17 @@
 
 - 새로운  Action graph를 생성 ` Create > Visual scripts > Action graph`
 - Graph node들을 다음과 같이 구성
-![enter image description here](https://user-images.githubusercontent.com/96465330/202136783-00764903-ba0f-43e9-a839-e088ad9db562.png)
+![enter image description here](https://user-images.githubusercontent.com/96465330/202136783-00764903-ba0f-43e9-a839-e088ad9db562.png)#### 노드 설명
+
   - **Get Prim Path** 의 Relationships에 Add Targets를 눌러 아까 franka의 panda_link8 하위에 둔 sim_camera 선택
   - **Isaac Create Viewport**의 viewportId를 1로 설정
   - **ROS1 Camera Helper**의 frameId를 두 노드 모두 sim_camera로 설정하고, topic Name과 type을, 하나는 rgb 나머지 하나는 camera_info로 설정(토픽 주소와 메시지 타입이 서로 이름이 같음).
   - **ROS1 Publish Transform Tree**의 ParentPrim을 panda_link0로 설정하고 targetPrim을 `sim camera`, `/World/Cube`, `panda_link8`로 설정
 
 #### Panda Robot arm joint control 관련 Action Graph
-![enter image description here](https://user-images.githubusercontent.com/96465330/202138318-9c8c08b9-cdba-4838-8bea-06372c79bd2d.png)- **On Playback Tick**: Simulation 실행 시 모든 graph nodes들의 base clock 역활을 하는 tick/time을 출력함. 
+![enter image description here](https://user-images.githubusercontent.com/96465330/202138318-9c8c08b9-cdba-4838-8bea-06372c79bd2d.png)
+#### 노드 설명
+- **On Playback Tick**: Simulation 실행 시 모든 graph nodes들의 base clock 역활을 하는 tick/time을 출력함. 
 	- 기능: Connect the Tick output of the On Playback Tick node to the Execution input of the ROS1 Publish Joint State, ROS1 Subscribe JointState and Articulation Controller nodes.
 	- **On Playback Tick의 time**: 'The global playback time in seconds'이고, 
 	- **Isaac Read Simulation Time의 Simulation Time**: 'Current Simulation Time in Seconds'.
@@ -38,5 +41,5 @@
 - **ROS1 Publish Joint State**: ROS joint states 데이터를 /joint_states 토픽 메시지로 발행. 
 	- Add the _/panda_ robot articulation to the targetPrim --> /franka
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzIzOTg5MCwxMjAxMjE0OTg1XX0=
+eyJoaXN0b3J5IjpbMTI1MzAyODMxOCwxMjAxMjE0OTg1XX0=
 -->
