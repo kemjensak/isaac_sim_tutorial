@@ -45,7 +45,12 @@
 - Franka(Panda) 로봇의 end-effector와 cartesian coordinate 기준으로 로봇의 goal pose를 생성하고 제어하기 위해 Moveit을 사용
 - 먼저 moveit이 설치가 되어 있지 않다면, 다음 명령어를 통해 moveit 설치
 `sudo apt install ros-noetic-moveit`
-- 
+- Franka(panda)에 대한 moveit package를 설치하기 위해 다음과 같은 명령어 입력
+	```
+	cd ~/catkin_ws/src
+	git clone https://github.com/ros-planning/panda_moveit_config.git -b noetic-devel
+	```
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcyODA0NDIsMTIwMTIxNDk4NV19
+eyJoaXN0b3J5IjpbNTE5NTU3MiwxMjAxMjE0OTg1XX0=
 -->
