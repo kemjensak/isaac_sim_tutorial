@@ -58,7 +58,8 @@
 	catkin_make
 	```
 
-- v
+- moveit 버전이 업그레이드 되면서 package 내부 파라미터 이름이 바뀌어, Isaac_moveit 패키지의 `franka_isaac_execution.launch` 파일 내부를 수정해야 하는데 수정 요소는 다음과 같다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTkwODU4MywxMjAxMjE0OTg1XX0=
+eyJoaXN0b3J5IjpbMTk4NDc1NDg2MCwxMjAxMjE0OTg1XX0=
 -->
