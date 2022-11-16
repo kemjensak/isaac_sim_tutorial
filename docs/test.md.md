@@ -41,7 +41,8 @@
 - **ROS1 Publish Joint State**: ROS joint states 데이터를 /joint_states 토픽 메시지로 발행. 
 	- Add the _/panda_ robot articulation to the targetPrim --> /frank
 
-### R
+### ROS 연동 환경 준비
+- Franka(Panda) 로봇의 end-effector와 cartesian coordinate 기준으로 로봇의 goal pose를 생성하고 제어하기 윟
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMzNjUyMDIsMTIwMTIxNDk4NV19
+eyJoaXN0b3J5IjpbNTc3NzY4MTM2LDEyMDEyMTQ5ODVdfQ==
 -->
