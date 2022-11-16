@@ -42,7 +42,10 @@
 	- Add the _/panda_ robot articulation to the targetPrim --> /frank
 
 ### ROS 연동 환경 준비
-- Franka(Panda) 로봇의 end-effector와 cartesian coordinate 기준으로 로봇의 goal pose를 생성하고 제어하기 윟
+- Franka(Panda) 로봇의 end-effector와 cartesian coordinate 기준으로 로봇의 goal pose를 생성하고 제어하기 위해 Moveit을 사용
+- 먼저 moveit이 설치가 되어 있지 않다면, 다음 명령어를 통해 moveit 설치
+`sudo apt install ros-noetic-moveit`
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NzY4MTM2LDEyMDEyMTQ5ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwMzcyODA0NDIsMTIwMTIxNDk4NV19
 -->
