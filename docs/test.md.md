@@ -52,7 +52,13 @@
 	```
 - 아래 src 폴더에 panda_moveit_config 패키지가 생성된 것을 확인할 수 있음.
 ![enter image description here](https://user-images.githubusercontent.com/96465330/202140693-0fa175e8-5e13-4810-9fe8-565fa93e8b8b.png)
+- 패키지 다운이 완료되면 다음 명령어를 통해 workspace build 실시
+	```
+	cd ~/catkin_ws
+	catkin_make
+	```
 
+- v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxNjkwMzg3LDEyMDEyMTQ5ODVdfQ==
+eyJoaXN0b3J5IjpbLTc0MTkwODU4MywxMjAxMjE0OTg1XX0=
 -->
