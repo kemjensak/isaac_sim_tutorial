@@ -70,7 +70,11 @@
 	![enter image description here](https://user-images.githubusercontent.com/96465330/202143373-fd43e2a9-a848-4cc4-b638-94dcd959e58b.png)- rviz 창이 나타나면, 하단의 Add 버튼을 누르고, MotionPlanning 플러그인을 추가함.
 -End-effector에 manipulator의 자세를 움직일 수 있는 원형 UI가 나타나는데 drag를 통해 manipulator의 자세를 변경하고 plan&execution을 눌러 Isaac_sim과 MoveIt이 연동해서 움직이는지 확인
 ![enter image description here](https://user-images.githubusercontent.com/96465330/202144216-f9e562dd-d0d2-46c3-896c-8b963a169ee9.png)![enter image description here](https://user-images.githubusercontent.com/96465330/202144302-46602aa7-87b6-4649-bc63-4b0b465beef0.png)
-
+#### Apriltag launch file 수정
+- isaac_tutorials 패키지의 apriltag_continuous_detections.launch 파일은 3개의 Apriltag를 감지하는 launch파일임.
+- 이 파일에서 다음 문구를 수정해서 사용
+![enter image description here](https://user-images.githubusercontent.com/96465330/202145654-b5d776ff-ea09-4a8a-9612-cd305c317d89.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM3MTIxMTMsMTIwMTIxNDk4NV19
+eyJoaXN0b3J5IjpbLTY0NTkzMjAyMSwtMTIxMzcxMjExMywxMj
+AxMjE0OTg1XX0=
 -->
