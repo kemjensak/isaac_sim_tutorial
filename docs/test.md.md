@@ -3,23 +3,40 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 
+
 ### 카메라 부착
 - franka(Panda)의 end-effector단에 붙이기 위한 camera를 생성 `Create > Camera`
 - stage tree에 생성된 Camera를 우클릭 한후 rename을 통해 `sim_camera`로 설정
 - sim_camera를 drag하여 franka의 panda_link8의 하위에 둠.
-- stage tree의 sim_camera를 클릭해 property를 다음과 같이 구성
+- stage tree의 sim_ camera를 클릭해 property를 다음과 같이 구성
 	- orientation을 x: 180, y: 0, z: -45
-	- translate을 z: -0.1
-
-	
-	
+	- translate을 z: -0
+![enter image description here](https://user-images.githubusercontent.com/96465330/202136221-70811208-17b6-49c4-bcfe-0bf55a7b558c.png).![enter image description here](https://user-images.githubusercontent.com/96465330/202136342-933096ab-97a6-4e09-bb1b-02871296fb25.png)
 ### Action graph 구성
 
 #### 카메라 및 TF 관련 Action graph
 
 - 새로운  Action graph를 생성 ` Create > Visual scripts > Action graph`
 - Graph node들을 다음과 같이 구성
+![enter image description here](https://user-images.githubusercontent.com/96465330/202136783-00764903-ba0f-43e9-a839-e088ad9db562.png)
+  - **Get Prim Path** 의 Relationships에 Add Targets를 눌러 아까 franka의 panda_link8 하위에 둔 sim_camera 선택
+  - **Isaac Create Viewport**의 viewportId를 1로 설정
+  - **ROS1 Camera Helper**의 frameId를 두 노드 모두 sim_camera로 설정하고, topic Name과 type을, 하나는 rgb 나머지 하나는 camera_info로 설정(토픽 주소와 메시지 타입이 서로 이름이 같음).
+  - **ROS1 Publish Transform Tree**의 ParentPrim을 panda_link0로 설정하고 targetPrim을 `sim camera`, `/World/Cube`, `panda_link8`로 설정
 
+#### Panda Robot arm joint control 관련 Action Graph
+![enter image description here](https://user-images.githubusercontent.com/96465330/202138318-9c8c08b9-cdba-4838-8bea-06372c79bd2d.png)- **On Playback Tick**: Simulation 실행 시 모든 graph nodes들의 base clock 역활을 하는 tick/time을 출력함. 
+	- 기능: Connect the Tick output of the On Playback Tick node to the Execution input of the ROS1 Publish Joint State, ROS1 Subscribe JointState and Articulation Controller nodes.
+	- **On Playback Tick의 time**: 'The global playback time in seconds'이고, 
+	- **Isaac Read Simulation Time의 Simulation Time**: 'Current Simulation Time in Seconds'.
+	<br>
+	- On Playback Tick의 _Time_은 하단부 keyframe이 표시되는 timeline에서의 **경과시간**이 출력되는 것. **Read Simulation Time과는 달리, Timeline이 지정된 frame 수 만큼 경과되면, timeline과 함께 0으로 리셋**되어 다시 시작됨.
+	- Isaac Read Simulation Time의 Simulation Time 은 isaac sim 내에서 play를 눌러 simulation이 진행되는 동안 **경과된 시간이 누적되어 출력**되는 것임.
+	
+- **Isaac Read Simulation Time**: 현재까지의 전체 simulation time을 읽어옴.
+	- Connect the Simulation Time output of the Isaac Read Simulation Time node to the **Timestamp** input of the ROS1 Publish Joint State node. Setup other connections between nodes.
+- **ROS1 Publish Joint State**: ROS joint states 데이터를 /joint_states 토픽 메시지로 발행. 
+	- Add the _/panda_ robot articulation to the targetPrim --> /franka
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTIxNDk4NV19
+eyJoaXN0b3J5IjpbLTc1NzIzOTg5MCwxMjAxMjE0OTg1XX0=
 -->
