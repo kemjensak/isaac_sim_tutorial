@@ -66,8 +66,9 @@
 	- roscore를 킴
 	- Isaac sim "Play"버튼 누름
 	- `rostopic echo /joint_states` 와 `rostopic echo /rgb`를 입력해 토픽 메시지가 잘 들어오는지 확인
-	- 
+	- 토픽 메시지가 잘 들어오면 다음 launch 파일을 실행 `roslaunch isaac_moveit franka_isaac_execution.launch`
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU4NDU1NjAsMTIwMTIxNDk4NV19
+eyJoaXN0b3J5IjpbMTkyMDkyNDc2NywxMjAxMjE0OTg1XX0=
 -->
