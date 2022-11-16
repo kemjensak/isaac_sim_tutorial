@@ -39,7 +39,9 @@
 - **Isaac Read Simulation Time**: 현재까지의 전체 simulation time을 읽어옴.
 	- Connect the Simulation Time output of the Isaac Read Simulation Time node to the **Timestamp** input of the ROS1 Publish Joint State node. Setup other connections between nodes.
 - **ROS1 Publish Joint State**: ROS joint states 데이터를 /joint_states 토픽 메시지로 발행. 
-	- Add the _/panda_ robot articulation to the targetPrim --> /franka
+	- Add the _/panda_ robot articulation to the targetPrim --> /frank
+
+### R
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzAyODMxOCwxMjAxMjE0OTg1XX0=
+eyJoaXN0b3J5IjpbLTE0NTMzNjUyMDIsMTIwMTIxNDk4NV19
 -->
