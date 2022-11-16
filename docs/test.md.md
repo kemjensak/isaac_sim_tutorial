@@ -50,7 +50,7 @@
 	cd ~/catkin_ws/src
 	git clone https://github.com/ros-planning/panda_moveit_config.git -b noetic-devel
 	```
--
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5NTU3MiwxMjAxMjE0OTg1XX0=
+eyJoaXN0b3J5IjpbLTEwMjQ2MzE5NDksMTIwMTIxNDk4NV19
 -->
