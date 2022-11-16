@@ -62,8 +62,12 @@
 - `<arg name="fake_execution" value="true">` -> `<arg  name="moveit_controller_manager"  value="fake"/>`
 ![enter image description here](https://user-images.githubusercontent.com/96465330/202142014-ee76b8f2-987e-44bc-83e2-d59f7238d705.png)
 ### MoveIt 연동 확인
-- Isaac sim과 MoveIt 연동을 확인하기 위해 다음 과
+- Isaac sim과 MoveIt 연동을 확인하기 위해 다음 과정을 실시
+	- roscore를 킴
+	- Isaac sim "Play"버튼 누름
+	- `rostopic echo /joint_states` 와 `rostopic echo /rgb`를 입력해 토픽 메시지가 잘 들어오는지 확인
+	- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyODg0NTI0LDEyMDEyMTQ5ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwOTU4NDU1NjAsMTIwMTIxNDk4NV19
 -->
