@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- <param name="use_sim_time" value="true" /> -->
+
+    <arg name="type" default="gazebo" />
+    <arg name="debug" default="false" />
+    <arg name="pipeline" default="ompl" />
+    <arg name="load_robot_description" default="true"/>
+
+    <arg name="use_gui" default="false" />
+    <arg name="moveit_controller_manager" default="fake" />
+
+    <arg name="fake_execution_type" default="interpolate" />
+
+    <node name="joint_command_mod_publisher" pkg="isaac_joint_mod_relay" type="ur5e_with_2f85_mod_joints_publisher.py" />
+
+    <group if="$(eval arg('type') == 'moveit')">
+        <node name="fake_joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" unless="$(arg use_gui)">
+        <rosparam param="source_list">[move_group/fake_controller_joint_states]</rosparam>
+        </node>
+        <node name="joint_command_publisher_from_fake" pkg="topic_tools" type="relay" args="/move_group/fake_controller_joint_states /joint_command_desired" />
+
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
+        <include file="$(find ur5e_with_2f85_moveit_config)/launch/move_group.launch">
+            <arg name="allow_trajectory_execution" value="true"/>
+            <arg name="moveit_controller_manager" value="$(arg moveit_controller_manager)" />
+            <arg name="fake_execution_type" value="$(arg fake_execution_type)"/>
+            <arg name="info" value="true"/>
+            <arg name="debug" value="$(arg debug)"/>
+            <arg name="pipeline" value="$(arg pipeline)"/>
+            <arg name="load_robot_description" value="$(arg load_robot_description)"/>
+        </include>
+    </group>
+
+    <group if="$(eval arg('type') == 'gazebo')">
+        <node name="joint_command_publisher_from_isaac" pkg="topic_tools" type="relay" args="/joint_states /joint_command_desired" />
+        <include file="$(find ur5e_with_2f85_gazebo)/launch/bringup.launch"/>
+        <include file="$(find ur5e_with_2f85_moveit_config)/launch/move_group.launch"/>
+    </group>
+
+    <include file="$(find april_follower)/launch/apriltag_continuous_detection.launch"/>
+
+   
+
+    <arg name="rviz_command_args" value="-d $(find ur5e_with_2f85_isaac)/config/rviz.rviz" />
+
+    <node name="$(anon rviz)" pkg="rviz" type="rviz" respawn="false"
+        args="$(arg rviz_command_args)" output="screen">
+    </node>
+
+</launch>
+

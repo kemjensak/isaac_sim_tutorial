@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/irol/ros_ws/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/irol/.local/share/ov/pkg/isaac_sim-2022.1.1/ros_workspace/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

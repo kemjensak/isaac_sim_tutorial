@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <incldue file="$(find ur5e_with_2f85_description)/launch/load_ur5e_with_2f85.launch"/>
+    <remap from="/joint_states" to="/joint_command_desired"/>
+    <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" args="" />
+    <node name="isaac_joint_mod_relay" pkg="isaac_joint_mod_relay" type="ur5e_with_2f85_mod_joints_publisher.py" args="" />
+
+
+</launch>
+
