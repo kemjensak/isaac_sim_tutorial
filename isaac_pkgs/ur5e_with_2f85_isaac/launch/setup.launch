@@ -39,6 +39,7 @@
     </group>
 
     <include file="$(find april_follower)/launch/apriltag_continuous_detection.launch"/>
+    <node name="april_tag_spawner" pkg="april_follower" type="tag_spawner.py" />
 
    
 

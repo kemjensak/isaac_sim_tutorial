@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/irol/.local/share/ov/pkg/isaac_sim-2022.1.1/ros_workspace/devel/include/**",
+        "/home/irol/ros_ws/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/irol/ros_ws/catkin_ws/src/isaac_sim_tutorial/isaac_pkgs/apriltag_ros/apriltag_ros/include/**",
+        "/home/irol/.local/share/ov/pkg/isaac_sim-2022.1.1/ros_workspace/src/cortex_control_franka/include/**",
+        "/home/irol/ros_ws/catkin_ws/src/isaac_sim_tutorial/gazebo_pkgs/universal_robot/ur_kinematics/include/**",
+        "/home/irol/ros_ws/catkin_ws/src/velodyne/velodyne_driver/include/**",
+        "/home/irol/ros_ws/catkin_ws/src/velodyne/velodyne_laserscan/include/**",
+        "/home/irol/ros_ws/catkin_ws/src/velodyne/velodyne_pcl/include/**",
+        "/home/irol/ros_ws/catkin_ws/src/velodyne/velodyne_pointcloud/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
