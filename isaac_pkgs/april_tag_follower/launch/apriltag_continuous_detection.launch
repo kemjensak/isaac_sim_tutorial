@@ -6,7 +6,7 @@
   <arg name="image_topic" default="/rgb" />
 
   <!-- Set parameters -->
-  <rosparam param="standalone_tags" ns="$(arg node_namespace)">[{'id': 0, 'size': 0.05, 'name': Cube},] </rosparam>
+  <rosparam param="standalone_tags" ns="$(arg node_namespace)">[{'id': 0, 'size': 0.048, 'name': Cube},] </rosparam>
   <rosparam param="tag_bundles" ns="$(arg node_namespace)">[] </rosparam>
    <!-- Set parameters -->
   <!-- <rosparam command="load" file="$(find apriltag_ros)/config/settings.yaml" ns="$(arg node_namespace)" />

@@ -19,8 +19,8 @@ def teleport_client(msg):
 
 def callback(data):
     cube_pose = Pose()
-    cube_pose.position.x = np.random.uniform(-0.14, 0.06)
-    cube_pose.position.y = np.random.uniform(-0.44, 0.18 )
+    cube_pose.position.x = np.random.uniform(-0.10, 0.02)
+    cube_pose.position.y = np.random.uniform(-0.34, 0.08 )
     cube_pose.position.z = 0.23
     cube_pose.orientation.w = 1
     cube_pose.orientation.x = 0
